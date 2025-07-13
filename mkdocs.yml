@@ -1,0 +1,59 @@
+site_name: z-aki
+site_author: z-aki
+site_description: z-aki
+nav:
+  - Home: index.md
+  - RTIs: rti/index.md
+  - About: about.md
+  - Tampermonkey Scripts: tampermonkey/index.md
+copyright: |
+  Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+docs_dir: docs
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 6
+repo_url: https://github.com/z-aki/z-aki.github.io
+theme:
+  name: material
+  palette:
+    primary: grey
+    accent: indigo
+  icon:
+    edit: fontawesome/solid/pen-to-square
+    view: material/eye
+  features:
+    - navigation.path
+    - navigation.tabs
+    - navigation.footer
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/z-aki
+plugins:
+  - blog
+  - rss:
+      copyright: "© 2025 z-aki All rights reserved."
+      use_git: false
+      length: 100
+      match_path: ".*.md"
+      date_from_meta:
+        as_creation: "date.creation"
+        as_update: "date.update"
+        datetime_format: "%d %B %Y"
+        default_timezone: Asia/Kolkata
+  - search
+  - meta
