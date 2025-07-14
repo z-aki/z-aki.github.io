@@ -1,8 +1,8 @@
 ---
-title: RTI requests for BMTC
+title: About Me/Contact
 date:
-  creation: 14 July 2025
-  update: 14 July 2025
+  created: 2025-07-14
+  updated: 2025-07-14
 ---
 # About me
 
@@ -14,5 +14,4 @@ date:
 
 Publicly: <https://github.com/z-aki/z-aki.github.io/issues>
 
-Privately: Submit this google form: 
-
+Privately: Submit this google form:

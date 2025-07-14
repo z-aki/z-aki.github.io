@@ -1,3 +1,11 @@
+---
+title: RTI requests for BMTC
+date:
+  created: 2025-07-14
+  updated: 2025-07-14
+links:
+  - rti/posts/dpar.md
+---
 # BMTC
 
 ## CAFC meetings recently and transgender employees after reservation
@@ -58,7 +66,7 @@ feasibility.
 
 !!! note
 
-    Translation Needed. See [contact me](../about.md)
+    Translation Needed. See [contact me](../../about.md)
 
 > ![Reply](bmtc_bpl.png)
 

@@ -1,8 +1,8 @@
 ---
 title: RTI requests for BMRCL
 date:
-  creation: 14 July 2025
-  update: 14 July 2025
+  created: 2025-07-14
+  updated: 2025-07-14
 ---
 
 # BMRCL

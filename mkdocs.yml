@@ -1,11 +1,13 @@
 site_name: z-aki
 site_author: z-aki
 site_description: z-aki
-nav:
-  - Home: index.md
-  - RTIs: rti/index.md
-  - About: about.md
-  - Tampermonkey Scripts: tampermonkey/index.md
+# Nav is now done by awesome pages plugin.
+# nav:
+#   - Home: index.md
+#   - About: about.md
+#   - RTI Compilation: rti/
+#   - Tampermonkey Scripts: tampermonkey/
+#   - Developer Docs: dev_index
 copyright: |
   Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 docs_dir: docs
@@ -23,7 +25,7 @@ repo_url: https://github.com/z-aki/z-aki.github.io
 theme:
   name: material
   palette:
-    primary: grey
+    primary: teal
     accent: indigo
   icon:
     edit: fontawesome/solid/pen-to-square
@@ -36,7 +38,13 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    # Not compatible with toc.integrate
+    # - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
     - toc.follow
+    - toc.integrate
     - content.action.edit
     - content.action.view
 extra:
@@ -44,16 +52,25 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/z-aki
 plugins:
-  - blog
+  - blog:
+      blog_toc: true
+      blog_dir: rti/
+      archive: false
+
+  - blog:
+      blog_toc: true
+      blog_dir: tampermonkey
+      archive: false
   - rss:
-      copyright: "© 2025 z-aki All rights reserved."
+      copyright: "Copyright 2025 z-aki All rights reserved."
       use_git: false
       length: 100
       match_path: ".*.md"
       date_from_meta:
-        as_creation: "date.creation"
-        as_update: "date.update"
+        as_creation: "date.created"
+        as_update: "date.updated"
         datetime_format: "%d %B %Y"
         default_timezone: Asia/Kolkata
   - search
   - meta
+  - awesome-pages
