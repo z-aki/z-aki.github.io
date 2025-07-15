@@ -82,6 +82,7 @@ plugins:
       blog_toc: true
       blog_dir: tampermonkey
       archive: false
+      pagination_per_page: 50
   - rss:
       use_git: false
       length: 100
