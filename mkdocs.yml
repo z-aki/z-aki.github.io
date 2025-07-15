@@ -17,22 +17,32 @@ markdown_extensions:
   - md_in_html
   # For notes/ quotes/ boxes. https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - admonition
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=toc#table-of-contents
   - toc:
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=toc#table-of-contents
       permalink: true
       toc_depth: 6
-  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   - pymdownx.emoji:
+      # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-        # https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#options
-        # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=embedding#snippets
 
   - pymdownx.snippets:
+      # https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#options
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=embedding#snippets
+      # https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
       check_paths: true
-      base_path: docs
+  - pymdownx.superfences:
+      # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/?h=fenc#options
+      # https://frequenz-floss.github.io/pymdownx-superfence-filter-lines-python/v0.1/
+      # https://github.com/facelessuser/pymdown-extensions/discussions/2242
+      custom_fences:
+        - name: "*"
+          class: "highlight"
+          format: !!python/name:pymdownx_superfence_filter_lines.do_format
+          validator: !!python/name:pymdownx_superfence_filter_lines.do_validate
 
 repo_url: https://github.com/z-aki/z-aki.github.io
+edit_uri: blob/main/docs/
 theme:
   name: material
   palette:
@@ -73,7 +83,6 @@ plugins:
       blog_dir: tampermonkey
       archive: false
   - rss:
-      copyright: "Copyright 2025 z-aki All rights reserved."
       use_git: false
       length: 100
       match_path: ".*.md"
