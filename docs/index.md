@@ -7,10 +7,6 @@ date:
 
 <div class="grid cards" markdown>
 
-- :material-email:{ .lg .middle } __About me__
-
-    [Contact me](about.md)
-
 - :fontawesome-solid-clipboard-question:{ .lg .middle } __RTI compilation__
   
     -----
@@ -30,5 +26,9 @@ date:
     Allows to convert Google maps link to a DIGIPIN. Convert DIGIPIN to a Google maps link.
 
     [DIGIPIN converter](digipin/index.md)
+
+- :material-email:{ .lg .middle } __About me__
+
+    [Contact me](about.md)
 
 </div>

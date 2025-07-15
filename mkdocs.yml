@@ -12,15 +12,26 @@ copyright: |
   Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 docs_dir: docs
 markdown_extensions:
+  # For grid cards using html div https://squidfunk.github.io/mkdocs-material/reference/grids/
   - attr_list
   - md_in_html
+  # For notes/ quotes/ boxes. https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - admonition
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=toc#table-of-contents
   - toc:
       permalink: true
       toc_depth: 6
+  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+        # https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#options
+        # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/?h=embedding#snippets
+
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: docs
+
 repo_url: https://github.com/z-aki/z-aki.github.io
 theme:
   name: material
