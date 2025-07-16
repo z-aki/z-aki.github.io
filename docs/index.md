@@ -33,8 +33,8 @@ date:
 - :material-rss:{ .lg .middle } __RSS__
     ----
     
-      - [:simple-rss: RSS feed for created items](../site/feed_rss_created.xml) 
-      - [:simple-rss: RSS feed for updated items](../site/feed_rss_updated.xml)
+      - [:simple-rss: RSS feed for created items](feed_rss_created.xml) 
+      - [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
 
       Use free RSS feed reader apps to anonymously get new post notifications without sharing your email.
 

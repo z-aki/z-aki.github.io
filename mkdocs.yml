@@ -9,7 +9,15 @@ site_description: z-aki
 #   - Tampermonkey Scripts: tampermonkey/
 #   - Developer Docs: dev_index
 copyright: |
-  Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+  Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a> 
+  is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons 
+  Attribution-ShareAlike 4.0 International</a>
+  <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
+  alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
+  alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+  <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" 
+  alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 docs_dir: docs
 markdown_extensions:
   # For grid cards using html div https://squidfunk.github.io/mkdocs-material/reference/grids/
@@ -70,6 +78,8 @@ theme:
     - content.action.view
 extra:
   social:
+    - icon: material/rss
+      link: feed_xml_created.xml
     - icon: fontawesome/brands/github
       link: https://github.com/z-aki
 plugins:
