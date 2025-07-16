@@ -19,20 +19,24 @@ date:
 
 - :fontawesome-brands-js:{ .lg .middle } __Tampermonkey Scripts__
 
-    Utility scripts to make life easier on sites like SBI, Reddit, and some governments websites like the RTI portal.
+    -----
 
-    [:octicons-arrow-right-24: Get scripts](tampermonkey/index.md)
+      Utility scripts to make life easier on sites like SBI, Reddit, and some governments websites like the RTI portal.
 
+      [:octicons-arrow-right-24: Get scripts](tampermonkey/index.md)
 
 - :fontawesome-solid-location-dot:{ .lg .middle } __DIGIPIN__
 
-    Allows to convert Google maps link to a DIGIPIN. Convert DIGIPIN to a Google maps link.
+    -----
 
-    [:octicons-arrow-right-24: DIGIPIN converter](digipin/index.md)
+      Allows to convert Google maps link to a DIGIPIN. Convert DIGIPIN to a Google maps link.
+
+      [:octicons-arrow-right-24: DIGIPIN converter](digipin/index.md)
 
 - :material-rss:{ .lg .middle } __RSS__
+
     ----
-    
+
       - [:simple-rss: RSS feed for created items](feed_rss_created.xml) 
       - [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
 
@@ -44,6 +48,8 @@ date:
 
 - :material-email:{ .lg .middle } __About me__
 
-    [:octicons-arrow-right-24: Contact me](about.md)
+    -----
+
+      [:octicons-arrow-right-24: Contact me](about.md)
 
 </div>
