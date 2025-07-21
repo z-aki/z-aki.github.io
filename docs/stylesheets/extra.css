@@ -2,3 +2,18 @@
 .md-typeset details {
   font-size: 1em;
 }
+
+@-webkit-keyframes blackWhite {  
+  0% { background-color: yellow; }
+  50% { background-color: yellow; }
+  51% { background-color: red; }
+  100% { background-color: red; }
+}
+
+.md-progress {
+    background: red;
+    -webkit-animation-name: blackWhite;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: .5s; 
+}   
+

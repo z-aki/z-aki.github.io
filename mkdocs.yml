@@ -55,6 +55,7 @@ edit_uri: blob/main/docs/
 theme:
   name: material
   custom_dir: overrides/
+  font: false
   palette:
     primary: teal
     accent: indigo
