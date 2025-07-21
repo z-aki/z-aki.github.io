@@ -23,6 +23,7 @@ echo "$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.
 echo "Processing mddd $file"
     title="$(basename "$file" .user.js)"
     md_file="docs/tampermonkey/posts/${title}.md"
+    original_created_date=$(grep -m 1 'created:' "$md_file" | awk '{print $2}' | tr -d '-')
     echo '---\ntitle: '"${title}"'\ndate:\n  created: '"$(date '+%F')"'\n  updated: __date.updated__\n---\n' > "${md_file}"
     echo '<!-- GENERATED FILE -->' >> "${md_file}"
     # encoded_title="$(jq -rn --arg x "$title" '$x|@uri')"

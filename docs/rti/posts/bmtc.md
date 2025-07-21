@@ -10,49 +10,48 @@ links:
 
 ## CAFC meetings recently and transgender employees after reservation
 
-:material-calendar: 19/05/2025
 
-:fontawesome-solid-clipboard-question: 1. Please provide the calendar dates of all meetings of the Commuter Advisory and
-Facilitation Committee CAFC since 01.01.2023.
+!!! question ":material-calendar: 19/05/2025"
 
-:fontawesome-solid-clipboard-question: 2. Please provide the minutes of
-meetings MoM, or summary or outcome report for all meetings listed in the reply of
-point 1 above.
+    :fontawesome-solid-clipboard-question: 1. Please provide the calendar dates of all meetings of the Commuter Advisory and
+    Facilitation Committee CAFC since 01.01.2023.
 
-:material-reply-circle: :material-calendar: 23/05/2025
+    :fontawesome-solid-clipboard-question: 2. Please provide the minutes of
+    meetings MoM, or summary or outcome report for all meetings listed in the reply of
+    point 1 above.
 
-From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
+    :fontawesome-solid-clipboard-question: 3. Please provide the head count and designation of transgender
+    people employed by the BMTC in any job role whatsoever.
+!!! answer ":material-calendar: 23/05/2025"
 
--------
+    :material-reply-circle:  1 & 2. From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
 
-:fontawesome-solid-clipboard-question: 3. Please provide the head count and designation of transgender
-people employed by the BMTC in any job role whatsoever.
+    :material-reply-circle:  3. The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
 
-:material-reply-circle: :material-calendar: 23/05/2025
+!!! answer "by the Administrative Department :material-calendar: 19/06/2025"
 
-The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
-
-:material-reply-circle: by the Administrative Department :material-calendar: 19/06/2025
-
-No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
+    :material-reply-circle: 3. No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
 
 -------
 
 ## CAFC meetings ever
 
-:material-calendar: 20/06/2025
+!!! question ":material-calendar: 20/06/2025"
 
-:fontawesome-solid-clipboard-question: 1. Please provide all dates of CAFC committee meetings since its inception.
+    :fontawesome-solid-clipboard-question: 1. Please provide all dates of CAFC committee meetings since its inception.
 
-:fontawesome-solid-clipboard-question: 2. Please provide the agenda and minutes of the meetings and outcomes of the meetings listed in
-the reply of point 1.
+    :fontawesome-solid-clipboard-question: 2. Please provide the agenda and minutes of the meetings and outcomes of the meetings listed in
+    the reply of point 1.
 
-:fontawesome-solid-clipboard-question: 3. Please provide the full website url link where the reply information
-of point 1 and 2 is available publicly.
+    :fontawesome-solid-clipboard-question: 3. Please provide the full website url link where the reply information
+    of point 1 and 2 is available publicly.
 
-:material-reply-circle: :material-calendar: 01/07/2025
+!!! answer ":material-reply-circle: :material-calendar: 01/07/2025"
 
-The information requested is overwhelming. Due to the volume, please come to this office during office hours on 16.07.2025 to inspect the files and provide copies of the information under the Right to Information Act.
+    The information requested is overwhelming. Due to the volume, please come to this office during office hours on 16.07.2025 to inspect the files and provide copies of the information under the Right to Information Act.
+
+Due to the anticipated Kannada language documents, I didn't inspect the documents. Further, due to the lack of recent CAFC
+    meetings, the information would be outdated anyway.
 
 ## Bus priority lane, pop-up lanes, card-less cash-less payments, last mile connectivity partnerships and Namma BMTC app promotion
 
