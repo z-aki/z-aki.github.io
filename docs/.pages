@@ -1,0 +1,7 @@
+arrange:
+  - index.md
+  # Has to be directory name without slash.
+  - rti
+  - tampermonkey
+  - dev_index.md
+  - about.md

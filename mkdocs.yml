@@ -1,6 +1,7 @@
 site_name: z-aki
 site_author: z-aki
 site_description: z-aki
+site_url: https://z-aki.github.io
 # Nav is now done by awesome pages plugin.
 # nav:
 #   - Home: index.md
