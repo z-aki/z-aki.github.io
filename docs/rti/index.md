@@ -17,71 +17,38 @@ Useful RTI portal Tampermonkey scripts :
 
 <div class="grid cards" markdown>
 
-- :material-bus:{ .lg .middle } __Bengaluru Metropolitan Transport Corporation__
+- :material-bus:{ .lg .middle } [Bengaluru Metropolitan Transport Corporation](posts/bmtc.md)
 
-    ---
 
-    [BMTC](posts/bmtc.md)
+- :material-train:{ .lg .middle } [Bengaluru Metro Rail Corporation Ltd](posts/bmrcl.md)
 
-- :material-train:{ .lg .middle } __Bengaluru Metro Rail Corporation Ltd__
 
-    ---
+- :material-account-tie:{ .lg .middle } [Department of Personnel and Administrative Reforms, Government of Karnataka](posts/dpar.md)
 
-    [BMRCL](posts/bmrcl.md)
 
-- :material-account-tie:{ .lg .middle } __Department of Personnel and Administrative Reforms, Government of Karnataka__
+- :material-bank:{ .lg .middle } [Life Insurance Corporation of India](posts/lic.md)
 
-    ---
 
-    [DPAR](posts/dpar.md)
+- :material-gavel:{ .lg .middle } [Council of Insurance Ombudsmen](posts/cioins.md)
 
-- :material-bank:{ .lg .middle } __Life Insurance Corporation of India__
 
-    ---
+- :material-gavel:{ .lg .middle } [Insurance Regulatory and Development Authority of India](posts/irdai.md)
 
-    [LIC](posts/lic.md)
 
-- :material-gavel:{ .lg .middle } __Council of Insurance Ombudsmen__
+- :material-bank:{ .lg .middle } [State Bank of India](posts/sbi.md)
 
-    ---
 
-    [CIOINS](posts/cioins.md)
+- :material-bank:{ .lg .middle } [Indian Bank](posts/ib.md)
 
-- :material-gavel:{ .lg .middle } __Insurance Regulatory and Development Authority of India__
 
-    ---
+- :material-gavel:{ .lg .middle } [Reserve Bank of India](posts/rbi.md)
 
-    [IRDAI](posts/irdai.md)
 
-- :material-bank:{ .lg .middle } __State Bank of India__
+- :material-file-document:{ .lg .middle } [CERSAI Central Registry of Securitisation Asset Reconstruction and Security Interest of India, Central KYC Registry](posts/cersai.md)
 
-    ---
 
-    [SBI](posts/sbi.md)
+- :material-phone:{ .lg .middle } [Bharat Sanchar Nigam Limited](posts/bsnl.md)
 
-- :material-bank:{ .lg .middle } __Indian Bank__
-
-    ---
-
-    [IB](posts/ib.md)
-
-- :material-gavel:{ .lg .middle } __Reserve Bank of India__
-
-    ---
-
-    [RBI](posts/rbi.md)
-
-- :material-file-document:{ .lg .middle } __CERSAI Central Registry of Securitisation Asset Reconstruction and Security Interest of India, Central KYC Registry__
-
-    ---
-
-    [CERSAI-CKYCR](posts/cersai.md)
-
-- :material-phone:{ .lg .middle } __Bharat Sanchar Nigam Limited__
-
-    ---
-
-    [BSNL](posts/bsnl.md)
 
 </div>
 

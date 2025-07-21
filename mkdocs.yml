@@ -53,6 +53,7 @@ repo_url: https://github.com/z-aki/z-aki.github.io
 edit_uri: blob/main/docs/
 theme:
   name: material
+  custom_dir: overrides/
   palette:
     primary: teal
     accent: indigo
@@ -76,13 +77,16 @@ theme:
     - toc.integrate
     - content.action.edit
     - content.action.view
+extra_css:
+  - stylesheets/extra.css
 extra:
   social:
-    - icon: material/rss
+    - icon: fontawesome/solid/square-rss
       link: feed_xml_created.xml
     - icon: fontawesome/brands/github
       link: https://github.com/z-aki
 plugins:
+  - awesome-pages
   - blog:
       blog_toc: true
       blog_dir: rti/
@@ -104,4 +108,5 @@ plugins:
         default_timezone: Asia/Kolkata
   - search
   - meta
-  - awesome-pages
+watch:
+  - overrides/

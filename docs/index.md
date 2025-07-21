@@ -33,7 +33,7 @@ date:
 
       [:octicons-arrow-right-24: DIGIPIN converter](digipin/index.md)
 
-- :material-rss:{ .lg .middle } __RSS__
+- :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
     ----
 
@@ -46,7 +46,7 @@ date:
       - :material-apple-ios: iOS: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
       - :simple-android: Android: [Feeder](https://github.com/spacecowboy/Feeder)
 
-- :material-email:{ .lg .middle } __About me__
+- :fontawesome-solid-envelope:{ .lg .middle } __About me__
 
     -----
 
