@@ -79,6 +79,8 @@ theme:
     - toc.integrate
     - content.action.edit
     - content.action.view
+    - content.code.copy
+    - content.code.select
 extra_css:
   - stylesheets/extra.css
 extra:

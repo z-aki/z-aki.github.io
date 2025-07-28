@@ -31,7 +31,7 @@ date:
 
       Allows to convert Google maps link to a DIGIPIN. Convert DIGIPIN to a Google maps link.
 
-      [:octicons-arrow-right-24: DIGIPIN converter](digipin/index.md)
+      [:octicons-arrow-right-24: DIGIPIN converter](digipin/tool.md)
 
 - :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
