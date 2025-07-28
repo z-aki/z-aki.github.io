@@ -22,11 +22,12 @@ function digipinToMap(digipin) {
   dm_digipin.value = sanitized;
   dm_digipin.focus();
   dm_digipin.setSelectionRange(sanitized.length, sanitized.length);
+  fixHeight(dm_digipin);
+
   const coords = getLatLngFromDigiPin(sanitized);
   dm_calculated_coords_copy.querySelector(
     "code"
   ).textContent = `${coords.latitude}, ${coords.longitude}`;
-  // dm_calculated_coords_copy.style.width = `${dm_calculated_coords_copy.querySelector("code").scrollWidth}px`;
 
   const googleMapsUrl = `https://google.com/maps/place/${coords.latitude},${coords.longitude}/data=!3m1!1e3`;
   dm_google_maps_url_output.querySelector("a").href =
@@ -49,6 +50,7 @@ document$.subscribe(() => {
     md_maps_url.value = mapsURL;
     md_maps_url.focus();
     md_maps_url.setSelectionRange(mapsURL.length, mapsURL.length);
+    fixHeight(md_maps_url);
     const coords = extractCoordsFromUrl(mapsURL);
     if (!coords) {
       md_digipin_output.textContent = "Invalid Maps URL";
@@ -66,7 +68,7 @@ document$.subscribe(() => {
     md_maps_url.value = coordsParam;
     md_maps_url.focus();
     md_maps_url.setSelectionRange(coordsParam.length, coordsParam.length);
-
+    fixHeight(md_maps_url);
     try {
       const latlon = LatLon.parse(coordsParam);
     } catch (error) {
@@ -91,11 +93,14 @@ document$.subscribe(() => {
 });
 
 // https://stackoverflow.com/a/25621277
-document.querySelectorAll("textarea").forEach(function(textarea) {
+function fixHeight(textarea) {
   textarea.style.height = textarea.scrollHeight + "px";
   textarea.style.overflowY = "hidden";
-
-  textarea.addEventListener("input", function() {
+}
+document.querySelectorAll("textarea").forEach(function (textarea) {
+  textarea.style.height = textarea.scrollHeight + "px";
+  textarea.style.overflowY = "hidden";
+  textarea.addEventListener("input", function () {
     this.style.height = "auto";
     this.style.height = this.scrollHeight + "px";
   });
