@@ -4,27 +4,35 @@
 
 
 # Iterate over the filtered staged files and copy them
-echo "$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$')" | while IFS= read -r file; do
+files=$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$' || true)
+if [[ -z "$files" ]]; then
+    echo "No files to process."
+    exit 0
+fi
+
+echo "$files" | while IFS= read -r file; do
     echo "Processing $file"
     cp "$file" "docs/tampermonkey/upd_y/$(basename "$file")"
 done
 
 
 # for every js file in docs/tampermonkey/upd_y, remove the lines with @downloadURL
-
-echo "$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_y/.*\.user\.js$')" | while IFS= read -r file; do
-echo "Processing yess $file"
-    sed -i '' '/@downloadURL/d' "$file"
+echo "$files" | while IFS= read -r file; do
+    echo "Processing yess $file"
+    sed -i '' '/@downloadURL/d' "docs/tampermonkey/upd_y/$(basename "$file")"
 done
 
 # for every js file in docs/tampermonkey/upd_n, create a md file in docs/tampermonkey/posts
-
-echo "$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$')" | while IFS= read -r file; do
+echo "$files" | while IFS= read -r file; do
 echo "Processing mddd $file"
     title="$(basename "$file" .user.js)"
     md_file="docs/tampermonkey/posts/${title}.md"
-    original_created_date=$(grep -m 1 'created:' "$md_file" | awk '{print $2}' | tr -d '-')
-    echo '---\ntitle: '"${title}"'\ndate:\n  created: '"$(date '+%F')"'\n  updated: __date.updated__\n---\n' > "${md_file}"
+    original_created_date=$(grep -m 1 'created:' "$md_file" | awk '{print $2}')
+    if [[ -z "$original_created_date" ]]; then
+        echo "overwriting created date of $md_file"
+        original_created_date=$(date '+%F')
+    fi
+    echo '---\ntitle: '"${title}"'\ndate:\n  created: '"${original_created_date}"'\n  updated: __date.updated__\n---\n' > "${md_file}"
     echo '<!-- GENERATED FILE -->' >> "${md_file}"
     # encoded_title="$(jq -rn --arg x "$title" '$x|@uri')"
     echo '[Install latest with possible future updates](../upd_y/'"${title}"'.user.js)' >> "${md_file}"
