@@ -4,7 +4,7 @@
 
 
 # Iterate over the filtered staged files and copy them
-files=$(git diff --cached --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$' || true)
+files=$(git diff HEAD --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$' || true)
 if [[ -z "$files" ]]; then
     echo "No files to process."
     exit 0
