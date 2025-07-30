@@ -7,9 +7,7 @@ date:
 
 ## Maps to DIGIPIN
 
-<script src="/javascripts/libs/digipin.js"></script>
 <script type="module" src="/javascripts/tool.js"></script>
-<!-- onsubmit="event.preventDefault(); window.location.href = window.location.pathname + '?url=' + encodeURIComponent(document.getElementById('md_maps_url').value);" -->
 
 <textarea id="md_maps_url"
 type="text"
@@ -18,7 +16,6 @@ placeholder="http(s)://...lattitude,longitude... or 28.491177530557465,77.120998
 
 <div id="md_collected_coords"></div>
 <div id="md_digipin_output">
-  <!-- Digipin (click to copy) -->
   (click <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 21H8V7h11m0-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m-3-4H4a2 2 0 0 0-2 2v14h2V3h12z"/></svg></span> to copy)
   <pre style="width:20em"><span></span><code></code></pre>
 </div>

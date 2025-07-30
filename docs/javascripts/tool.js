@@ -2,6 +2,11 @@ import LatLon, {
   Dms,
 } from "https://cdn.jsdelivr.net/npm/geodesy@2/latlon-ellipsoidal.js";
 
+import {
+  getDigiPin,
+  getLatLngFromDigiPin,
+} from "../javascripts/libs/digipin.js";
+
 // Helper: Extract lat/lon from Google Maps URL
 function extractCoordsFromUrl(url) {
   const match = url.match(/(-?\d+\.\d+),(-?\d+\.\d+)/);
@@ -71,6 +76,7 @@ document$.subscribe(() => {
     fixHeight(md_maps_url);
     try {
       const latlon = LatLon.parse(coordsParam);
+      updateDigipinOutput(latlon._lat, latlon._lon);
     } catch (error) {
       if (error instanceof TypeError) {
         md_digipin_output.textContent = "Invalid Coordinates";
@@ -78,8 +84,6 @@ document$.subscribe(() => {
       }
       throw error;
     }
-    updateDigipinOutput(latlon._lat, latlon._lon);
-    return;
   }
 
   // Digipin to Coordinates and map
