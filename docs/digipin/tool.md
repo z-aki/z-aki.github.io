@@ -5,7 +5,7 @@ date:
   updated: 2025-07-27
 ---
 
-## Maps to DIGIPIN
+Maps to DIGIPIN
 
 <script type="module" src="/javascripts/tool.js"></script>
 
@@ -20,7 +20,7 @@ placeholder="http(s)://...lattitude,longitude... or 28.491177530557465,77.120998
   <pre style="width:20em"><span></span><code></code></pre>
 </div>
 
-## DIGIPIN to Maps
+DIGIPIN to Maps
 
 <textarea id="dm_digipin"
 type="text"
@@ -37,6 +37,11 @@ placeholder="Enter DIGIPIN, e.g. 39J-L84-TF4F or 39JL84TF4F"></textarea>
 <div id="dm_google_maps_url_output">
   <a href=""></a>
 </div>
+
+
+---
+
+Also see [this page](./convert digipin to latitude longitude.md) for support for iOS, macOS, and browsers like Google Chrome and Firefox using tampermonkey scripts
 
 ---
 

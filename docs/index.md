@@ -31,7 +31,11 @@ date:
 
       Allows to convert Google maps link to a DIGIPIN. Convert DIGIPIN to a Google maps link.
 
-      [:octicons-arrow-right-24: DIGIPIN converter](digipin/tool.md)
+      - [DIGIPIN converter online](digipin/tool.md)
+
+      - [DIGIPIN converter iOS macOS shortcuts](digipin/convert digipin to latitude longitude.md)
+
+      - [DIGIPIN converter script for Chrome Firefox](digipin/convert digipin to latitude longitude.md)
 
 - :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
