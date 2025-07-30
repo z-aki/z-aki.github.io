@@ -7,6 +7,8 @@ date:
 
 Maps to DIGIPIN
 
+[Reset](/digipin/tool)
+
 <script type="module" src="/javascripts/tool.js"></script>
 
 <textarea id="md_maps_url"
@@ -21,6 +23,8 @@ placeholder="http(s)://...lattitude,longitude... or 28.491177530557465,77.120998
 </div>
 
 DIGIPIN to Maps
+
+[Reset](/digipin/tool)
 
 <textarea id="dm_digipin"
 type="text"
@@ -37,7 +41,6 @@ placeholder="Enter DIGIPIN, e.g. 39J-L84-TF4F or 39JL84TF4F"></textarea>
 <div id="dm_google_maps_url_output">
   <a href=""></a>
 </div>
-
 
 ---
 
