@@ -2,13 +2,6 @@ site_name: z-aki
 site_author: z-aki
 site_description: z-aki
 site_url: https://z-aki.github.io
-# Nav is now done by awesome pages plugin.
-# nav:
-#   - Home: index.md
-#   - About: about.md
-#   - RTI Compilation: rti/
-#   - Tampermonkey Scripts: tampermonkey/
-#   - Developer Docs: dev_index
 copyright: |
   Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a>
   is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
@@ -90,7 +83,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/z-aki
 plugins:
-  - awesome-pages
+  - awesome-nav:
+      filename: .nav.yml
   - blog:
       blog_toc: true
       blog_dir: rti/

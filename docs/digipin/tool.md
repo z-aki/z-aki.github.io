@@ -50,7 +50,7 @@ Also see [this page](./convert digipin to latitude longitude.md) for support for
 
 Courtesy of <https://github.com/CEPT-VZG/digipin/>
 
-This tool is unaffiliated from Google Maps, Apple Maps, Department of Posts (GOI) and any entities who developed DIGIPIN. The data may be inaccurate. The reliable source is <https://dac.indiapost.gov.in/mydigipin/home>
+This tool is NOT AFFILIATED with Google Maps, Apple Maps, Department of Posts (GOI) and any entities who developed DIGIPIN. The data may be inaccurate. The reliable source is <https://dac.indiapost.gov.in/mydigipin/home>
 
 <https://app.indiapost.gov.in/enterpriseportal/digipin>
 

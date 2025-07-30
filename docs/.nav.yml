@@ -1,0 +1,10 @@
+nav:
+  - index.md
+  - rti
+  - tampermonkey/index.md
+  - digipin/tool.md
+  - dev_index.md
+  - about.md
+
+sort:
+  by: title
