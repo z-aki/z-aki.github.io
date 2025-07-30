@@ -114,4 +114,4 @@ const DIGIPIN_GRID = [
   }
   
   
-  if (typeof module !== 'undefined') module.exports = { getDigiPin, getLatLngFromDigiPin };
+  if (typeof module !== 'undefined') module.exports = { getDigiPin, getLatLngFromDigiPin };export { getDigiPin, getLatLngFromDigiPin };
