@@ -4,6 +4,7 @@ date:
   created: 2025-07-14
   updated: 2025-07-14
 ---
+
 # Department of Personnel and Administrative Reforms
 
 ## Transgender employees in Government of Karnataka

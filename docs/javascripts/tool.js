@@ -95,8 +95,8 @@ document$.subscribe(() => {
 // https://stackoverflow.com/a/25621277
 function fixHeight(textarea) {
   document.querySelectorAll("textarea").forEach(function (textarea) {
-  textarea.style.height = textarea.scrollHeight + "px";
-  textarea.style.overflowY = "hidden";
+    textarea.style.height = textarea.scrollHeight + "px";
+    textarea.style.overflowY = "hidden";
   });
 }
 document.querySelectorAll("textarea").forEach(function (textarea) {

@@ -18,7 +18,7 @@ function fix(elem) {
 waitForKeyElements("input#TempPassword", fix, false);
 
 function revealPassword(elem) {
-  console.log("blahfoo")
+  console.log("blahfoo");
   const input = elem.querySelector("#TempPassword");
   const toggleSpan = elem.querySelector(".input-group-addon");
 

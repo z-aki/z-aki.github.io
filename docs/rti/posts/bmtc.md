@@ -6,10 +6,10 @@ date:
 links:
   - rti/posts/dpar.md
 ---
+
 # BMTC
 
 ## CAFC meetings recently and transgender employees after reservation
-
 
 !!! question ":material-calendar: 19/05/2025"
 
@@ -22,6 +22,7 @@ links:
 
     :fontawesome-solid-clipboard-question: 3. Please provide the head count and designation of transgender
     people employed by the BMTC in any job role whatsoever.
+
 !!! answer ":material-calendar: 23/05/2025"
 
     :material-reply-circle:  1 & 2. From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
@@ -32,7 +33,7 @@ links:
 
     :material-reply-circle: 3. No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
 
--------
+---
 
 ## CAFC meetings ever
 
@@ -51,7 +52,7 @@ links:
     The information requested is overwhelming. Due to the volume, please come to this office during office hours on 16.07.2025 to inspect the files and provide copies of the information under the Right to Information Act.
 
 Due to the anticipated Kannada language documents, I didn't inspect the documents. Further, due to the lack of recent CAFC
-    meetings, the information would be outdated anyway.
+meetings, the information would be outdated anyway.
 
 ## Bus priority lane, pop-up lanes, card-less cash-less payments, last mile connectivity partnerships and Namma BMTC app promotion
 
@@ -71,7 +72,7 @@ feasibility.
 
 Traffic police ???? 15.11.2019 The buses of the BMC are operated under Bus Priority Lane (BPL). Further, the BMTC has not issued any government-level orders regarding Bus Priority Lane (BPL).
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 2. Please provide any documents, proposals, consultations, expression of intent,
 ideas, or studies dated after 01.01.2022 regarding popup lanes or painting exclusivity/
@@ -81,7 +82,7 @@ priority warnings on the road in front of BMTC bus stops.
 
 No orders in this regard are available in this office.
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 3. Please provide any documents,
 proposals, consultations, expression of intent, ideas, or studies dated after 01.01.2022
@@ -97,13 +98,13 @@ date 20.07.2024 quoted
 > based ticketing systems automatically calculate fares based on where passengers board and
 > alight from the bus, deducting the fare from their account without human intervention.
 
-  <https://egov.eletsonline.com/2024/07/bmtcs-journey-towards-cashless-contactless-public-transport/>
+<https://egov.eletsonline.com/2024/07/bmtcs-journey-towards-cashless-contactless-public-transport/>
 
 :material-reply-circle: :material-calendar: 01/07/2025:
 
 The query has been forwarded to the Computer Department under Section 6(3) of the RTI Act 2005.
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 4. Please provide any documents, proposals, consultations, expression of intent,
 ideas, or studies dated after 01.01.2022 regarding increasing last mile connectivity in
@@ -113,7 +114,7 @@ streets using partnerships or incentivisation schemes with private autos or e-ri
 
 There is no proposal in the office about it.
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 5. Please provide the documents and scheme details dated after 01.01.2024 regarding
 increasing adoption of Namma bmtc app both inside the bus (via posters, conductor
@@ -137,7 +138,7 @@ Concerns can be raised in Play Store comments or write mail to
 <supervisorsits@mybmtc.com>. BMTC team will take necessary measure to rectify the incorrect
 route or bus stop.
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 2. Please provide the mechanism of
 requesting bus route changes or bus stop changes to the BMTC authority.
@@ -147,7 +148,7 @@ requesting bus route changes or bus stop changes to the BMTC authority.
 Request can be made to traffic section of BMTC, Central office, Shantingara. After
 thorough survey, needful measures will be taken.
 
--------
+---
 
 :fontawesome-solid-clipboard-question: 3. Please provide any proposals, documents, consultations etc. regarding making the source code of
 the namma BMTC android or iOS app open (publicly available) and collectively improvable
@@ -170,7 +171,7 @@ Appeal Hearing :material-calendar: 01/07/2025
 Participants:
 
 - First Appellate authority, the Chief System Manager (CSM): Mr. Sadananda K G,
-- System Manager (SM):  Raghavendra Kumar M J,
+- System Manager (SM): Raghavendra Kumar M J,
 - Deputy System Manager (DSM): Smt Priyanka A,
 - Assistant Mechanical Engineer (AME): Mr Ananda M B (the PIO)
 - An officer for transcription of the proceedings: Smt unknown.
@@ -192,9 +193,9 @@ Paraphrasing of the conversation:
 - Transcriptionist: Why don't you build a different and a better app ? Why do you need our source code?
 - Me: A teenager tried in 2019 and you blocked his app by taking the APIs private, and asked him to be a bidder in the tender and take on the entire app responsibility.
 
-    <https://linkedin.com/in/nihar1024>
+  <https://linkedin.com/in/nihar1024>
 
-    <https://timesofindia.indiatimes.com/city/bengaluru/bmtc-shows-door-to-teen-whose-bus-app-a-hit-among-passengers/articleshow/70111155.cms>
+  <https://timesofindia.indiatimes.com/city/bengaluru/bmtc-shows-door-to-teen-whose-bus-app-a-hit-among-passengers/articleshow/70111155.cms>
 
 - AME: yes yes I remember this story. He had probably hacked our system. Because he was a kid, we only called him and his father to this office and did not take any legal action against him.
 - DSM [comes in and gets the context]: [chitchat]
@@ -209,4 +210,4 @@ Paraphrasing of the conversation:
 
 Enquiry was called on 01.07.2025 at 14.30Hrs in the chambers of First Appellate Authority. Both the Appellant and the defendent[sic] were present for the enquiry. PIO informed that, since it comes under the intellectual property, copyrights and commercial confidence, as per 8(1)(d) of the RTI 2005, the source code cannot be given. The First Appeallate[sic] Authority agreed for the same and the enquiry was disposed [of].
 
--------
+---

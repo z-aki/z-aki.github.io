@@ -7,17 +7,14 @@ date:
 
 # Helpful Tampermonkey Scripts
 
-
 --8<---- "docs/tampermonkey/warning.txt"
 
-
-Works with Tampermonkey extension on Firefox. 
+Works with Tampermonkey extension on Firefox.
 
 <https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/>
-
 
 iOS userscripts may be coming soon.
 
 <https://github.com/quoid/userscripts>
 
------------
+---

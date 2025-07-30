@@ -11,7 +11,7 @@ find docs/ -name "*.md" -exec sh -c '
 
 find docs/ -name "*.md" -exec sh -c '
   for file; do
-    sed -i "" -e "1,5s/__date.created__/$(date +"%Y-%m-%d")/g" "$file" 
+    sed -i "" -e "1,5s/__date.created__/$(date +"%Y-%m-%d")/g" "$file"
     sed -i "" -e "1,5s/__date.updated__/$(date +"%Y-%m-%d")/g" "$file"
   done
 ' sh {} +
