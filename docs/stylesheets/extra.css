@@ -24,3 +24,7 @@
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 0.5s;
 }
+
+.md-tabs {
+  font-weight: bold;
+}

@@ -27,4 +27,4 @@ Convert digipin to latitude longitude for iOS, macOS, using shortcuts and Google
 
 - [Tampermonkey script for desktop Mozilla Firefox and Google Chrome extension](../tampermonkey/posts/Google Maps DIGIPIN converter.md)
 
-    To use, right click on any place on the map and the second row in the context menu will be the DIGIPIN. Clicking on it will copy it.
+    To use, right click on any place on the map and the last row in the context menu will provide the DIGIPIN of that point.
