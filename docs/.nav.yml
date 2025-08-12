@@ -3,6 +3,7 @@ nav:
   - rti
   - tampermonkey/index.md
   - Digipin converter: digipin/
+  - "*"
   - dev_index.md
   - about.md
 

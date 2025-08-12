@@ -42,6 +42,7 @@ markdown_extensions:
           class: "highlight"
           format: !!python/name:pymdownx_superfence_filter_lines.do_format
           validator: !!python/name:pymdownx_superfence_filter_lines.do_validate
+  - pymdownx.tilde
 
 repo_url: https://github.com/z-aki/z-aki.github.io
 edit_uri: blob/main/docs/
@@ -93,6 +94,11 @@ plugins:
   - blog:
       blog_toc: true
       blog_dir: tampermonkey
+      archive: false
+      pagination_per_page: 50
+  - blog:
+      blog_toc: true
+      blog_dir: vuln/
       archive: false
       pagination_per_page: 50
   - rss:

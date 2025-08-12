@@ -23,21 +23,28 @@ date:
 
       Utility scripts to make life easier on sites like SBI, Reddit, and some governments websites like the RTI portal.
 
-      [:octicons-arrow-right-24: Get scripts](tampermonkey/index.md)
+      [:octicons-arrow-right-24: More scripts](tampermonkey/index.md)
 
 - :fontawesome-solid-bug:{ .lg .middle } __Vulnerability Analysis and disclosures__
 
     -----
 
-      I found some vulnerabilities in various websites and applications, and responsibly disclosed them to the respective organizations. Here is the technical analysis of the same.
+      I found some vulnerabilities in various websites and applications, and responsibly disclosed them to the respective organizations. Here is the technical analysis of the same after their fixing.
 
-      - [Life Insurance Corporation of India (LIC)](vuln/lic.md)
-      - [Manipal Hospitals](vuln/manipal.md)
+    Govt entities:
+
+      - [Life Insurance Corporation of India](vuln/lic.md)
+      - [New India Assurance](vuln/nia.md)
       - [Bimabharosa, IRDAI](vuln/bimabharosa.md)
-      - [Council of Insurance Ombudsman](vuln/cioins.md)
-      - [E-Jagriti, Ministry of Consumer Affairs](vuln/e_jagriti.md)
+      - [Council of Insurance Ombudsman, CIOINS](vuln/cioins.md)
+      - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/e_jagriti.md)
+      <!-- - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/cms_ombudsman_rbi.md) -->
+      <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/rtionline_dopt.md) -->
+
+    Private entities:
+
+      - [Manipal Hospitals](vuln/manipal.md)
       - [Indigo and Air India Express](vuln/indigo_airindia.md)
-      - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/cms_ombudsman_rbi.md)
 
     [:octicons-arrow-right-24: More vulnerabilities](vuln/index.md)
 
@@ -53,17 +60,25 @@ date:
 
       - [Google Maps to DIGIPIN Tampermonkey script for Chrome/ Firefox](digipin/convert%20digipin%20to%20latitude%20longitude.md)
 
+- :simple-thunderbird:{ .lg .middle} __Thunderbird addons__
+
+    -----
+
+      Thunderbird addons for Duckduckgo email conversion, adding the "open in mail" URL to calendar event, and displaying custom specific headers in a mail toolbar
+
+      [:octicons-arrow-right-24: More Addons](thunderbird/index.md)
+
 - :fontawesome-solid-image:{ .lg .middle } __PDF and image workflows for macOS Automator__
 
     -----
 
       macOS Automator workflows to downsize images, increase contrast of PDF and reduce gamma of PDFs.
 
-      - [PDF shortcuts](automator/automator.md)
+      [:octicons-arrow-right-24: More Workflows](automator/index.md)
 
 - :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
-    ----
+    -----
 
       - [:simple-rss: RSS feed for created items](feed_rss_created.xml)
       - [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
