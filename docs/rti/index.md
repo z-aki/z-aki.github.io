@@ -1,18 +1,20 @@
 ---
-# title: RTI organizations list
+title: RTI Organizations List
 date:
   created: 2025-07-14
   updated: 2025-07-14
 ---
 
-# Organizations list
+# RTI Organizations List
 
 - <https://rtionline.gov.in>
 - <https://rtionline.karnataka.gov.in>
 
 Useful RTI portal Tampermonkey scripts :
 
-- Simplify Login using password manager and captcha auto-solve:
+- [RTIonline allow pasting](../tampermonkey/posts/RTIonline%20allow%20paste.md)
+- [RTIonline: Simplify Login using password manager and captcha auto-solve](../tampermonkey/posts/RTIonline%20Karnataka%20captcha%20and%20credential%20autofill.md)
+- [RTIonline karnataka: Simplify Login using password manager and captcha auto-solve](../tampermonkey/posts/RTIonline%20Karnataka%20captcha%20and%20credential%20autofill.md)
 
 <div class="grid cards" markdown>
 

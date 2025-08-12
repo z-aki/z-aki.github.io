@@ -3,14 +3,18 @@ site_author: z-aki
 site_description: z-aki
 site_url: https://z-aki.github.io
 copyright: |
-  Website content © 2025 by <a href="https://github.com/z-aki"><b>z-aki</b></a>
-  is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-  Attribution-ShareAlike 4.0 International</a>
+  Website content (except code blocks and scripts) © 2025-now by <a href="https://z-aki.github.io"><u>z-aki (z-aki.github.io)</u></a>
+  is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"><u>Creative Commons
+  Attribution-ShareAlike 4.0 International</u></a>.
   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
   alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
   alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
   <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+  alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+  <br>
+  All code blocks and scripts  © 2025-now by <a href="https://z-aki.github.io"><u>z-aki (z-aki.github.io)</u></a> are licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html"><u>GPL-3.0</u></a>.
+  <img src="https://www.gnu.org/graphics/gplv3-127x51.png"
   alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 docs_dir: docs
 markdown_extensions:
