@@ -1,5 +1,5 @@
 ---
-title: Developer docs
+title: dev docs
 date:
   created: 2025-07-14
   updated: 2025-07-14

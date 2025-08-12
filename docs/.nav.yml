@@ -2,8 +2,9 @@ nav:
   - index.md
   - rti
   - tampermonkey/
-  - Digipin converter: digipin/
   - "*"
+  - Digipin converter: digipin/
+  - tools/
   - dev_index.md
   - about.md
 

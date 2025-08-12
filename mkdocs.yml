@@ -102,6 +102,11 @@ plugins:
       pagination_per_page: 50
   - blog:
       blog_toc: true
+      blog_dir: tools/
+      archive: false
+      pagination_per_page: 50
+  - blog:
+      blog_toc: true
       blog_dir: vuln/
       archive: false
       pagination_per_page: 50

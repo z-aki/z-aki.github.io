@@ -66,7 +66,7 @@ date:
 
       Thunderbird addons for Duckduckgo email conversion, adding the "open in mail" URL to calendar event, and displaying custom specific headers in a mail toolbar
 
-      [:octicons-arrow-right-24: More Addons](thunderbird/index.md)
+      [:octicons-arrow-right-24: More Addons](tools/posts/thunderbirdAddons.md)
 
 - :fontawesome-solid-image:{ .lg .middle } __PDF and image workflows for macOS Automator__
 
@@ -74,7 +74,7 @@ date:
 
       macOS Automator workflows to downsize images, increase contrast of PDF and reduce gamma of PDFs.
 
-      [:octicons-arrow-right-24: More Workflows](automator/index.md)
+      [:octicons-arrow-right-24: More Workflows](tools/posts/macosAutomator.md)
 
 - :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
