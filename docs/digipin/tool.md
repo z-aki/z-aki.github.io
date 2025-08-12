@@ -52,6 +52,6 @@ Courtesy of <https://github.com/CEPT-VZG/digipin/>
 
 This tool is NOT AFFILIATED with Google Maps, Apple Maps, Department of Posts (GOI) and any entities who developed DIGIPIN. The data may be inaccurate. The reliable source is <https://dac.indiapost.gov.in/mydigipin/home>
 
-<https://app.indiapost.gov.in/enterpriseportal/digipin>
+<https://www.indiapost.gov.in/digipin>
 
 Full license of the [digipin.js file](/javascripts/libs/digipin.js) (Copyright 08.04.2025 Department of Posts) is present in [license file](/javascripts/libs/LICENSE). Rest of the code follows the top level repo license.
