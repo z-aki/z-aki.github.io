@@ -7,7 +7,7 @@ date:
 
 Maps to DIGIPIN
 
-[Reset](/digipin/tool)
+[Reset](tool.md)
 
 <script type="module" src="/javascripts/tool.js"></script>
 
@@ -24,7 +24,7 @@ placeholder="http(s)://...lattitude,longitude... or 28.491177530557465,77.120998
 
 DIGIPIN to Maps
 
-[Reset](/digipin/tool)
+[Reset](tool.md)
 
 <textarea id="dm_digipin"
 type="text"
@@ -44,7 +44,7 @@ placeholder="Enter DIGIPIN, e.g. 39J-L84-TF4F or 39JL84TF4F"></textarea>
 
 ---
 
-Also see [this page](./convert digipin to latitude longitude.md) for support for iOS, macOS, and browsers like Google Chrome and Firefox using tampermonkey scripts
+Also see [this page](convert digipin to latitude longitude.md) for support for iOS, macOS, and browsers like Google Chrome and Firefox using tampermonkey scripts
 
 ---
 
@@ -54,4 +54,4 @@ This tool is NOT AFFILIATED with Google Maps, Apple Maps, Department of Posts (G
 
 <https://www.indiapost.gov.in/digipin>
 
-Full license of the [digipin.js file](/javascripts/libs/digipin.js) (Copyright 08.04.2025 Department of Posts) is present in [license file](/javascripts/libs/LICENSE). Rest of the code follows the top level repo license.
+Full license of the [digipin.js file](/javascripts/libs/digipin.js) (Copyright 08.04.2025 Department of Posts) is present in [license file](/javascripts/libs/LICENSE.txt). Rest of the code follows the top level repo license.

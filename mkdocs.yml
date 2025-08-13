@@ -121,5 +121,6 @@ plugins:
         default_timezone: Asia/Kolkata
   - search
   - meta
+  - mkdocs-pdf
 watch:
   - overrides/

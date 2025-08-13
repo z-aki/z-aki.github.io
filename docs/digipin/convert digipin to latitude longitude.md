@@ -1,5 +1,5 @@
 ---
-title: iOS, macOS, browsers
+title: iOS, macOS, Google Maps in browser (Tampermonkey script)
 date:
   created: 2025-07-30
   updated: 2025-07-30

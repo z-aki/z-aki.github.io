@@ -33,18 +33,18 @@ date:
 
     Govt entities:
 
-      - [Life Insurance Corporation of India](vuln/lic.md)
-      - [New India Assurance](vuln/nia.md)
-      - [Bimabharosa, IRDAI](vuln/bimabharosa.md)
-      - [Council of Insurance Ombudsman, CIOINS](vuln/cioins.md)
-      - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/e_jagriti.md)
-      <!-- - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/cms_ombudsman_rbi.md) -->
-      <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/rtionline_dopt.md) -->
+      - [Life Insurance Corporation of India](vuln/posts/lic.md)
+      - [New India Assurance](vuln/posts/nia.md)
+      - [Bimabharosa, IRDAI](vuln/posts/bimabharosa.md)
+      - [Council of Insurance Ombudsman, CIOINS](vuln/posts/cioins.md)
+      - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md)
+      <!-- - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md) -->
+      <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/posts/rtionline_dopt.md) -->
 
     Private entities:
 
-      - [Manipal Hospitals](vuln/manipal.md)
-      - [Indigo and Air India Express](vuln/indigo_airindia.md)
+      - [Manipal Hospitals](vuln/posts/manipal.md)
+      - [Indigo and Air India Express](vuln/posts/indigo_airindia.md)
 
     [:octicons-arrow-right-24: More vulnerabilities](vuln/index.md)
 

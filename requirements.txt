@@ -4,3 +4,4 @@ mkdocs-rss-plugin==1.17.3
 # https://lukasgeiter.github.io/mkdocs-awesome-nav/migration-v3/
 mkdocs-awesome-nav>3
 pymdownx-superfence-filter-lines==0.1.0
+mkdocs-pdf==0.1.2
