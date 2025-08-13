@@ -786,6 +786,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      Council of Insurance Ombudsman CIOINS API Vulnerabilities 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-new-india-assurance-co-ltd-vulnerability-2024" class="md-nav__link">
     <span class="md-ellipsis">
       The New India Assurance Co Ltd Vulnerability 2024
@@ -1050,8 +1059,121 @@
   <div class="md-content" data-md-component="content">
     <div class="md-content__inner">
       <header class="md-typeset">
-        <h1 id="vulnerability-analysis-and-disclosures">Vulnerability Analysis and disclosures<a class="headerlink" href="#vulnerability-analysis-and-disclosures" title="Permanent link">¶</a></h1>
+        <div><h1 id="vulnerability-analysis-and-disclosures">Vulnerability Analysis and disclosures<a class="headerlink" href="#vulnerability-analysis-and-disclosures" title="Permanent link">¶</a></h1>
+<p>CERT-in has been very responsive and helpful in reacting to incident reports and getting vulnerabilities fixed.</p>
+<ul>
+<li>Report incidents to <a href="https://www.cert-in.org.in/s2cMainServlet?pageid=CONTACTUS">CERT-in</a></li>
+<li>For finance related vulnerabilities: <a href="https://www.cert-in.org.in/PDF/CSIRT-Fin.pdf">CSIRT-fin</a></li>
+</ul>
+<p>All of the vulnerabilities presented here are for educational purpose (especially for the CISO and developers of these organizations). All vulnerabilties have been fixed by the service providers before these disclosures.</p>
+<p>The curl commands are not in full; only relevant headers are kept for brevity</p>
+<hr></div>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2025-08-13 00:00:00+00:00">August 13, 2025</time></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024"><a class="toclink" href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/">Council of Insurance Ombudsman CIOINS API Vulnerabilities 2024</a></h2>
+<p>Council of Insurance Ombudsman CIOINS website (<a href="https://cioins.co.in">https://cioins.co.in</a>) had numerouos vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting (they don't have a direct email for this (they denied this information in the <a href="../rti/2025/08/14/cioins/">RTI</a>)), they simply masked the issue with bogus encryption with key exposed in the front-end source code.</p>
+<p>After a followup, a proper fix was implemented but with significant delay.</p>
+<p>Summary of the vulnerabilities:</p>
+<table>
+<thead>
+<tr>
+<th>Sr</th>
+<th>API</th>
+<th>Date reported</th>
+<th>Date fixed</th>
+<th>Days taken</th>
+<th>CERT-in reference number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#1-fetchcomplaintdetails">FetchComplaintDetails</a></td>
+<td>16 November 2024</td>
+<td>9 December 2024</td>
+<td>21</td>
+<td>07586124</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#2-retrievedata">RetrieveData</a></td>
+<td>16 November 2024</td>
+<td>9 December 2024</td>
+<td>21</td>
+<td>07586124</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#3-fetchcomplaints">FetchComplaints</a></td>
+<td>16 November 2024</td>
+<td>9 December 2024</td>
+<td>21</td>
+<td>07586124</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#4-fetchcomplaintdetails-encrypted-payload">encrypted FetchComplaintDetails</a></td>
+<td>9 December 2024</td>
+<td>20 January 2025</td>
+<td>41 (63 from original)</td>
+<td>07586124</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#5-retrievedata-encrypted-payload">encrypted RetrieveData</a></td>
+<td>9 December 2024</td>
+<td>20 January 2025</td>
+<td>41 (63 from original)</td>
+<td>07586124</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/#6-fetchcomplaints-encrypted-payload">encrypted FetchComplaints</a></td>
+<td>9 December 2024</td>
+<td>20 January 2025</td>
+<td>41 (63 from original)</td>
+<td>07586124</td>
+</tr>
+</tbody>
+</table>
+<p>Root cause in <a href="https://cheatsheetseries.owasp.org/index.html">OWASP</a> terms:</p>
+<ul>
+<li>A01 2021 Broken Access Control: CWE-284 Improper Access Control, CWE-285 Improper Authorization</li>
+<li>A02 2021 Cryptographic Failures: CWE-321 Use of Hard-coded Cryptographic Key</li>
+<li>A04 2021 Insecure Design: CWE-73 External Control of File Name or Path, Insecure Direct Object Reference</li>
+<li>A07 2021 Identification and Authentication Failures: CWE-287 Improper Authentication, CWE-613 Insufficient Session Expiration</li>
+</ul>
+
+    
+      <nav class="md-post__action">
+        <a href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
@@ -1075,7 +1197,7 @@
   </header>
   <div class="md-post__content md-typeset">
     <h2 id="the-new-india-assurance-co-ltd-vulnerability-2024"><a class="toclink" href="2025/08/13/the-new-india-assurance-co-ltd-vulnerability-2024/">The New India Assurance Co Ltd Vulnerability 2024</a></h2>
-<p>An "alleged" vulnerability in the NIA website allowed downloading sensitive personal information of policyholder simply by the policy number.</p>
+<p>An "alleged" vulnerability in the <a href="https://www.newindia.co.in/portal/login/customer">New India Assurance</a> website allowed downloading sensitive personal information of policyholder simply by the policy number.</p>
 <p>Summary of the "alleged" vulnerabilities:</p>
 <table>
 <thead>
