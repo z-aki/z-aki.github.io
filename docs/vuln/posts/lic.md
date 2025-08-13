@@ -13,20 +13,21 @@ The story was covered only in Medianama.
 
 Summary of the vulnerabilities:
 
-| Sr | API  | Date reported | Date fixed | Days taken |
-|----|----------------------------|---------------|-----------|------|
-| 1  | [GenericDocumentViewer](#1-genericdocumentviewer)  | 16 October 2024 | 23 October 2024 | 7 |
-| 2  | [GetPayLoadByQueryDynamic](#2-getpayloadbyquerydynamic) | 16 October 2024, 6 December 2024 | 5 February 2025 | 112, 52 |
-| 3  | [GetDocumentByIdPost](#3-getdocumentbyidpost) | 9 December 2024 | 28 January 2025 | 50 |
-| 4  | [GetUserByUserIdPost](#4-getuserbyuseridpost) | 9 December 2024 | 28 January 2025 | 50 |
-| 5  | [GenericSPApi](#5-genericspapi) | 9 December 2024 | 28 January 2025 | 50 |
-| 6  | [GetQuoteDetailByNumberPost](#6-getquotedetailbynumberpost) | 4 June 2025 | 25 July 2025 | 51 |
+| Sr | API  | Date reported | Date fixed | Days taken | CERT-in reference number |
+|----|------|---------------|------------|------------|--------------------------|
+| 1  | [GenericDocumentViewer](#1-genericdocumentviewer)  | 16 October 2024 | 23 October 2024 | 7 | not assigned due to non-reproducibility (due to delay in reporting it to CERT after reporting it to LIC) |
+| 2  | [GetPayLoadByQueryDynamic](#2-getpayloadbyquerydynamic) | 16 October 2024, 6 December 2024 | 5 February 2025 | 112, 52 | CERTIn-80801824 |
+| 3  | [GetDocumentByIdPost](#3-getdocumentbyidpost) | 9 December 2024 | 28 January 2025 | 50 | CERTIn-80801824 |
+| 4  | [GetUserByUserIdPost](#4-getuserbyuseridpost) | 9 December 2024 | 28 January 2025 | 50 | CERTIn-80801824 |
+| 5  | [GenericSPApi](#5-genericspapi) | 9 December 2024 | 28 January 2025 | 50 | CERTIn-80801824 |
+| 6  | [GetQuoteDetailByNumberPost](#6-getquotedetailbynumberpost) | 4 June 2025 | 25 July 2025 | 51 | CERTIn-38009725|
 
 Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
 - A01 2021 Broken Access Control: CWE-35 Path Traversal, CWE-284 Improper Access Control, CWE-285 Improper Authorization
 - A04 2021 Insecure Design: CWE-73 External Control of File Name or Path, Insecure Direct Object Reference
 - A07 2021 Identification and Authentication Failures: CWE-287 Improper Authentication, CWE-613 Insufficient Session Expiration
+
 <!-- more -->
 
 ### Outcome
@@ -57,7 +58,7 @@ The curl commands are not in full; only relevant headers are kept for brevity.
 
 ### 1. GenericDocumentViewer
 
-This is it. One by one, all policy forms were accessible. A sample, redacted form is given at [sample proposal.pdf](content/vuln1_sample_response.pdf)
+This is it. One by one, all policy forms were accessible. A sample, redacted form is given at [sample proposal.pdf](content_lic/vuln1_sample_response.pdf)
 
 Discovered and reported on 16th October 2024. ~~Fixed~~ covered up on 23th October 2024. The fix implemented was wholly incomplete as shown in the vulnerability 2 below. The underlying API still remained vulnerable to serial access.
 
@@ -71,9 +72,9 @@ Discovered and reported on 16th October 2024. ~~Fixed~~ covered up on 23th Octob
 ```
 
 !!!note "Sample Response"
-    [Open full proposal form](content/vuln1_sample_response.pdf)
+    [Open full proposal form](content_lic/vuln1_sample_response.pdf)
 
-    ![Alt text](content/vuln1_sample_response.pdf){ type=application/pdf style="height:50vh;width:80%"  }
+    ![Alt text](content_lic/vuln1_sample_response.pdf){ type=application/pdf style="height:50vh;width:80%"  }
 
 ### 2. GetPayLoadByQueryDynamic
 
@@ -96,7 +97,7 @@ done
 <details>
 <summary>Sample response</summary>
 ```json linenums="1"
----8<-- "docs/vuln/posts/content/lic_vuln_2.json"
+---8<--- "docs/vuln/posts/content_lic/lic_vuln_2.json"
 ```
 
 </details>
@@ -143,7 +144,7 @@ done
 <details>
 <summary>Sample response</summary>
 ```json linenums="1"
----8<-- "docs/vuln/posts/content/lic_vuln_3.json"
+---8<--- "docs/vuln/posts/content_lic/lic_vuln_3.json"
 ```
 </details>
 
@@ -168,7 +169,7 @@ done
 <summary>Sample response</summary>
 
 ```json linenums="1"
---8<-- "docs/vuln/posts/content/lic_vuln_4.json"
+--8<-- "docs/vuln/posts/content_lic/lic_vuln_4.json"
 ```
 
 </details>
@@ -194,7 +195,7 @@ do
 <details>
 <summary>Sample response</summary>
 ```json linenums="1"
---8<-- "docs/vuln/posts/content/lic_vuln_5.json"
+--8<-- "docs/vuln/posts/content_lic/lic_vuln_5.json"
 ```
 </details>
 
@@ -224,7 +225,7 @@ curl 'https://digiapi.licindia.in/api/Quotation/GetQuoteDetailByNumberPost' \
 <summary>Sample response</summary>
 
 ```json linenums="1"
---8<-- "docs/vuln/posts/content/lic_vuln_6.json"
+--8<-- "docs/vuln/posts/content_lic/lic_vuln_6.json"
 ```
 
 </details>
