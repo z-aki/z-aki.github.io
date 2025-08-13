@@ -1,0 +1,219 @@
+{
+    "header": {
+        "eventID": "getPolicyHolderDetail",
+        "applicationId": "portal",
+        "responseCode": 0,
+        "coRelationId": "portal_$$$$_commoncomponent_getPolicyDetails_1730364137360_PRELOGIN",
+        "baNCSIntegrationSessionVO": {
+            "userCode": "",
+            "rolecode": "",
+            "userName": "",
+            "sessionStatus": ""
+        },
+        "customerName": "CUSTOMER",
+        "typeOfCustomer": "CUSTOMER",
+        "deviceID": "$$$$"
+    },
+    "quote": {
+        "termUnit": "Years",
+        "policyHolderName": "$$$$",
+        "policyBranchCode": "$$$$",
+        "quoteNumber": "$$$$",
+        "policyId": "$$$$",
+        "policyNumber": "$$$$",
+        "policyExpiryDate": "$$$$",
+        "policyInceptionDate": "$$$$",
+        "productCode": "$$$$",
+        "policyHolderCode": "$$$$",
+        "dateOfApplication": "$$$$",
+        "policyStartDate": "$$$$",
+        "sumInsured": "$$$$",
+        "term": "$$$$",
+        "productName": "$$$$",
+        "currentStatus": "$$$$",
+        "spouseCount": "0",
+        "risks": [
+            {
+                "riskDetails": {
+                    "relationWithPolicyHolder": "SELF",
+                    "occupation": "$$$$",
+                    "relationOfTraveller": null,
+                    "nameOfTraveller": null,
+                    "genderOfTraveller": null,
+                    "dependentChildren": null,
+                    "natureOfId": null,
+                    "otherId": null,
+                    "idDocNo": null,
+                    "dependentType": null,
+                    "correspContact": null,
+                    "document": null,
+                    "nationality": "Indian",
+                    "passportNo": null,
+                    "dateOfIssue": null,
+                    "passportExpiryDate": null,
+                    "visaWorkPermit": null,
+                    "proposedDateOfDeparture": null,
+                    "noOfDaysStayedOutsideIndia": null,
+                    "expectedNoOfMonthsStudyEmployment": null,
+                    "nameOfSchoolWorkplace": null,
+                    "addressOfSchoolWorkplace": null,
+                    "telNoSchoolWorkplace": null,
+                    "sponsorName": null,
+                    "sponsorAddress": null,
+                    "relationOfSponsor": null,
+                    "telNoOfSponsor": null,
+                    "otherOccupationDetails": null,
+                    "extensionPeriodDays": null,
+                    "dateOfBirth": "$$$$",
+                    "nameOfInsuredPerson": "$$$$",
+                    "ageInYrs": null,
+                    "sex": null,
+                    "isSpouseEarning": null,
+                    "monthlyIncome": "$$$$",
+                    "specialConditions": null,
+                    "serialNo": null,
+                    "relationWithNominee": "$$$$",
+                    "nomineeName": "$$$$",
+                    "isTableACoverRequired": null,
+                    "sumInsured": "$$$$",
+                    "sumInsuredForTableA": "$$$$",
+                    "isTableBCoverRequired": null,
+                    "sumInsuredForTableB": "0",
+                    "isTableCCoverRequired": null,
+                    "sumInsuredForTableC": "0",
+                    "isTableDCoverRequired": null,
+                    "sumInsuredForTableD": "0",
+                    "capitalSumInsured": null,
+                    "rateForTableA": "$$$$",
+                    "rateForTableB": "$$$$",
+                    "rateForTableC": "$$$$",
+                    "rateForTableD": "$$$$",
+                    "medicalHistoryDetails": null,
+                    "physicianDetails": null,
+                    "nomineeDetails": null,
+                    "healthStatus": null,
+                    "claimReporting": null,
+                    "policyExtensionDate": null,
+                    "policyExtensionPeriod": null,
+                    "anyPhysicalDefects": "N",
+                    "mentionDefects": null,
+                    "anyPreviousClaim": "N",
+                    "cbPerc": null,
+                    "cbAmount": null,
+                    "isWarAndAlliedRisksCoverage": "N",
+                    "countryOfOperation": "INDIA",
+                    "typeOfPeriod": "NA",
+                    "rateForAbnormalOrApprehensiveorWarPeriod": "0",
+                    "sumInsuredForWarndAlliedRiskCoverage": "0",
+                    "rateForPeaceTimeorNormalPeriod": null,
+                    "nameOfTheCountry": null
+                },
+                "coverages": [
+                    {
+                        "coverDetails": {
+                            "medicalCoverReq": "N"
+                        }
+                    }
+                ]
+            }
+        ],
+        "partyDetailsList": [
+            {
+                "partyType": "$$$$",
+                "partyStakeCode": "$$$$",
+                "stakeCode": "$$$$",
+                "individualDetails": {
+                    "firstName": "$$$$",
+                    "lastName": "$$$$",
+                    "gender": "$$$$",
+                    "dateOfBirth": "$$$$",
+                    "buildingNoStreet": "$$$$",
+                    "cityName": "$$$$",
+                    "pinCode": "$$$$",
+                    "mobileNo": "$$$$",
+                    "emailId": "$$$$",
+                    "startDate": "$$$$",
+                    "contactType": "$$$$",
+                    "clientType": "$$$$",
+                    "state": "$$$$",
+                    "city": "$$$$",
+                    "aadhaarAuthStatus": "$$$$",
+                    "nationality": "$$$$",
+                    "nameOfTheCountry": "$$$$",
+                    "ekycStatus": "$$$$"
+                }
+            },
+            {
+                "partyCode": "GC00000008",
+                "partyStakeCode": "GCE",
+                "partyName": "GST-CENTRAL GOVT ",
+                "address": "NEW DELHI",
+                "stakeCode": "GCE",
+                "individualDetails": {
+                    "relationshipWithRegisteredUser": "",
+                    "buildingNoStreet": "NEW DELHI",
+                    "pinCode": "110001",
+                    "startDate": "$$$$"
+                },
+                "organizationDetails": {
+                    "startDate": "$$$$",
+                    "pinCode": "110001",
+                    "businessTelNumExtn": "",
+                    "panNumber": ""
+                }
+            },
+            {
+                "partyCode": "GS00000033",
+                "partyStakeCode": "GSS",
+                "partyName": "GST-STATE GOV-RAJASTHAN ",
+                "address": "RAJASTHAN",
+                "stakeCode": "GSS",
+                "individualDetails": {
+                    "relationshipWithRegisteredUser": "",
+                    "buildingNoStreet": "RAJASTHAN",
+                    "pinCode": "313001",
+                    "startDate": "$$$$"
+                },
+                "organizationDetails": {
+                    "startDate": "$$$$",
+                    "pinCode": "313001",
+                    "businessTelNumExtn": "",
+                    "panNumber": ""
+                }
+            },
+            {
+                "partyCode": "DI830000",
+                "partyStakeCode": "DIRECT",
+                "partyName": "DI_DIGITAL HUB DI_DIGITAL HUB",
+                "address": "6TH FLOOR, MOTI MAHAL,",
+                "stakeCode": "DIRECT",
+                "individualDetails": {
+                    "relationshipWithRegisteredUser": "",
+                    "buildingNoStreet": "6TH FLOOR, MOTI MAHAL,",
+                    "pinCode": "400020",
+                    "startDate": "$$$$"
+                },
+                "organizationDetails": {
+                    "startDate": "$$$$",
+                    "pinCode": "400020",
+                    "businessTelNumExtn": "",
+                    "panNumber": ""
+                }
+            }
+        ],
+        "premiumDetails": {
+            "totalPremium": "$$$$",
+            "serviceTax": "$$$$",
+            "netPremium": "$$$$"
+        },
+        "coverage": "Self",
+        "numChildrenToCover": "0",
+        "renewedQuoteNo": "$$$$",
+        "coverCode": "STDCOVER"
+    },
+    "userProfile": {
+        "footer": {
+            "errorCode": "0"
+        }
+    }
+}
