@@ -1,0 +1,26 @@
+{
+    "finalResult": [
+        {
+            "OppurtunityID": $$$$$$$$,
+            "MobileNo": "$$$$$$$$",
+            "Email": "$$$$$$$$",
+            "DateOfBirth": "$$$$$$$$",
+            "Name": "$$$$$$$$ ",
+            "StageID": $$$$$$$$,
+            "Gender": "$$$$$$$$",
+            "PlanNumber": "$$$$$$$$",
+            "PlanName": "$$$$$$$$",
+            "AdditionalDetails": null,
+            "OpportunityNumber": "$$$$$$$$"
+        }
+    ],
+    "statusCode": 0,
+    "responseMessage": "Query Executed Successfully",
+    "id": null,
+    "status": 1,
+    "errors": [],
+    "messageKey": null,
+    "messageValue": [],
+    "correlationId": null,
+    "data": null
+}

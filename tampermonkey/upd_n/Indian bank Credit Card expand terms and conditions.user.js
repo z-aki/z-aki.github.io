@@ -4,10 +4,10 @@
 // @description  Removes the height style from the parent div of country1/2/3/4.
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
-// @match        https://www.indianbankcreditcard.in/indbcreditcustomer/html/UAMLogin.jsp
+// @match        https://www.indianbankcreditcard.in/indbcreditcustomer/*
 // @icon         https://www.indianbankcreditcard.in/indbcreditcustomer/html/favicons/android-icon-192x192.png
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://raw.githubusercontent.com/CoeJoder/waitForKeyElements.js/16f3c035e2c41f8af0437a1eca1c9899e722ec37/waitForKeyElements.js
 // @downloadURL  none
 // ==/UserScript==
 
@@ -17,4 +17,13 @@ function fix(elem) {
   elem.parentElement.style.height = "";
 }
 
-waitForKeyElements("div[id='country2']", fix, false, "frame[name='mainframe']");
+waitForKeyElements(
+  () => {
+    console.log("selector");
+    return document
+      .querySelector("frame[name='mainframe']")
+      ?.contentWindow.document.querySelectorAll("div[id='country2']");
+  },
+  fix,
+  false
+);
