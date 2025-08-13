@@ -54,8 +54,6 @@ After repeated PGportal complaints against LIC, [RTIs with LIC](../../rti/posts/
 
     <https://irdai.gov.in/document-detail?documentId=7642959>
 
-The curl commands are not in full; only relevant headers are kept for brevity.
-
 ### 1. GenericDocumentViewer
 
 This is it. One by one, all policy forms were accessible. A sample, redacted form is given at [sample proposal.pdf](content_lic/vuln1_sample_response.pdf)

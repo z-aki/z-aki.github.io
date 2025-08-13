@@ -5,7 +5,7 @@ date:
   updated: 2025-08-13
 ---
 
-An "alleged" vulnerability in the NIA website allowed downloading sensitive personal information of policyholder simply by the policy number.
+An "alleged" vulnerability in the [New India Assurance](https://www.newindia.co.in/portal/login/customer) website allowed downloading sensitive personal information of policyholder simply by the policy number.
 
 Summary of the "alleged" vulnerabilities:
 
@@ -74,6 +74,8 @@ done
 ---8<--- "docs/vuln/posts/content_nia/nia_vuln_1.json"
 ```
 </details>
+
+### $$ Alleged fix
 
 After the "alleged" fix, the new curl request was as follows. Observe the new header `X-Auth-Token` and the additional `Cookie` header.
 

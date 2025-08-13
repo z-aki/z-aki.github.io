@@ -26,7 +26,7 @@ Useful RTI portal Tampermonkey scripts :
 
 - :material-bank:{ .lg .middle } [Life Insurance Corporation of India](posts/lic.md)
 
-- :material-gavel:{ .lg .middle } [Council of Insurance Ombudsmen](posts/cioins.md)
+- :material-gavel:{ .lg .middle } [Council of Insurance Ombudsman](posts/cioins.md)
 
 - :material-gavel:{ .lg .middle } [Insurance Regulatory and Development Authority of India](posts/irdai.md)
 
