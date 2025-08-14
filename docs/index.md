@@ -38,7 +38,7 @@ date:
       - [Bimabharosa, IRDAI](vuln/posts/bimabharosa.md)
       - [Council of Insurance Ombudsman, CIOINS](vuln/posts/cioins.md)
       - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md)
-      <!-- - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md) -->
+      - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md)
       <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/posts/rtionline_dopt.md) -->
 
     Private entities:
@@ -86,7 +86,7 @@ date:
       Use free RSS feed reader apps to anonymously get new post notifications without sharing your email.
 
       - :simple-macos: :fontawesome-brands-windows: :simple-linux: Desktop: [:simple-thunderbird: Thunderbird](https://www.thunderbird.net)
-      - :material-apple-ios: iOS: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
+      - :material-apple-ios: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
       - :simple-android: Android: [Feeder](https://github.com/spacecowboy/Feeder)
 
 - :fontawesome-solid-envelope:{ .lg .middle } __About me__

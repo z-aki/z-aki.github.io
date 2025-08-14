@@ -72,7 +72,7 @@ Discovered and reported on 16th October 2024. ~~Fixed~~ covered up on 23th Octob
 !!!note "Sample Response"
     [Open full proposal form](content_lic/vuln1_sample_response.pdf)
 
-    ![Alt text](content_lic/vuln1_sample_response.pdf){ type=application/pdf style="height:50vh;width:80%"  }
+    ![Alt text](content_lic/vuln1_sample_response.pdf){ type=application/pdf }
 
 ### 2. GetPayLoadByQueryDynamic
 
