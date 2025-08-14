@@ -18,6 +18,8 @@
         <link rel="prev" href="../the-new-india-assurance-co-ltd-vulnerability-2024/">
       
       
+        <link rel="next" href="../../14/bimabharosa-irdai/">
+      
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../../feed_rss_updated.xml">
@@ -1165,7 +1167,11 @@
 
   <h1>Council of Insurance Ombudsman CIOINS API Vulnerabilities 2024</h1>
 
-<div><p>Council of Insurance Ombudsman CIOINS website (<a href="https://cioins.co.in">https://cioins.co.in</a>) had numerouos vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting (they don't have a direct email for this (they denied this information in the <a href="../../../../../rti/2025/08/14/cioins/">RTI</a>)), they simply masked the issue with bogus encryption with key exposed in the front-end source code.</p>
+<div><p>Council of Insurance Ombudsman CIOINS website (<a href="https://cioins.co.in">https://cioins.co.in</a>) had numerouos
+vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting it
+to CERT-in (they don't have a direct email for this (they denied this information in
+the <a href="../../../../../rti/2025/08/14/cioins/">RTI</a>)), they simply masked the issue with bogus
+encryption with key exposed in the front-end source code.</p>
 <p>After a followup, a proper fix was implemented but with significant delay.</p>
 <p>Summary of the vulnerabilities:</p>
 <table>
@@ -1319,7 +1325,7 @@ https://cioins.co.in/Complaint/Track/FetchComplaintDetails?CompID=uRDIXscht1j4Hc
 </code></pre></div>
 <h3 id="fix-using-otp">$$ Fix using OTP<a class="headerlink" href="#fix-using-otp" title="Permanent link">¶</a></h3>
 <p>After fixing, an OTP verification for every step of the process was added, i.e., an OTP is required for accessing each complaint.</p>
-<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">fix.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">sample_script_fixed.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
@@ -1387,6 +1393,22 @@ curl<span class="w"> </span><span class="s1">'https://cioins.co.in/Complaint/Tra
           </a>
         
         
+          
+          <a href="../../14/bimabharosa-irdai/" class="md-footer__link md-footer__link--next" aria-label="Next: Bimabharosa IRDAI">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Bimabharosa IRDAI
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
       </nav>
     
   
@@ -1399,15 +1421,15 @@ curl<span class="w"> </span><span class="s1">'https://cioins.co.in/Complaint/Tra
 is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"><u>Creative Commons
 Attribution-ShareAlike 4.0 International</u></a>.
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+alt="" style="max-width: 1.5em;max-height:1.5em;margin-left: .2em;">
 <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+alt="" style="max-width: 1.5em;max-height:1.5em;margin-left: .2em;">
 <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
-alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+alt="" style="max-width: 1.5em;max-height:1.5em;margin-left: .2em;">
 <br>
 All code blocks and scripts  © 2025-now by <a href="https://z-aki.github.io"><u>z-aki (z-aki.github.io)</u></a> are licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html"><u>GPL-3.0</u></a>.
 <img src="https://www.gnu.org/graphics/gplv3-127x51.png"
-alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+alt="" style="max-width: 3em;max-height:3em;margin-left: .2em;">
 
     </div>
   
