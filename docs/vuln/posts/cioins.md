@@ -5,7 +5,11 @@ date:
   updated: 2025-08-13
 ---
 
-Council of Insurance Ombudsman CIOINS website (<https://cioins.co.in>) had numerouos vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting (they don't have a direct email for this (they denied this information in the [RTI](../../rti/posts/cioins.md))), they simply masked the issue with bogus encryption with key exposed in the front-end source code.
+Council of Insurance Ombudsman CIOINS website (<https://cioins.co.in>) had numerouos
+vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting it
+to CERT-in (they don't have a direct email for this (they denied this information in
+the [RTI](../../rti/posts/cioins.md))), they simply masked the issue with bogus
+encryption with key exposed in the front-end source code.
 
 After a followup, a proper fix was implemented but with significant delay.
 
@@ -122,7 +126,7 @@ https://cioins.co.in/Complaint/Track/FetchComplaints?c1FQnlPmmmtf4mEnALGVyQ%3D%3
 
 After fixing, an OTP verification for every step of the process was added, i.e., an OTP is required for accessing each complaint.
 
-```bash title="fix.sh" linenums="1"
+```bash title="sample_script_fixed.sh" linenums="1"
 time=$(date '+%F_%T')
 curl 'https://cioins.co.in/Complaint/Track/FetchComplaintDetails' -X POST \
 -H 'Cookie: .AspNetCore.Session=$$$$$$$$$$' \
