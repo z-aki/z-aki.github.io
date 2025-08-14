@@ -28,3 +28,8 @@
 .md-tabs {
   font-weight: bold;
 }
+
+embed[type="application/pdf"] {
+  height: 50vh;
+  width: 80%;
+}
