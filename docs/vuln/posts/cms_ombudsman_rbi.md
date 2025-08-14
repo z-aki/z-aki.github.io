@@ -16,6 +16,8 @@ Summary of the vulnerabilities:
 
 The vulnerability was fixed very promptly.
 
+<!-- more -->
+
 ### 1. PDFFileDownload
 
 This API accepted a query parameter `caseId` and provided the PDF file
