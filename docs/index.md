@@ -7,7 +7,7 @@ date:
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-clipboard-question:{ .lg .middle } __RTI compilation__
+- :fontawesome-solid-clipboard-question:{ .lg .middle } __RTI Compilation__
 
     -----
 
@@ -25,7 +25,7 @@ date:
 
       [:octicons-arrow-right-24: More scripts](tampermonkey/index.md)
 
-- :fontawesome-solid-bug:{ .lg .middle } __Vulnerability Analysis and disclosures__
+- :fontawesome-solid-bug:{ .lg .middle } __Vulnerability Analysis & Disclosures__
 
     -----
 
@@ -37,7 +37,7 @@ date:
       - [New India Assurance](vuln/posts/nia.md)
       - [Bimabharosa, IRDAI](vuln/posts/bimabharosa.md)
       - [Council of Insurance Ombudsman, CIOINS](vuln/posts/cioins.md)
-      - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md)
+      <!-- - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md) -->
       - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md)
       <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/posts/rtionline_dopt.md) -->
 
@@ -60,7 +60,7 @@ date:
 
       - [Google Maps to DIGIPIN Tampermonkey script for Chrome/ Firefox](digipin/convert%20digipin%20to%20latitude%20longitude.md)
 
-- :simple-thunderbird:{ .lg .middle} __Thunderbird addons__
+- :simple-thunderbird:{ .lg .middle} __Thunderbird Addons__
 
     -----
 
@@ -68,13 +68,19 @@ date:
 
       [:octicons-arrow-right-24: More Addons](tools/posts/thunderbirdAddons.md)
 
-- :fontawesome-solid-image:{ .lg .middle } __PDF and image workflows for macOS Automator__
+- :fontawesome-solid-image:{ .lg .middle } __PDF And Image Workflows For macOS Automator__
 
     -----
 
       macOS Automator workflows to downsize images, increase contrast of PDF and reduce gamma of PDFs.
 
       [:octicons-arrow-right-24: More Workflows](tools/posts/macosAutomator.md)
+
+- :simple-materialformkdocs:{ .lg .middle } __Mkdocs Plugins__
+
+    -----
+
+      - [Open external links and internal files (pdf etc.,) in new tabs. Customizable with icon using CSS](https://github.com/z-aki/mkdocs-plugin-open-external-links-in-new-tab)
 
 - :fontawesome-solid-square-rss:{ .lg .middle } __RSS__
 
@@ -89,7 +95,7 @@ date:
       - :material-apple-ios: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
       - :simple-android: Android: [Feeder](https://github.com/spacecowboy/Feeder)
 
-- :fontawesome-solid-envelope:{ .lg .middle } __About me__
+- :fontawesome-solid-envelope:{ .lg .middle } __About Me__
 
     -----
 
