@@ -1,5 +1,5 @@
 ---
-title: The New India Assurance Co Ltd Vulnerability 2024
+title: The New India Assurance Co Ltd Alleged Vulnerability 2024
 date:
   created: 2025-08-13
   updated: 2025-08-13

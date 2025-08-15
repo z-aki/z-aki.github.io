@@ -123,5 +123,8 @@ plugins:
   - search
   - meta
   - mkdocs-pdf
+  - mkdocs-plugin-open-external-links-in-new-tab:
+      external_extensions:
+        - ".pdf"
 watch:
   - overrides/
