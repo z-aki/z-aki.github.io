@@ -1,0 +1,715 @@
+{
+    "navToken": {
+        "token": "ey$$$$U8",
+        "idleTimeoutInMinutes": 15
+    },
+    "data": {
+        "selfServiceMoveAvailable": false,
+        "isDirectChannel": false,
+        "bookingKey": "$$$",
+        "recordLocator": "$$$",
+        "currencyCode": "INR",
+        "systemCode": null,
+        "groupName": null,
+        "locators": {
+            "numericRecordLocator": "$$$",
+            "parentRecordLocator": null,
+            "parentId": "0",
+            "recordLocators": []
+        },
+        "info": {
+            "status": 2,
+            "paidStatus": 1,
+            "priceStatus": 2,
+            "profileStatus": 1,
+            "bookingType": null,
+            "channelType": 5,
+            "bookedDate": "$$$",
+            "createdDate": "$$$",
+            "expirationDate": "$$$",
+            "modifiedDate": "$$$",
+            "modifiedAgentId": "$$$",
+            "createdAgentId": "$$$",
+            "owningCarrierCode": "$$$",
+            "changeAllowed": true
+        },
+        "sales": {
+            "created": {
+                "agentCode": "APIINIRCTC",
+                "domainCode": "TOP",
+                "locationCode": "API",
+                "organizationCode": "OTAINIRCTN"
+            },
+            "source": {
+                "isoCountryCode": null,
+                "sourceSystemCode": null,
+                "agentCode": "APIINIRCTC",
+                "domainCode": "TOP",
+                "locationCode": "API",
+                "organizationCode": "OTAINIRCTN"
+            },
+            "modified": null
+        },
+        "typeOfSale": {
+            "residentCountry": "IN",
+            "promotionCode": null,
+            "fareTypes": []
+        },
+        "hold": null,
+        "breakdown": {
+            "balanceDue": 0.0,
+            "pointsBalanceDue": 0.0,
+            "authorizedBalanceDue": 0.0,
+            "totalAmount": $$$,
+            "totalPoints": 0.0,
+            "totalToCollect": $$$,
+            "totalPointsToCollect": 0.0,
+            "totalCharged": $$$,
+            "passengerTotals": {
+                "services": null,
+                "specialServices": null,
+                "seats": null,
+                "upgrades": null,
+                "spoilage": null,
+                "nameChanges": null,
+                "convenience": null,
+                "infant": null
+            },
+            "passengers": {
+                "MCFBRFQ-": {
+                    "passengerKey": "$$$",
+                    "services": null,
+                    "specialServices": null,
+                    "seats": null,
+                    "upgrades": null,
+                    "spoilage": null,
+                    "nameChanges": null,
+                    "convenience": null,
+                    "infant": null
+                }
+            },
+            "journeyTotals": {
+                "totalAmount": $$$,
+                "totalPoints": $$$,
+                "totalTax": $$$,
+                "totalDiscount": $$$,
+            },
+            "journeys": {
+                "$$$": {
+                    "journeyKey": "$$$",
+                    "totalAmount": $$$,
+                    "totalPoints": $$$,
+                    "totalTax": $$$,
+                    "totalDiscount": $$$
+                }
+            },
+            "addOnTotals": {
+                "car": null,
+                "hotel": null,
+                "activities": null
+            }
+        },
+        "receivedBy": {
+            "receivedBy": null,
+            "latestReceivedBy": null,
+            "receivedReference": null,
+            "latestReceivedReference": null,
+            "referralCode": null
+        },
+        "contacts": {
+            "P": {
+                "contactTypeCode": "P",
+                "phoneNumbers": [
+                    {
+                        "type": 0,
+                        "number": "91-$$$$$$$$$$"
+                    },
+                    {
+                        "type": 1,
+                        "number": "91-$$$$$$$$$$"
+                    }
+                ],
+                "cultureCode": null,
+                "address": {
+                    "lineOne": "$$$",
+                    "lineTwo": "$$$",
+                    "lineThree": "$$$",
+                    "countryCode": "$$$",
+                    "provinceState": "$$$",
+                    "city": "$$$",
+                    "postalCode": "$$$"
+                },
+                "emailAddress": "$$$",
+                "customerNumber": null,
+                "sourceOrganization": "OTAINIRCTN",
+                "distributionOption": 2,
+                "notificationPreference": 0,
+                "companyName": "IRCTC",
+                "name": {
+                    "first": "$$$",
+                    "middle": "$$$",
+                    "last": "$$$",
+                    "title": "$$$",
+                    "suffix": "$$$"
+                }
+            }
+        },
+        "passengers": [
+            {
+                "passengerKey": "$$$",
+                "passengerAlternateKey": "$$$",
+                "customerNumber": null,
+                "fees": [],
+                "name": {
+                    "first": "$$$",
+                    "middle": "$$$",
+                    "last": "$$$",
+                    "title": "$$$",
+                    "suffix": "$$$"
+                },
+                "passengerTypeCode": "ADT",
+                "discountCode": null,
+                "bags": [],
+                "program": null,
+                "infant": null,
+                "info": {
+                    "nationality": "$$$",
+                    "residentCountry": "$$$",
+                    "gender": "$$$",
+                    "dateOfBirth": "$$$",
+                    "familyNumber": 0
+                },
+                "travelDocuments": [],
+                "addresses": [],
+                "weightCategory": 1,
+                "bagsInfo": [
+                    {
+                        "journeyKey": "$$$",
+                        "CABG": 7.0,
+                        "CHKBAG": 15.0,
+                        "ICBG": null,
+                        "STND": null
+                    }
+                ]
+            }
+        ],
+        "journeys": [
+            {
+                "flightType": 1,
+                "stops": 0,
+                "designator": {
+                    "destination": "$$$",
+                    "origin": "$$$",
+                    "arrival": "$$$",
+                    "departure": "$$$",
+                    "originAirportName": "$$$",
+                    "originCityName": "$$$",
+                    "destinationAirportName": "$$$",
+                    "destinationCityName": "$$$",
+                    "arrivalTerminal": "$$$",
+                    "departureTerminal": "$$$"
+                },
+                "move": {
+                    "maxMoveBackDays": 490,
+                    "maxMoveOutDays": 490
+                },
+                "segments": [
+                    {
+                        "isStandby": false,
+                        "isConfirming": false,
+                        "isConfirmingExternal": false,
+                        "isBlocked": false,
+                        "isHosted": true,
+                        "isChangeOfGauge": false,
+                        "designator": {
+                            "destination": "$$$",
+                            "origin": "$$$",
+                            "arrival": "$$$",
+                            "departure": "$$$",
+                            "originAirportName": "$$$",
+                            "originCityName": "$$$",
+                            "destinationAirportName": "$$$",
+                            "destinationCityName": "$$$",
+                            "arrivalTerminal": "$$$",
+                            "departureTerminal": "$$$"
+                        },
+                        "isSeatmapViewable": true,
+                        "identifier": {
+                            "identifier": "$$$",
+                            "carrierCode": "$$$",
+                            "opSuffix": "$$$"
+                        },
+                        "fares": [
+                            {
+                                "isGoverning": true,
+                                "downgradeAvailable": false,
+                                "carrierCode": "$$$",
+                                "fareKey": "$$$",
+                                "classOfService": "$$$",
+                                "classType": null,
+                                "fareApplicationType": 0,
+                                "fareClassOfService": "G",
+                                "fareBasisCode": "GNRA000",
+                                "fareSequence": 0,
+                                "inboundOutBound": 0,
+                                "fareStatus": 0,
+                                "isAllotmentMarketFare": false,
+                                "originalClassOfService": "G",
+                                "ruleNumber": "NR00",
+                                "productClass": "EC",
+                                "ruleTariff": null,
+                                "travelClassCode": "Y",
+                                "crossReferenceClassOfService": null,
+                                "fareLink": 0,
+                                "passengerFares": [
+                                    {
+                                        "serviceCharges": [
+                                            {
+                                                "amount": "$$$",
+                                                "code": null,
+                                                "detail": null,
+                                                "type": "FarePrice",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": null
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "CUTE",
+                                                "detail": "$$$",
+                                                "type": "TravelFee",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "CUT"
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "RCS",
+                                                "detail": "$$$",
+                                                "type": "TravelFee",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "RCS"
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "IN",
+                                                "detail": "$$$",
+                                                "type": "TravelFee",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "IN"
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "P2",
+                                                "detail": "$$$",
+                                                "type": "TravelFee",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "P2"
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "CGST",
+                                                "detail": "$$$",
+                                                "type": "Tax",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "CST"
+                                            },
+                                            {
+                                                "amount": "$$$",
+                                                "code": "SGST",
+                                                "detail": "$$$",
+                                                "type": "Tax",
+                                                "collectType": 0,
+                                                "currencyCode": "INR",
+                                                "foreignCurrencyCode": "INR",
+                                                "foreignAmount": "$$$",
+                                                "ticketCode": "SST"
+                                            }
+                                        ],
+                                        "discountCode": null,
+                                        "fareDiscountCode": null,
+                                        "passengerType": "ADT"
+                                    }
+                                ]
+                            }
+                        ],
+                        "segmentKey": "$$$",
+                        "passengerSegment": {
+                            "MCFBRFQ-": {
+                                "seats": [],
+                                "passengerKey": "$$$",
+                                "activityDate": "$$$",
+                                "boardingSequence": "$$$",
+                                "createdDate": "$$$",
+                                "liftStatus": "$$$",
+                                "modifiedDate": "$$$",
+                                "overBookIndicator": "$$$",
+                                "priorityDate": "$$$",
+                                "timeChanged": true,
+                                "verifiedTravelDocs": null,
+                                "sourcePointOfSale": {
+                                    "agentCode": "APIINIRCTC",
+                                    "domainCode": "TOP",
+                                    "locationCode": "API",
+                                    "organizationCode": "OTAINIRCTN"
+                                },
+                                "pointOfSale": {
+                                    "agentCode": "APIINIRCTC",
+                                    "domainCode": "TOP",
+                                    "locationCode": "API",
+                                    "organizationCode": "OTAINIRCTN"
+                                },
+                                "ssrs": [],
+                                "tickets": [],
+                                "bags": [],
+                                "scores": [],
+                                "boardingPassDetail": null,
+                                "hasInfant": false,
+                                "seatPreferences": {
+                                    "seat": 0,
+                                    "travelClass": 0,
+                                    "advancedPreferences": []
+                                },
+                                "bundleCode": null,
+                                "verifiedTravelDocuments": null,
+                                "referenceNumber": 0
+                            }
+                        },
+                        "channelType": 5,
+                        "cabinOfService": "Y",
+                        "externalIdentifier": null,
+                        "priorityCode": null,
+                        "changeReasonCode": 0,
+                        "segmentType": 0,
+                        "salesDate": "$$$",
+                        "international": false,
+                        "flightReference": "$$$",
+                        "legs": [
+                            {
+                                "legKey": "$$$",
+                                "operationsInfo": null,
+                                "designator": {
+                                    "destination": "$$$",
+                                    "origin": "$$$",
+                                    "arrival": "$$$",
+                                    "departure": "$$$",
+                                    "originAirportName": null,
+                                    "originCityName": null,
+                                    "destinationAirportName": null,
+                                    "destinationCityName": null,
+                                    "arrivalTerminal": null,
+                                    "departureTerminal": null
+                                },
+                                "legInfo": {
+                                    "departureTimeUtc": "$$$",
+                                    "arrivalTimeUtc": "$$$",
+                                    "adjustedCapacity": 178,
+                                    "arrivalTerminal": "2",
+                                    "arrivalTimeVariant": 330,
+                                    "backMoveDays": 490,
+                                    "capacity": 178,
+                                    "changeOfDirection": false,
+                                    "codeShareIndicator": 0,
+                                    "departureTerminal": "2",
+                                    "departureTimeVariant": 330,
+                                    "equipmentType": "7M8",
+                                    "equipmentTypeSuffix": "I",
+                                    "eTicket": false,
+                                    "irop": false,
+                                    "lid": 178,
+                                    "marketingCode": null,
+                                    "marketingOverride": false,
+                                    "operatedByText": null,
+                                    "operatingCarrier": null,
+                                    "operatingFlightNumber": null,
+                                    "operatingOpSuffix": null,
+                                    "outMoveDays": 490,
+                                    "arrivalTime": "$$$",
+                                    "departureTime": "$$$",
+                                    "prbcCode": "$$$",
+                                    "scheduleServiceType": null,
+                                    "sold": 171,
+                                    "status": 0,
+                                    "subjectToGovtApproval": false,
+                                    "eticket": false
+                                },
+                                "nests": [],
+                                "ssrs": [],
+                                "seatmapReference": "$$$",
+                                "flightReference": "$$$",
+                            }
+                        ],
+                        "status": 6
+                    }
+                ],
+                "journeyKey": "$$$",
+                "notForGeneralUser": false,
+                "isCorpFareJourney": false,
+                "isCancelAllowed": true,
+                "checkInAllowedFlatform": 0,
+                "scootModification": true,
+                "umnr": false,
+                "corpFareJourney": false,
+                "cancelAllowed": true,
+                "CheckInWindow": "Open",
+                "CheckInOpens": null
+            }
+        ],
+        "comments": [
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=$$$$$$$$$$, TimeStamp= $$$$, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign, MessageContent=Flight booked. PNR: $$$$$$. Flight IX-$$$$$$, Dep $$$$$$ Hrs, Arr $$$$$$ Hrs. Web check-in opens 14 days prior. Loyalty members get up to 50% off on meals and seats.",
+                "createdDate": "$$$$.923Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=$$$$$$$$$$, TimeStamp= $$$$, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+                "createdDate": "$$$$.487Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=$$$$$$$$$$, TimeStamp= $$$, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+                "createdDate": "$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "Event id for RESCHEDULED not found",
+                "createdDate": "$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "Event id for RESCHEDULED not found",
+                "createdDate": "$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "test",
+                "createdDate": "$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=$$$$$$$$$$, TimeStamp= $$$, MessageFor=IRROPs_Prepone_Less_Than_01_Hour(QueueBase), MessageContent=Dear Guest, your flight on $$$ $$$-$$$has been advanced to $$$ $$:$$ due to operational reasons. All timings are in local time. Check-in counters close 60 mins before departure. Thank you for your understanding.",
+                "createdDate": "$$$.573Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=Voice , Status=connected, SentTime= $$$,ConnTine=$$$ , EndTime=$$$, Attempts=1, DeliveryFor= IRROPs_Prepone_Less_Than_01_Hour(QueueBase) , DTMFPressed=1_2",
+                "createdDate": "$$$.487Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=Email , Status=Delivered, SentTime= $$$, DeliveryFor= IRROPs_Prepone_Less_Than_01_Hour(QueueBase)",
+                "createdDate": "$$$.147Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=SMS , Status=TEMPLATE_RESERVED, SentTime= $$$, DeliveryFor= IRROPs_Prepone_Less_Than_01_Hour(QueueBase)",
+                "createdDate": "$$$.623Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=$$$$$$$$$$, TimeStamp= $$$, MessageFor=IRROPs_Prepone_Less_Than_01_Hour(QueueBase)",
+                "createdDate": "$$$.01Z",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=$$$$$$$$$$, TimeStamp= $$$, MessageFor=IRROPs_Prepone_Less_Than_01_Hour(QueueBase)",
+                "createdDate": "$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=$$$$$$$$$$, TimeStamp= $$$$, MessageFor=AdditionalSMS_CheckInReminder, MessageContent=Reminder: Web check-in for flight under PNR $$$ from $$$ to $$$ on $$$. Complete online to save time. Earn Neu Coins after your journey by logging in.",
+                "createdDate": "$$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            },
+            {
+                "type": 0,
+                "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=$$$$$$$$$$, TimeStamp= $$$$, MessageFor=AdditionalSMS_CheckInReminder",
+                "createdDate": "$$$$",
+                "pointOfSale": {
+                    "agentCode": "phonon",
+                    "domainCode": "EXT",
+                    "locationCode": "BLR",
+                    "organizationCode": "PHONON"
+                },
+                "commentKey": "$$$"
+            }
+        ],
+        "queues": [],
+        "history": [],
+        "payments": [
+            {
+                "paymentKey": "$$$",
+                "code": "AG",
+                "approvalDate": "$$$$.45Z",
+                "details": {
+                    "accountNumberId": 0,
+                    "parentPaymentId": null,
+                    "accountName": null,
+                    "accountNumber": "OTAINIRCTN",
+                    "expirationDate": null,
+                    "text": null,
+                    "installments": 1,
+                    "binRange": 0,
+                    "fields": {}
+                },
+                "amounts": {
+                    "amount": $$$$,
+                    "currencyCode": "INR",
+                    "collected": $$$$,
+                    "collectedCurrencyCode": "INR",
+                    "quoted": $$$$,
+                    "quotedCurrencyCode": "INR"
+                },
+                "authorizationCode": null,
+                "authorizationStatus": 4,
+                "fundedDate": "1800-01-01T00:00:00Z",
+                "transactionCode": null,
+                "dcc": null,
+                "threeDSecure": null,
+                "attachments": [],
+                "createdDate": "$$$$.403Z",
+                "modifiedDate": "$$$$.447Z",
+                "type": 2,
+                "status": 3,
+                "transferred": false,
+                "channelType": 5,
+                "pointOfSale": {
+                    "agentCode": "APIINIRCTC",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTAINIRCTN"
+                },
+                "sourcePointOfSale": {
+                    "agentCode": "APIINIRCTC",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTAINIRCTN"
+                },
+                "deposit": false,
+                "accountId": 0,
+                "voucher": null,
+                "addedToState": true,
+                "createdAgentId": 15951596,
+                "modifiedAgentId": 15951596,
+                "reference": 473661080
+            }
+        ],
+        "orders": [],
+        "isFareMaskingEnabled": false,
+        "isGroupBooking": false,
+        "vaccinationStatus": false,
+        "isCodeShareBooking": false,
+        "isFareLockBooking": false,
+        "isCodeSharePNR": false,
+        "isScootBooking": false,
+        "isCustomerBooking": false
+    },
+    "AnonymousToken": "$$$"
+}

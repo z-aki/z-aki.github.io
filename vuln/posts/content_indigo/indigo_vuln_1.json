@@ -1,0 +1,1471 @@
+{
+    "data": {
+        "oldFlightDetail": null,
+        "bookingDetails": {
+            "isShowFillHealthFormLink": false,
+            "bookingKey": "$$$",
+            "pnrType": null,
+            "recordLocator": "$$$",
+            "parentRecordLocator": "",
+            "numericRecordLocator": "$$$",
+            "bookingStatus": "PendingArchive",
+            "paymentStatus": "Complete",
+            "channelType": 4,
+            "currencyCode": "INR",
+            "bookedDate": "$$$",
+            "createdDate": "$$$",
+            "expirationDate": "$$$",
+            "modifiedDate": "$$$",
+            "cancelledDate": null,
+            "holdDate": null,
+            "createdByAgent": "$$$",
+            "createdByRoleCode": "",
+            "owningCarrierCode": "6E",
+            "changeAllowed": true,
+            "recordLocators": [],
+            "showAutoRefundPopUp": false,
+            "hasModification": false,
+            "specialFareCode": null,
+            "promoCode": null,
+            "plKey": "$$$",
+            "paymentMethodCode": "AG",
+            "isOtpRequiredForModification": true,
+            "userRoleName": "Anonymous",
+            "userRoleCode": "WWWA",
+            "transactionId": null,
+            "paymentMethodDetails": null,
+            "paymentMethodName": null,
+            "paymentMethod": "Agency Payment",
+            "journeyType": "OneWay",
+            "webCheckinWindow": null,
+            "isCheckinOpen": false,
+            "purposeOfTravel": null,
+            "isRedeemTransaction": false,
+            "isLoyaltyActiveUser": true,
+            "IsScratchCardUser": false
+        },
+        "navigationMenu": [
+            {
+                "buttonCode": "undochkn",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "modify",
+                "isDisabled": true,
+                "disbaleReason": "",
+                "NotAvailableForSectors": null,
+                "subMenu": [
+                    {
+                        "buttonCode": "CancelBooking",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "CancelFlight",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "ChangeFlight",
+                        "isDisabled": true,
+                        "disbaleReason": "",
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "changeaddseat",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "updatecontact",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": true
+                    },
+                    {
+                        "buttonCode": "addpayment",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "UpdateFFN",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "RetroClaim",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": null,
+                        "isBundle": null,
+                        "ssrList": null,
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    }
+                ]
+            },
+            {
+                "buttonCode": "splitpnr",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "addons",
+                "isDisabled": true,
+                "disbaleReason": "",
+                "NotAvailableForSectors": null,
+                "subMenu": [
+                    {
+                        "buttonCode": "Meal",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "",
+                        "isBundle": "false",
+                        "ssrList": "",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addfastforward",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "ffwd",
+                        "isBundle": "false",
+                        "ssrList": "FFWD",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addlounge",
+                        "isDisabled": true,
+                        "disbaleReason": "",
+                        "key": "DLNG",
+                        "isBundle": "false",
+                        "ssrList": "DLNG",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addwchr",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "wchr",
+                        "isBundle": "false",
+                        "ssrList": "WCHR,WCHC",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addprime",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "prim",
+                        "isBundle": "true",
+                        "ssrList": "prim",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addquickboard",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "quick",
+                        "isBundle": "false",
+                        "ssrList": "quick",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addseatneat",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "seatneat",
+                        "isBundle": "true",
+                        "ssrList": "seatneat",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addbrb",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "brb",
+                        "isBundle": "false",
+                        "ssrList": "BRB",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addsportsequipment",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "speq",
+                        "isBundle": "false",
+                        "ssrList": "SPEQ",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addta",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "ta",
+                        "isBundle": "false",
+                        "ssrList": "TA",
+                        "NotAvailableForSectors": "DEL-TBS,GYD-*,*-GYD,DPS-*,*-DPS",
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "add6ebar",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "6ebar",
+                        "isBundle": "false",
+                        "ssrList": "BEER,RDWI,VDKA,WHSK,WHWI",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addgoodnightkit",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "goodnightkit",
+                        "isBundle": "false",
+                        "ssrList": "BLKT,NPLW,EMDK",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "adddelayednlostbaggage",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "lbg",
+                        "isBundle": "false",
+                        "ssrList": "LBG",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    },
+                    {
+                        "buttonCode": "addexcessbaggage",
+                        "isDisabled": true,
+                        "disbaleReason": null,
+                        "key": "",
+                        "isBundle": "false",
+                        "ssrList": "XBPA, XBPB, XBPC, XBPD, XBPE, XBPF, IXBA, IXBB, IXBC, XBPJ",
+                        "NotAvailableForSectors": null,
+                        "isOtpRequired": false
+                    }
+                ]
+            },
+            {
+                "buttonCode": "webchkn",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "emailitr",
+                "isDisabled": false,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "emailbp",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "whatsappbp",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "addbagtag",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "viewbagtag",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "print",
+                "isDisabled": false,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "flightstatus",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "whatsapp",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            }
+        ],
+        "checkinNavigationMenu": [
+            {
+                "buttonCode": "undochkn",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "webchkn",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "boardingPass",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            },
+            {
+                "buttonCode": "smartcheckin",
+                "isDisabled": true,
+                "disbaleReason": null,
+                "NotAvailableForSectors": null,
+                "subMenu": null
+            }
+        ],
+        "navigationMenu_Mb": {
+            "Saver": [
+                {
+                    "buttonCode": "download",
+                    "isDisabled": false,
+                    "disbaleReason": "",
+                    "NotAvailableForSectors": "",
+                    "subMenu": null
+                },
+                {
+                    "buttonCode": "share",
+                    "isDisabled": false,
+                    "disbaleReason": "",
+                    "NotAvailableForSectors": "",
+                    "subMenu": null
+                },
+                {
+                    "buttonCode": "wallet",
+                    "isDisabled": false,
+                    "disbaleReason": "",
+                    "NotAvailableForSectors": "",
+                    "subMenu": null
+                },
+                {
+                    "buttonCode": "emailitr",
+                    "isDisabled": false,
+                    "disbaleReason": null,
+                    "NotAvailableForSectors": null,
+                    "subMenu": null
+                }
+            ],
+            "Modify": [
+                {
+                    "buttonCode": "splitpnr",
+                    "isDisabled": true,
+                    "disbaleReason": "",
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": "",
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "specialassistant",
+                    "isDisabled": true,
+                    "disbaleReason": "",
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": "",
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "addons",
+                    "isDisabled": true,
+                    "disbaleReason": "",
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": "",
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "CancelFlight",
+                    "isDisabled": true,
+                    "disbaleReason": null,
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "ChangeFlight",
+                    "isDisabled": true,
+                    "disbaleReason": "",
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "changeaddseat",
+                    "isDisabled": true,
+                    "disbaleReason": null,
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "updatecontact",
+                    "isDisabled": true,
+                    "disbaleReason": null,
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "UpdateFFN",
+                    "isDisabled": true,
+                    "disbaleReason": null,
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                },
+                {
+                    "buttonCode": "RetroClaim",
+                    "isDisabled": true,
+                    "disbaleReason": null,
+                    "key": null,
+                    "isBundle": null,
+                    "ssrList": null,
+                    "NotAvailableForSectors": null,
+                    "isOtpRequired": false
+                }
+            ]
+        },
+        "journeysDetail": [
+            {
+                "productClass": "",
+                "journeyKey": "$$$",
+                "journeyType": null,
+                "showUdaanLogo": false,
+                "flightType": "NonStop",
+                "stops": 0,
+                "journeydetail": {
+                    "destination": "$$$",
+                    "origin": "$$$",
+                    "arrival": "$$$",
+                    "departure": "$$$",
+                    "utcarrival": "$$$",
+                    "utcdeparture": "$$$",
+                    "identifier": null,
+                    "destinationName": "$$$",
+                    "originName": "$$$",
+                    "originCityName": "$$$",
+                    "destinationCityName": "$$$",
+                    "canBeChanged": false,
+                    "canBeCancelled": false,
+                    "baggageData": {
+                        "handBaggageWeight": 7,
+                        "checkinBaggageWeight": 15,
+                        "checkinLimitPerPiece": 0,
+                        "handBaggageCount": 1,
+                        "checkinBaggageCount": 0
+                    }
+                },
+                "segments": [
+                    {
+                        "segmentDetails": {
+                            "destination": "$$$",
+                            "origin": "$$$",
+                            "arrival": "$$$",
+                            "departure": "$$$",
+                            "utcarrival": "$$$",
+                            "utcdeparture": "$$$",
+                            "identifier": {
+                                "identifier": "$$$",
+                                "carrierCode": "$$$",
+                                "opSuffix": null
+                            },
+                            "destinationName": "$$$",
+                            "originName": "$$$",
+                            "originCityName": "$$$",
+                            "destinationCityName": "$$$"
+                        },
+                        "segmentKey": "$$$",
+                        "legs": [
+                            {
+                                "legKey": "$$$",
+                                "operationsInfo": null,
+                                "legDetails": {
+                                    "destination": "$$$",
+                                    "origin": "$$$",
+                                    "arrival": "$$$",
+                                    "departure": "$$$",
+                                    "identifier": {
+                                        "identifier": null,
+                                        "carrierCode": "",
+                                        "opSuffix": ""
+                                    },
+                                    "utcarrival": "$$$",
+                                    "utcdeparture": "$$$",
+                                    "adjustedCapacity": 0,
+                                    "arrivalTerminal": null,
+                                    "arrivalTimeVariant": 0,
+                                    "backMoveDays": 0,
+                                    "capacity": 180,
+                                    "changeOfDirection": false,
+                                    "codeShareIndicator": 0,
+                                    "departureTerminal": "2",
+                                    "departureTimeVariant": 0,
+                                    "equipmentType": "$$$",
+                                    "equipmentTypeSuffix": null,
+                                    "eTicket": false,
+                                    "irop": false,
+                                    "lid": 180,
+                                    "marketingCode": null,
+                                    "marketingOverride": false,
+                                    "onTime": null,
+                                    "operatedByText": null,
+                                    "operatingCarrier": null,
+                                    "operatingFlightNumber": null,
+                                    "operatingOpSuffix": null,
+                                    "outMoveDays": 0,
+                                    "prbcCode": "Y180",
+                                    "scheduleServiceType": null,
+                                    "sold": 182,
+                                    "status": 1,
+                                    "subjectToGovtApproval": false,
+                                    "originName": "$$$",
+                                    "destinationName": "$$$",
+                                    "originCityName": "$$$",
+                                    "destinationCityName": "$$$"
+                                },
+                                "designator": null,
+                                "ssrs": null
+                            }
+                        ],
+                        "designator": {
+                            "destination": "$$$",
+                            "origin": "$$$",
+                            "arrival": "$$$",
+                            "departure": "$$$"
+                        },
+                        "operatedByText": null,
+                        "isvalidforudaanlogo": false,
+                        "isSeatmapViewable": true,
+                        "baggageAllowanceWeight": 0,
+                        "baggageAllowanceUsed": false,
+                        "baggageAllowanceWeightType": 0,
+                        "boardingSequence": null,
+                        "barcodestring": null,
+                        "liftStatus": null,
+                        "hasInfant": false,
+                        "tickets": [],
+                        "bundleCode": null,
+                        "isToShowOTB": false,
+                        "okToBoardValue": false,
+                        "isShowViewHealthFormLink": false,
+                        "isShowFillHealthFormLink": false,
+                        "isShowBoardingPass": false,
+                        "seats": null,
+                        "ssrs": null,
+                        "seatmapReference": "$$$",
+                        "externalIdentifier": null,
+                        "international": false,
+                        "passengerSegment": null,
+                        "productClass": "R"
+                    }
+                ],
+                "isInboundInternational": false,
+                "flightLable": "DEPARTING"
+            }
+        ],
+        "gstInformation": null,
+        "sales": null,
+        "typeOfSale": null,
+        "hold": null,
+        "priceBreakdown": {
+            "balanceDue": 0.0,
+            "pointsBalanceDue": null,
+            "authorizedBalanceDue": "$$$",
+            "totalAmount": "$$$",
+            "totalDiscount": "$$$",
+            "originalTotal": "$$$",
+            "totalPoints": "$$$",
+            "totalToCollect": "$$$",
+            "totalPointsToCollect": "$$$",
+            "totalCharged": "$$$",
+            "totalTax": "$$$",
+            "seatAmount": "$$$",
+            "airfareCharges": "$$$",
+            "airfareChargesInPoints": "$$$",
+            "convenienceFee": "$$$",
+            "totalRefundAmount": "$$$",
+            "taxAmountList": [
+                {
+                    "feeCode": "$$$",
+                    "feeName": "$$$",
+                    "feeCodeName": "$$$",
+                    "value": "$$$",
+                    "originalValue": 0.0,
+                    "discountPer": null,
+                    "type": 4,
+                    "isHiddenInUI": false
+                },
+                {
+                    "feeCode": "$$$",
+                    "feeName": "$$$",
+                    "feeCodeName": "$$$",
+                    "value": "$$$",
+                    "originalValue": 0.0,
+                    "discountPer": null,
+                    "type": 4,
+                    "isHiddenInUI": false
+                },
+                {
+                    "feeCode": "$$$",
+                    "feeName": "$$$",
+                    "feeCodeName": "$$$",
+                    "value": "$$$",
+                    "originalValue": 0.0,
+                    "discountPer": null,
+                    "type": 5,
+                    "isHiddenInUI": false
+                }
+            ],
+            "ssrAmountlist": [],
+            "passengerTotals": null,
+            "passengers": null,
+            "journeyTotals": null,
+            "journeys": null,
+            "addOnTotals": null,
+            "infantFee": null,
+            "infantCount": null,
+            "promoCode": null,
+            "promisPoints": [
+                {
+                    "name": "6E Flexi fare plus miles",
+                    "cat": "fare",
+                    "code": "Airfare",
+                    "value": "0"
+                },
+                {
+                    "name": "Seat selection miles",
+                    "cat": "seat",
+                    "code": "Seat",
+                    "value": "0"
+                },
+                {
+                    "name": "Add-ons miles",
+                    "cat": "addon",
+                    "code": "FFWD",
+                    "value": "0"
+                },
+                {
+                    "name": "Add-ons miles",
+                    "cat": "addon",
+                    "code": "Baggage",
+                    "value": "0"
+                },
+                {
+                    "name": "TOTAL MILES EARNED",
+                    "cat": "total",
+                    "code": "Total",
+                    "value": "0"
+                }
+            ],
+            "adultCount": 1,
+            "refundList": []
+        },
+        "contacts": [
+            {
+                "homePhoneCountryCode": null,
+                "homePhone": "$$$",
+                "otherPhoneCountryCode": null,
+                "otherPhone": null,
+                "emergencyPhoneCountryCode": null,
+                "emergencyPhone": "$$$",
+                "emergencyContactRelationship": "$$$",
+                "isWhatsAppSubscribed": false,
+                "emailAddress": "$$$",
+                "name": {
+                    "first": "$$$",
+                    "middle": "$$$",
+                    "last": "$$$",
+                    "title": "$$$",
+                    "suffix": null
+                },
+                "address": {
+                    "lineOne": "$$$",
+                    "lineTwo": "$$$",
+                    "lineThree": "$$$",
+                    "countryCode": "$$$",
+                    "provinceState": "$$$",
+                    "city": "$$$",
+                    "postalCode": "$$$"
+                },
+                "companyName": "Irctc",
+                "cultureCode": "en-GB",
+                "customerNumber": null,
+                "sourceOrganization": "$$$"
+            }
+        ],
+        "gAContacts": [
+            {
+                "homePhone": "$$$",
+                "emailAddress": "$$$"
+            }
+        ],
+        "passengers": [
+            {
+                "passengerKey": "$$$",
+                "services": null,
+                "specialServices": null,
+                "upgrades": null,
+                "spoilage": null,
+                "nameChanges": null,
+                "convenience": null,
+                "program": {
+                    "code": null,
+                    "levelCode": "BASE",
+                    "number": null
+                },
+                "infant": null,
+                "passengerAlternateKey": "$$$",
+                "ExtraSeatTag": null,
+                "name": {
+                    "first": "$$$",
+                    "middle": "$$$",
+                    "last": "$$$",
+                    "title": "$$$",
+                    "suffix": "$$$"
+                },
+                "passengerTypeCode": "$$$",
+                "discountCode": null,
+                "bags": [],
+                "info": {
+                    "nationality": "IN",
+                    "gender": 1,
+                    "dateOfBirth": null
+                },
+                "travelDocuments": null,
+                "eTicketNumber": "",
+                "seatsAndSsrs": {
+                    "journeys": [
+                        {
+                            "designator": {
+                                "destination": "$$$",
+                                "origin": "$$$",
+                                "arrival": "$$$",
+                                "departure": "$$$"
+                            },
+                            "segments": [
+                                {
+                                    "segmentDetails": {
+                                        "destination": "$$$",
+                                        "origin": "$$$",
+                                        "arrival": "$$$",
+                                        "departure": "$$$",
+                                        "utcarrival": "$$$",
+                                        "utcdeparture": "$$$",
+                                        "identifier": {
+                                            "identifier": "$$$",
+                                            "carrierCode": "$$$",
+                                            "opSuffix": null
+                                        },
+                                        "destinationName": "$$$",
+                                        "originName": "$$$",
+                                        "originCityName": "$$$",
+                                        "destinationCityName": "$$$"
+                                    },
+                                    "segmentKey": "$$$",
+                                    "legs": [
+                                        {
+                                            "legKey": "$$$",
+                                            "operationsInfo": null,
+                                            "legDetails": null,
+                                            "designator": {
+                                                "destination": "$$$",
+                                                "origin": "$$$",
+                                                "arrival": "$$$",
+                                                "departure": "$$$"
+                                            },
+                                            "ssrs": null
+                                        }
+                                    ],
+                                    "designator": {
+                                        "destination": "$$$",
+                                        "origin": "$$$",
+                                        "arrival": "$$$",
+                                        "departure": "$$$"
+                                    },
+                                    "operatedByText": null,
+                                    "isvalidforudaanlogo": false,
+                                    "isSeatmapViewable": true,
+                                    "baggageAllowanceWeight": 0,
+                                    "baggageAllowanceUsed": null,
+                                    "baggageAllowanceWeightType": null,
+                                    "boardingSequence": "$$$",
+                                    "barcodestring": "$$$",
+                                    "liftStatus": "Boarded",
+                                    "hasInfant": false,
+                                    "tickets": null,
+                                    "bundleCode": null,
+                                    "isToShowOTB": false,
+                                    "okToBoardValue": false,
+                                    "isShowViewHealthFormLink": false,
+                                    "isShowFillHealthFormLink": false,
+                                    "isShowBoardingPass": false,
+                                    "seats": [
+                                        {
+                                            "unitDesignator": "$$$",
+                                            "type": "$$$",
+                                            "changeSelectSeatAllowed": true,
+                                            "total": null,
+                                            "taxes": null,
+                                            "adjustments": null,
+                                            "charges": null,
+                                            "category": "STANDARD"
+                                        }
+                                    ],
+                                    "ssrs": [],
+                                    "seatmapReference": null,
+                                    "externalIdentifier": null,
+                                    "international": false,
+                                    "passengerSegment": null,
+                                    "productClass": null
+                                }
+                            ],
+                            "journeyKey": "$$$",
+                            "journeyDetails": {
+                                "destination": "$$$",
+                                "origin": "$$$",
+                                "arrival": "$$$",
+                                "departure": "$$$",
+                                "utcarrival": "$$$",
+                                "utcdeparture": "$$$",
+                                "identifier": null,
+                                "destinationName": "$$$",
+                                "originName": "$$$",
+                                "originCityName": "$$$",
+                                "destinationCityName": "$$$",
+                                "canBeChanged": false,
+                                "canBeCancelled": false,
+                                "baggageData": {
+                                    "handBaggageWeight": 7,
+                                    "checkinBaggageWeight": 15,
+                                    "checkinLimitPerPiece": 0,
+                                    "handBaggageCount": 1,
+                                    "checkinBaggageCount": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                "fees": []
+            }
+        ],
+        "indigoRefundCSAmount": {
+            "isAmountRefunded": false,
+            "isEligibleForRefund": false,
+            "notEligibleReasonCode": "BookingIsNull"
+        },
+        "indigoTaxRefund": {
+            "errorInNoShowTaxRefund": "",
+            "fopType": "AG",
+            "isRefundProcessed": false,
+            "isToShowTaxRefund": false,
+            "refundAmount": 0.0,
+            "response": false,
+            "taxQueueFlag": false
+        },
+        "success": false,
+        "fsConfig": {
+            "FareConfig": [
+                {
+                    "fareType": "SAVER",
+                    "productClass": "R",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "NEXT",
+                    "productClass": "BR",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT,FFWD,PRBG",
+                    "baggageCounts": {
+                        "checkinBaggage": 2,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 0,
+                        "tripleSeatAddedBaggage": 0,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 12,
+                        "checkinBaggage": 30,
+                        "DoubleSeatAddedBaggage": 0,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "NEXT PLUS",
+                    "productClass": "BC",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT,FFWD,PRBG",
+                    "baggageCounts": {
+                        "checkinBaggage": 2,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 0,
+                        "tripleSeatAddedBaggage": 0,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 12,
+                        "checkinBaggage": 40,
+                        "DoubleSeatAddedBaggage": 0,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "GROUP",
+                    "productClass": "G",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Coupon",
+                    "productClass": "C",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Tactical",
+                    "productClass": "T",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Corporate",
+                    "productClass": "F",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Saver",
+                    "productClass": "S",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Lite",
+                    "productClass": "B",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 5,
+                        "checkinBaggage": 0,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Saver",
+                    "productClass": "N",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Saver",
+                    "productClass": "A",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "CAPF",
+                    "productClass": "G2",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": false,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Super 6E",
+                    "productClass": "O",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT,FFWD,PRBG",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 25,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Corp Connect",
+                    "productClass": "M",
+                    "isMealIncluded": false,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                },
+                {
+                    "fareType": "Flexi",
+                    "productClass": "J",
+                    "isMealIncluded": true,
+                    "isStandarSeatIncluded": true,
+                    "discountOnXLSeat": 50,
+                    "dateChangecode": "D01",
+                    "cancelCode": "C01",
+                    "SSRsIncluded": "SEAT",
+                    "baggageCounts": {
+                        "checkinBaggage": 1,
+                        "handBaggage": 1,
+                        "doubleSeatAddedBaggage": 1,
+                        "tripleSeatAddedBaggage": 1,
+                        "PromoAddedBaggage": 0,
+                        "doubleSeatAddedBaggag": null,
+                        "studentPromoAddedBaggage": null
+                    },
+                    "baggageWeights": {
+                        "handBaggage": 7,
+                        "checkinBaggage": 15,
+                        "DoubleSeatAddedBaggage": 10,
+                        "TripleSeatAddedBaggae": 0,
+                        "PromoAddedBaggae": 0,
+                        "StudentPromoAddedBaggae": null
+                    }
+                }
+            ]
+        },
+        "ssrCategories": [
+            {
+                "category": "baggage",
+                "ssrList": "XBPA, XBPB, XBPC, XBPD, XBPE, XBPF, IXBA, IXBB, IXBC, XBPJ",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "limit": 1,
+                "openSlider": true,
+                "destinationList": "J",
+                "FreeMealProductClass": null,
+                "AvailabilityOfMealsTillHours": 0,
+                "sourceList": "J",
+                "selectionCriteria": null
+            },
+            {
+                "category": "ABFH",
+                "ssrList": "ABFH",
+                "applicableForAllPax": false,
+                "SsrApplicability": "J",
+                "limit": 1,
+                "openSlider": false,
+                "destinationList": "J",
+                "FreeMealProductClass": null,
+                "AvailabilityOfMealsTillHours": 0,
+                "sourceList": "J",
+                "selectionCriteria": null
+            },
+            {
+                "category": "LBG",
+                "ssrList": "LBG,BRB",
+                "applicableForAllPax": true,
+                "SsrApplicability": "P",
+                "limit": 1,
+                "openSlider": true,
+                "destinationList": "J",
+                "FreeMealProductClass": null,
+                "AvailabilityOfMealsTillHours": 0,
+                "sourceList": "J",
+                "selectionCriteria": null
+            },
+            {
+                "category": "Meal",
+                "ssrList": "SCSW, SAMS, APWR, MMPA, BCCS, CNWT, CCWT, CTAT, CLAT, VGML, VBIR, UPMA, TCSW, SACH, PTSW, POHA, NVML, DACH, CTSW, CJSW, SEAT, AGSW, CHFR, CHCH, MASP, SMAL,CHSS, PITA, VGTR, CHPS, DKPL, NVTR, LVWR, VSUB, CHCT, SAUP, COMI, ZCHK, MUYO, DBNV, JNML, GFNV, GFVG, CHVG, LCNV, FSML, CHNV, PITI, VSUI, VGTI, CHCI, CHPI, CHSI, NVTI, TCSI,CPML, CKKU, CHFS, CNKR, BHPS, BRBR, BRWH, BRMG, GATO, SFVR, SFVM, SFVS, SFNR, SFNM, SFNS, DBVG, VGVG, NLVM , VGAN, NLVG, LCVG, VLML, VGLC, XMVS, XMVM, XMNS, XMNM, AOAT, SAVA, CHCR, CHVM, CHNM, SAKD, VPAV, CHNS, CHBR, CCDS, MCCF, ONMV, ONMR, GCVG, GCVE, DPVG, DPNV, MPSW, IPSD, MGBB, ALSM, CCSW, ERMP, PMGR, CGBB , CHTS, HFVP, HFVG, JFVM, JFNM,JFNS, RPSW, KCHR, CKUL, WBOL, CBAO, KCSW, PKUL, CBIR, CCUT, VCUT, VBAO, CKSW, CSAM, DKUL, CHSC, VGPR",
+                "applicableForAllPax": false,
+                "SsrApplicability": "S",
+                "limit": 1,
+                "openSlider": true,
+                "destinationList": "S",
+                "FreeMealProductClass": null,
+                "AvailabilityOfMealsTillHours": 0,
+                "sourceList": "L",
+                "selectionCriteria": null
+            },
+            {
+                "category": "FFWD",
+                "ssrList": "FFWD",
+                "applicableForAllPax": true,
+                "SsrApplicability": "J",
+                "limit": 1,
+                "openSlider": false,
+                "destinationList": "J",
+                "FreeMealProductClass": null,
+                "AvailabilityOfMealsTillHours": 0,
+                "sourceList": "J",
+                "selectionCriteria": null
+            }
+        ],
+        "creditShellInfo": null,
+        "lowFareData": {
+            "CityName": "$$$",
+            "Amount": "$$$"
+        },
+        "payments": [
+            {
+                "paymentKey": "$$$",
+                "code": "$$$",
+                "approvalDate": "$$$",
+                "transactionID": "$$$",
+                "collectedAmount": "$$$",
+                "collectedCurrencyCode": "$$$",
+                "pointOfSale": {
+                    "agentCode": "OTI088",
+                    "domainCode": "WWW",
+                    "locationCode": "WWW",
+                    "organizationCode": "OTI088"
+                }
+            }
+        ],
+        "loyaltyDiscount": [
+            {
+                "discountType": "Seat",
+                "ssrCode": "Seat",
+                "discountPer": 10.0
+            },
+            {
+                "discountType": "Baggage",
+                "ssrCode": "Baggage",
+                "discountPer": 10.0
+            },
+            {
+                "discountType": "SSR",
+                "ssrCode": "FFWD",
+                "discountPer": 10.0
+            }
+        ]
+    },
+    "errors": null,
+    "metadata": null
+}
