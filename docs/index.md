@@ -44,7 +44,7 @@ date:
     Private entities:
 
       - [Manipal Hospitals](vuln/posts/manipal.md)
-      - [Indigo and Air India Express](vuln/posts/indigo_airindia.md)
+      - [Indigo and Air India Express](vuln/posts/indigo_air_india_express.md)
 
     [:octicons-arrow-right-24: More vulnerabilities](vuln/index.md)
 
