@@ -11,162 +11,164 @@ links:
 
 ## CAFC meetings recently and transgender employees after reservation
 
-!!! question ":material-calendar: 19/05/2025"
+/// admonition | :material-calendar: 19/05/2025
+    type: question
 
-    :fontawesome-solid-clipboard-question: 1. Please provide the calendar dates of all meetings of the Commuter Advisory and
-    Facilitation Committee CAFC since 01.01.2023.
+1. Please provide the calendar dates of all meetings of the Commuter Advisory and
+Facilitation Committee CAFC since 01.01.2023.
 
-    :fontawesome-solid-clipboard-question: 2. Please provide the minutes of
-    meetings MoM, or summary or outcome report for all meetings listed in the reply of
-    point 1 above.
+2. Please provide the minutes of
+meetings MoM, or summary or outcome report for all meetings listed in the reply of
+point 1 above.
 
-    :fontawesome-solid-clipboard-question: 3. Please provide the head count and designation of transgender
-    people employed by the BMTC in any job role whatsoever.
+3. Please provide the head count and designation of transgender
+people employed by the BMTC in any job role whatsoever.
 
-!!! answer ":material-calendar: 23/05/2025"
+///
 
-    :material-reply-circle:  1 & 2. From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
+/// admonition | :material-calendar: 23/05/2025
+    type: answer
 
-    :material-reply-circle:  3. The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
+1 & 2 From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
 
-!!! answer "by the Administrative Department :material-calendar: 19/06/2025"
+3 The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
 
-    :material-reply-circle: 3. No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
+///
+
+/// admonition | by the Administrative Department :material-calendar: 19/06/2025
+
+3 No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
+
+///
 
 ---
 
 ## CAFC meetings ever
 
-!!! question ":material-calendar: 20/06/2025"
+/// admonition | :material-calendar: 20/06/2025
+    type: question
 
-    :fontawesome-solid-clipboard-question: 1. Please provide all dates of CAFC committee meetings since its inception.
+1. Please provide all dates of CAFC committee meetings since its inception.
 
-    :fontawesome-solid-clipboard-question: 2. Please provide the agenda and minutes of the meetings and outcomes of the meetings listed in
-    the reply of point 1.
+2. Please provide the agenda and minutes of the meetings and outcomes of the meetings listed in
+the reply of point 1.
 
-    :fontawesome-solid-clipboard-question: 3. Please provide the full website url link where the reply information
-    of point 1 and 2 is available publicly.
+3. Please provide the full website url link where the reply information
+of point 1 and 2 is available publicly.
 
-!!! answer ":material-reply-circle: :material-calendar: 01/07/2025"
+///
 
-    The information requested is overwhelming. Due to the volume, please come to this office during office hours on 16.07.2025 to inspect the files and provide copies of the information under the Right to Information Act.
+/// admonition | :material-calendar: 01/07/2025
+
+The information requested is overwhelming. Due to the volume, please come to this office during office hours on 16.07.2025 to inspect the files and provide copies of the information under the Right to Information Act.
+
+///
 
 Due to the anticipated Kannada language documents, I didn't inspect the documents. Further, due to the lack of recent CAFC
 meetings, the information would be outdated anyway.
 
+---
+
 ## Bus priority lane, pop-up lanes, card-less cash-less payments, last mile connectivity partnerships and Namma BMTC app promotion
 
-:material-calendar: 20/06/2025
+/// admonition | :material-calendar: 20/06/2025
+    type: question
 
-:fontawesome-solid-clipboard-question: 1. Please provide any documents, proposals, consultations, expression of intent, ideas, or
+1. Please provide any documents, proposals, consultations, expression of intent, ideas, or
 studies :material-calendar: after 01.01.2022 regarding BMTC bus priority lane, its implementation or
 feasibility.
 
-:material-reply-circle::material-calendar: 01/07/2025:
-
-!!! note
-
-    Translation Needed. See [contact me](../../about.md)
-
-> ![Reply](bmtc_bpl.png)
-
-Traffic police ???? 15.11.2019 The buses of the BMC are operated under Bus Priority Lane (BPL). Further, the BMTC has not issued any government-level orders regarding Bus Priority Lane (BPL).
-
----
-
-:fontawesome-solid-clipboard-question: 2. Please provide any documents, proposals, consultations, expression of intent,
+2. Please provide any documents, proposals, consultations, expression of intent,
 ideas, or studies dated after 01.01.2022 regarding popup lanes or painting exclusivity/
 priority warnings on the road in front of BMTC bus stops.
 
-:material-reply-circle: :material-calendar: 01/07/2025:
+3. Please provide any documents,
+  proposals, consultations, expression of intent, ideas, or studies dated after 01.01.2022
+  regarding card-less and cashless ticket payments in BMTC buses. The intent was expressed
+  by the BMTC MD Mr Ramachandran R in an interview with Elets News Network (ENN) on the
+  date 20.07.2024 quoted
 
-No orders in this regard are available in this office.
+    > One of our major initiatives is the implementation of the National
+    > Common Mobility Card (NCMC). We envision moving beyond even the need for physical
+    > cards. Almost everyone carries a mobile phone, so we aim to facilitate mobile-based
+    > payments. We aim to eliminate the need for any physical cards, allowing people to walk in
+    > and out of transport systems seamlessly. Similar to how FASTag works at toll plazas, GPS-
+    > based ticketing systems automatically calculate fares based on where passengers board and
+    > alight from the bus, deducting the fare from their account without human intervention.
+
+    <https://egov.eletsonline.com/2024/07/bmtcs-journey-towards-cashless-contactless-public-transport/>
+4. Please provide any documents, proposals, consultations, expression of intent,
+  ideas, or studies dated after 01.01.2022 regarding increasing last mile connectivity in
+  streets using partnerships or incentivisation schemes with private autos or e-rikshas etc.
+5. Please provide the documents and scheme details dated after 01.01.2024 regarding
+  increasing adoption of Namma bmtc app both inside the bus (via posters, conductor
+  incentivisation, speaker announcements etc.,) and outside the bus (posters on the bus,
+  banners on bus stops etc).
+
+///
+
+Translation Needed. See [contact me](../../about.md)
+
+/// admonition | material-calendar: 01/07/2025
+
+1. Traffic police ???? 15.11.2019 The buses of the BMC are operated under Bus Priority Lane (BPL). Further, the BMTC has not issued any government-level orders regarding Bus Priority Lane (BPL).
+
+    > ![Reply](bmtc_bpl.png)
+
+2. No orders in this regard are available in this office.
+
+3. The query has been forwarded to the Computer Department under Section 6(3) of the RTI Act 2005.
+
+4. There is no proposal in the office about it.
+
+5. The application submitted has been forwarded to the Computer Department under Section 6(3).
+
+///
 
 ---
-
-:fontawesome-solid-clipboard-question: 3. Please provide any documents,
-proposals, consultations, expression of intent, ideas, or studies dated after 01.01.2022
-regarding card-less and cashless ticket payments in BMTC buses. The intent was expressed
-by the BMTC MD Mr Ramachandran R in an interview with Elets News Network (ENN) on the
-date 20.07.2024 quoted
-
-> One of our major initiatives is the implementation of the National
-> Common Mobility Card (NCMC). We envision moving beyond even the need for physical
-> cards. Almost everyone carries a mobile phone, so we aim to facilitate mobile-based
-> payments. We aim to eliminate the need for any physical cards, allowing people to walk in
-> and out of transport systems seamlessly. Similar to how FASTag works at toll plazas, GPS-
-> based ticketing systems automatically calculate fares based on where passengers board and
-> alight from the bus, deducting the fare from their account without human intervention.
-
-<https://egov.eletsonline.com/2024/07/bmtcs-journey-towards-cashless-contactless-public-transport/>
-
-:material-reply-circle: :material-calendar: 01/07/2025:
-
-The query has been forwarded to the Computer Department under Section 6(3) of the RTI Act 2005.
-
----
-
-:fontawesome-solid-clipboard-question: 4. Please provide any documents, proposals, consultations, expression of intent,
-ideas, or studies dated after 01.01.2022 regarding increasing last mile connectivity in
-streets using partnerships or incentivisation schemes with private autos or e-rikshas etc.
-
-:material-reply-circle: :material-calendar: 01/07/2025:
-
-There is no proposal in the office about it.
-
----
-
-:fontawesome-solid-clipboard-question: 5. Please provide the documents and scheme details dated after 01.01.2024 regarding
-increasing adoption of Namma bmtc app both inside the bus (via posters, conductor
-incentivisation, speaker announcements etc.,) and outside the bus (posters on the bus,
-banners on bus stops etc).
-
-:material-reply-circle: :material-calendar: 01/07/2025:
-
-The application submitted has been forwarded to the Computer Department under Section 6(3).
 
 ## App corrections, route change and Namma BMTC app open-source
 
-:material-calendar: 20/06/2025
+/// admonition | :material-calendar: 20/06/2025
+    type: question
 
-:fontawesome-solid-clipboard-question: 1. Please provide the mechanism of reporting incorrect route or bus stop information on
+1. Please provide the mechanism of reporting incorrect route or bus stop information on
 the Namma BMTC app to the BMTC authority.
-
-:material-reply-circle: :material-calendar: 21/06/2025:
-
-Concerns can be raised in Play Store comments or write mail to
-<supervisorsits@mybmtc.com>. BMTC team will take necessary measure to rectify the incorrect
-route or bus stop.
-
----
-
-:fontawesome-solid-clipboard-question: 2. Please provide the mechanism of
+2. Please provide the mechanism of
 requesting bus route changes or bus stop changes to the BMTC authority.
-
-:material-reply-circle: :material-calendar: 21/06/2025:
-
-Request can be made to traffic section of BMTC, Central office, Shantingara. After
-thorough survey, needful measures will be taken.
-
----
-
-:fontawesome-solid-clipboard-question: 3. Please provide any proposals, documents, consultations etc. regarding making the source code of
+3. Please provide any proposals, documents, consultations etc. regarding making the source code of
 the namma BMTC android or iOS app open (publicly available) and collectively improvable
 by volunteer developers.
 
-:material-reply-circle: :material-calendar: 21/06/2025:
+///
 
-Source code is not publicly available.
+/// admonition | :material-calendar: 21/06/2025:
 
-Appealed :material-calendar: 22/06/2025
+1. Concerns can be raised in Play Store comments or write mail to
+[supervisorsits aaattt mybmtc dddooottt com]. BMTC team will take necessary measure to rectify the incorrect
+route or bus stop.
 
-:question:3. Appeal for point 3, to clarify, it requests whether there exist any proposals to convert
+2. Request can be made to traffic section of BMTC, Central office, Shantingara. After
+thorough survey, needful measures will be taken.
+
+3. Source code is not publicly available.
+
+///
+
+---
+
+/// admonition | :question: Appeal on :material-calendar: 22/06/2025
+    type: question
+
+3\. Appeal for point 3, to clarify, it requests whether there exist any proposals to convert
 the apps into open-source mode. Please provide any proposals, documents, consultations
 etc. regarding making the source code of the Namma BMTC android or iOS app open
 (publicly available) and collectively improvable by volunteer developers. Thanks for the
 prompt response on the RTI.
 
-Appeal Hearing :material-calendar: 01/07/2025
+///
+
+/// details | Appeal Hearing Summary :material-calendar: 01/07/2025
 
 Participants:
 
@@ -193,9 +195,9 @@ Paraphrasing of the conversation:
 - Transcriptionist: Why don't you build a different and a better app ? Why do you need our source code?
 - Me: A teenager tried in 2019 and you blocked his app by taking the APIs private, and asked him to be a bidder in the tender and take on the entire app responsibility.
 
-  <https://linkedin.com/in/nihar1024>
+      <https://linkedin.com/in/nihar1024>
 
-  <https://timesofindia.indiatimes.com/city/bengaluru/bmtc-shows-door-to-teen-whose-bus-app-a-hit-among-passengers/articleshow/70111155.cms>
+      <https://timesofindia.indiatimes.com/city/bengaluru/bmtc-shows-door-to-teen-whose-bus-app-a-hit-among-passengers/articleshow/70111155.cms>
 
 - AME: yes yes I remember this story. He had probably hacked our system. Because he was a kid, we only called him and his father to this office and did not take any legal action against him.
 - DSM [comes in and gets the context]: [chitchat]
@@ -206,8 +208,74 @@ Paraphrasing of the conversation:
 - Me: Understood.
 - Me to transcriptionist: Please reject the appeal under RTI section 8 1 d.
 
-:material-reply-circle: :material-calendar: 01/07/2025:
+///
 
-Enquiry was called on 01.07.2025 at 14.30Hrs in the chambers of First Appellate Authority. Both the Appellant and the defendent[sic] were present for the enquiry. PIO informed that, since it comes under the intellectual property, copyrights and commercial confidence, as per 8(1)(d) of the RTI 2005, the source code cannot be given. The First Appeallate[sic] Authority agreed for the same and the enquiry was disposed [of].
+/// admonition | :material-calendar: 01/07/2025:
+
+3\. Enquiry was called on 01.07.2025 at 14.30Hrs in the chambers of First Appellate Authority. Both the Appellant and the defendent[sic] were present for the enquiry. PIO informed that, since it comes under the intellectual property, copyrights and commercial confidence, as per 8(1)(d) of the RTI 2005, the source code cannot be given. The First Appeallate[sic] Authority agreed for the same and the enquiry was disposed [of].
+
+///
 
 ---
+
+## BMTC ridership after Rapido Bike Taxi Ban
+
+/// admonition | :material-calendar: 12/07/2025
+    type: question
+
+1. Please provide the monthly aggregate bus ridership numbers for the operational routes from January 2025 to May 2025. In case the data is readily segregated by route numbers, it may be still be provided as is.
+2. Please provide the daily aggregate bus ridership numbers for all days of June 2025 in a similar fashion as point 1.
+
+///
+
+/// admonition | :material-calendar: 11/08/2025
+
+|Month | Monthly Passengers|
+|-------|------------------|
+|Jan-25 | 12,58,85,738 |
+|Feb-25 | 11,57,02,396 |
+|Mar-25 | 12,36,72,886 |
+|Apr-25 | 12,09,57,436 |
+|May-25 | 12,57,48,707 |
+|[Jun-25] | [12,63,80,985] |
+
+| June-2025 | Daily Passengers|
+|-------|---------------------|
+|01-June | 33,08,198|
+|02-June | 44,42,759|
+|03-June | 44,53,965|
+|04-June | 43,52,369|
+|05-June | 44,32,658|
+|06-June | 43,57,876|
+|07-June | 35,29,984|
+|08-June | 31,24,994|
+|09-June | 43,47,176|
+|10-June | 44,12,701|
+|11-June | 44,58,162|
+|12-June | 43,75,028|
+|13-June | 43,75,992|
+|14-June | 42,10,014|
+|15-June | 32,46,810|
+|16-June | 44,15,617|
+|17-June | 45,04,558|
+|18-June | 45,51,754|
+|19-June | 44,29,166|
+|20-June | 44,60,284|
+|21-June | 43,48,787|
+|22-June | 33,48,701|
+|23-June | 44,87,743|
+|24-June | 45,15,686|
+|25-June | 45,20,969|
+|26-June | 45,45,839|
+|27-June | 45,92,516|
+|28-June | 43,62,114|
+|29-June | 33,96,007|
+|30-June | 44,72,558|
+|Total | 12,63,80,985|
+
+///
+
+Derivative Charts:
+
+![charts](./content_bmtc/Ridership%20vs.%20Date.svg)
+![charts](./content_bmtc/Ridership%20vs.%20Month.svg)

@@ -48,6 +48,8 @@ markdown_extensions:
           validator: !!python/name:pymdownx_superfence_filter_lines.do_validate
   - pymdownx.tilde
   - pymdownx.details
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
 
 repo_url: https://github.com/z-aki/z-aki.github.io
 edit_uri: blob/main/docs/
