@@ -87,7 +87,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/solid/square-rss
-      link: feed_xml_created.xml
+      link: feed_rss_updated.xml
     - icon: fontawesome/brands/github
       link: https://github.com/z-aki
 plugins:
