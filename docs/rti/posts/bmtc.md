@@ -2,7 +2,7 @@
 title: RTI requests for BMTC
 date:
   created: 2025-07-14
-  updated: 2025-07-14
+  updated: 2025-08-18
 links:
   - rti/posts/dpar.md
 ---
