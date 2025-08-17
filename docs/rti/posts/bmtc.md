@@ -217,7 +217,7 @@ Paraphrasing of the conversation:
 
 ---
 
-## BMTC ridership after Rapido Bike Taxi Ban
+## BMTC ridership after Karnataka Bike Taxi Ban (Rapido, Uber, Ola, etc.)
 
 /// admonition | :material-calendar: 12/07/2025
     type: question
