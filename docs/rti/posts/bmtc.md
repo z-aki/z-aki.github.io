@@ -29,15 +29,15 @@ people employed by the BMTC in any job role whatsoever.
 /// admonition | :material-calendar: 23/05/2025
     type: answer
 
-1 & 2 From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
+1\. & 2\. From 01.01.2023 till now, the meeting of the Consumer Advisory Committee has not been organized at the head office level of the BMTC and there are no proceedings.
 
-3 The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
+3\. The matter of transgender staff is related to the administrative branch and the application seeking information under the Act, 2005 has been forwarded to the administrative department under Section 6(3).
 
 ///
 
-/// admonition | by the Administrative Department :material-calendar: 19/06/2025
+/// admonition | :material-calendar: 19/06/2025 Administrative Department
 
-3 No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
+3\. No transgender persons have been appointed to any position in the Bangalore Metropolitan Transport Corporation.
 
 ///
 
@@ -83,10 +83,10 @@ ideas, or studies dated after 01.01.2022 regarding popup lanes or painting exclu
 priority warnings on the road in front of BMTC bus stops.
 
 3. Please provide any documents,
-  proposals, consultations, expression of intent, ideas, or studies dated after 01.01.2022
-  regarding card-less and cashless ticket payments in BMTC buses. The intent was expressed
-  by the BMTC MD Mr Ramachandran R in an interview with Elets News Network (ENN) on the
-  date 20.07.2024 quoted
+proposals, consultations, expression of intent, ideas, or studies dated after 01.01.2022
+regarding card-less and cashless ticket payments in BMTC buses. The intent was expressed
+by the BMTC MD Mr Ramachandran R in an interview with Elets News Network (ENN) on the
+date 20.07.2024 quoted
 
     > One of our major initiatives is the implementation of the National
     > Common Mobility Card (NCMC). We envision moving beyond even the need for physical
@@ -97,19 +97,20 @@ priority warnings on the road in front of BMTC bus stops.
     > alight from the bus, deducting the fare from their account without human intervention.
 
     <https://egov.eletsonline.com/2024/07/bmtcs-journey-towards-cashless-contactless-public-transport/>
+
 4. Please provide any documents, proposals, consultations, expression of intent,
-  ideas, or studies dated after 01.01.2022 regarding increasing last mile connectivity in
-  streets using partnerships or incentivisation schemes with private autos or e-rikshas etc.
+ideas, or studies dated after 01.01.2022 regarding increasing last mile connectivity in
+streets using partnerships or incentivisation schemes with private autos or e-rikshas etc.
 5. Please provide the documents and scheme details dated after 01.01.2024 regarding
-  increasing adoption of Namma bmtc app both inside the bus (via posters, conductor
-  incentivisation, speaker announcements etc.,) and outside the bus (posters on the bus,
-  banners on bus stops etc).
+increasing adoption of Namma bmtc app both inside the bus (via posters, conductor
+incentivisation, speaker announcements etc.,) and outside the bus (posters on the bus,
+banners on bus stops etc).
 
 ///
 
 Translation Needed. See [contact me](../../about.md)
 
-/// admonition | material-calendar: 01/07/2025
+/// admonition | :material-calendar: 01/07/2025
 
 1. Traffic police ???? 15.11.2019 The buses of the BMC are operated under Bus Priority Lane (BPL). Further, the BMTC has not issued any government-level orders regarding Bus Priority Lane (BPL).
 
@@ -155,8 +156,6 @@ thorough survey, needful measures will be taken.
 
 ///
 
----
-
 /// admonition | :question: Appeal on :material-calendar: 22/06/2025
     type: question
 
@@ -168,7 +167,7 @@ prompt response on the RTI.
 
 ///
 
-/// details | Appeal Hearing Summary :material-calendar: 01/07/2025
+/// details |:material-calendar: 01/07/2025 Appeal Hearing Summary
 
 Participants:
 
@@ -228,7 +227,7 @@ Paraphrasing of the conversation:
 
 ///
 
-/// admonition | :material-calendar: 11/08/2025
+/// admonition | :material-calendar: 11/08/2025 BMTC, Traffic Operation, Central Office
 
 |Month | Monthly Passengers|
 |-------|------------------|
@@ -238,6 +237,8 @@ Paraphrasing of the conversation:
 |Apr-25 | 12,09,57,436 |
 |May-25 | 12,57,48,707 |
 |[Jun-25] | [12,63,80,985] |
+
+Scanned with OKEN Scanner
 
 | June-2025 | Daily Passengers|
 |-------|---------------------|
@@ -273,9 +274,11 @@ Paraphrasing of the conversation:
 |30-June | 44,72,558|
 |Total | 12,63,80,985|
 
+Scanned with OKEN Scanner
+
 ///
 
-Derivative Charts:
+Charts that I made:
 
-![charts](./content_bmtc/Ridership%20vs.%20Date.svg)
-![charts](./content_bmtc/Ridership%20vs.%20Month.svg)
+> ![Ridership vs. Date.svg](./content_bmtc/Ridership%20vs.%20Date.svg)
+> ![Ridership vs. Month.svg](./content_bmtc/Ridership%20vs.%20Month.svg)
