@@ -281,4 +281,6 @@ Scanned with OKEN Scanner
 Charts that I made:
 
 > ![Ridership vs. Date.svg](./content_bmtc/Ridership%20vs.%20Date.svg)
-> ![Ridership vs. Month.svg](./content_bmtc/Ridership%20vs.%20Month.svg)
+<!-- > ![Ridership vs. Month.svg](./content_bmtc/Ridership%20vs.%20Month.svg) -->
+> ![Ridership vs. Month with avg](./content_bmtc/Ridership%20vs.%20Month%20(1).svg)
+> ![Ridership / days in month vs. Month with avg](./content_bmtc/Ridership_number%20of%20days%20in%20month%20vs.%20Month.svg)
