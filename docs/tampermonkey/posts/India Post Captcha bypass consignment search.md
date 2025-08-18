@@ -2,7 +2,7 @@
 title: India Post Captcha bypass consignment search
 date:
   created: 2025-08-18
-  updated: __date.updated__
+  updated: 2025-08-18
 ---
 
 <!-- GENERATED FILE -->

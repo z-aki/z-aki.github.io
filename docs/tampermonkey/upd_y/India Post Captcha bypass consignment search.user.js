@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         India Post Captcha bypass consignment search
 // @version      0.1
-// @description  Tracks the consignment or money order without any captcha solution
+// @description  Tracks the consignment or money order or complaint without any captcha solution
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://www.indiapost.gov.in/*
