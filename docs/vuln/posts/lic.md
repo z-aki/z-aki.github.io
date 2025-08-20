@@ -10,6 +10,7 @@ The Life Insurance Corporation of India (LIC) had 6 vulnerabilities in October 2
 The story was covered only in Medianama.
 
 - [Medianama article by Sakshi Sadashiv K, 20 December 2024](https://www.medianama.com/2024/12/223-lic-delayed-action-security-warnings-esales-website-public-data/)
+- MoneyControl added a small paragraph in a story, 6 months after the incidents based on some "social media posts" (which weren't cited as sources either) <https://www.moneycontrol.com/banking/india-s-insurance-sector-faced-maximum-cyber-onslaught-in-fy25-article-13131547.html>
 
 Summary of the vulnerabilities:
 
