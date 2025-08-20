@@ -126,6 +126,26 @@ Translation Needed. See [contact me](../../about.md)
 
 ///
 
+/// admonition | :material-calendar: 16/07/2025 Rejected by Systems Department
+    type: failure
+
+3\. and 5\. Reason for Rejection :- Section 8(1)(d).
+Remarks:-
+
+///
+
+/// admonition |  :question: :material-calendar: 16/07/2025 Appeal
+    type: question
+
+Appeal for point 5: the applicant requested details of the namma bmtc app promotion and adoption scheme or advertisements. If any posters or banners or speaker announcements were made public already, they cannot be protected with RTI act sec 8.1.d. If any conductor incentive scheme was implemented, the entirety of the scheme document should not be protected by the PIO. Merely providing the start-end dates or outcome of such scheme etc., will not hurt the competitive position of BMTC. The larger public interest of the instant RTI is to find out the efforts BMTC has taken to ensure that the magnificent namma bmtc app gets used by the passengers to obtain correct stop, route and live information.
+
+///
+
+/// admonition | :material-calendar: 22/07/2025 Appeal reply
+
+Requested To submit Application CSM, FAA, System Department, BMTC
+
+///
 ---
 
 ## App corrections, route change and Namma BMTC app open-source
@@ -156,7 +176,7 @@ thorough survey, needful measures will be taken.
 
 ///
 
-/// admonition | :question: Appeal on :material-calendar: 22/06/2025
+/// admonition | :question: :material-calendar: 22/06/2025 Appeal
     type: question
 
 3\. Appeal for point 3, to clarify, it requests whether there exist any proposals to convert
@@ -168,6 +188,7 @@ prompt response on the RTI.
 ///
 
 /// details |:material-calendar: 01/07/2025 Appeal Hearing Summary
+    open: True
 
 Participants:
 
