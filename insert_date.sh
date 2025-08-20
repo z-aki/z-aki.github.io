@@ -1,5 +1,4 @@
 #!/bin/zsh
-
 function get_markdown_files() {
   find docs -name "*.md" -print0
 }
@@ -19,18 +18,20 @@ function get_mod_files(){
   git diff HEAD~"$N" --name-only | grep '.md$'
 }
 
+echo "\nmod files\n"
 
 # Check if there are any modified files
 if [ -z "$(get_mod_files)" ]; then
     echo "No modified Markdown files found."
 else
-  get_mod_files | while IFS= read -r -d $'\0' file; do
+  get_mod_files | while IFS= read -r file; do
     echo "mod file $file"
     # replace updated:xxx with   updated: __date.updated__
     sed -i '' -e "s/updated:.*$/updated: __date.updated__/g" "$file"
   done
 fi
 
+echo "\nfixing dates\n"
 get_markdown_files | while IFS= read -r -d $'\0' file; do
   sed -i "" -e "1,5s/__date.created__/$(date +"%Y-%m-%d")/g" "$file"
   sed -i "" -e "1,5s/__date.updated__/$(date +"%Y-%m-%d")/g" "$file"
