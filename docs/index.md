@@ -33,18 +33,18 @@ date:
 
     Govt entities:
 
-      - [Life Insurance Corporation of India](vuln/posts/lic.md)
-      - [New India Assurance](vuln/posts/nia.md)
-      - [Bimabharosa, IRDAI](vuln/posts/bimabharosa.md)
-      - [Council of Insurance Ombudsman, CIOINS](vuln/posts/cioins.md)
-      <!-- - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md) -->
-      - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md)
+      - [Life Insurance Corporation of India](vuln/posts/lic.md) `esales.licindia.in`
+      - [Bimabharosa, IRDAI](vuln/posts/bimabharosa.md) `bimabharosa.irdai.gov.in`
+      - [Council of Insurance Ombudsman, CIOINS](vuln/posts/cioins.md) `cioins.co.in`
+      - [E-Jagriti, Ministry Of Consumer Affairs, Food & Public Distribution (GOI)](vuln/posts/e_jagriti.md) `e-jagriti.gov.in`
+      - [CMS portal of the Ombudsman scheme, Reserve Bank of India](vuln/posts/cms_ombudsman_rbi.md) `cms.rbi.org.in`
+      - [New India Assurance](vuln/posts/nia.md) `www.newindia.co.in`
       <!-- - [RTIOnline portal, Department of Personnel and Training](vuln/posts/rtionline_dopt.md) -->
 
     Private entities:
 
-      - [Manipal Hospitals](vuln/posts/manipal.md)
-      - [Indigo and Air India Express](vuln/posts/indigo_air_india_express.md)
+      - [Manipal Hospitals](vuln/posts/manipal.md) `kiosk.manipalhospitals.com`
+      - [Indigo and Air India Express](vuln/posts/indigo_air_india_express.md) `www.goindigo.in` and `www.airindiaexpress.com`
 
     [:octicons-arrow-right-24: More vulnerabilities](vuln/index.md)
 
@@ -86,12 +86,14 @@ date:
 
     -----
 
-      - [:simple-rss: RSS feed for created items](feed_rss_created.xml)
+      <!-- - [:simple-rss: RSS feed for created items](feed_rss_created.xml) -->
       - [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
 
-      Use free RSS feed reader apps to anonymously get new post notifications without sharing your email.
+      Susbsribe anonymously (except IP address). Use RSS feed reader apps to anonymously get new post notifications without sharing your email. At your own discretion, explore the following options:
 
       - :simple-macos: :fontawesome-brands-windows: :simple-linux: Desktop: [:simple-thunderbird: Thunderbird](https://www.thunderbird.net)
+      - :simple-firefox: Firefox Addon [Feedbro by Nodetics](https://addons.mozilla.org/firefox/addon/feedbroreader/)
+      - :simple-googlechrome: Chrome extension [RSS Subscription Extension (by Google)](https://chromewebstore.google.com/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
       - :material-apple-ios: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
       - :simple-android: Android: [Feeder](https://github.com/spacecowboy/Feeder)
 
