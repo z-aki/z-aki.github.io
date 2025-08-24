@@ -28,3 +28,14 @@
 .md-tabs {
   font-weight: bold;
 }
+
+embed[type="application/pdf"] {
+  height: 50vh;
+  width: 80%;
+}
+
+/* https://stackoverflow.com/questions/1899772/what-is-the-best-practice-for-showing-an-icon-next-to-text */
+.md-main a[plugin_open_external_links_in_new_tab]::before {
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+        margin: 0 3px 0 5px;
+}
