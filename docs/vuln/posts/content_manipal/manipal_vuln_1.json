@@ -1,0 +1,18 @@
+{
+    "mobile": "91$$$$$$$$$$",
+    "otp": 123456,
+    "messages": "{
+    \"messages\": [{
+        \"messageId\": \"4xxxxxxxxxxxxxxxxxxxx1\",
+        \"status\": {
+          \"description\": \"Message sent to next instance\",
+          \"groupId\": 1,
+          \"groupName\": \"PENDING\",
+          \"id\": 26,
+          \"name\": \"PENDING_ACCEPTED\"
+        },
+        \"to\": \"91$$$$$$$$$$\"
+        }
+    ]}",
+    "successMessage": "Sms Sent Successfully !!!"
+}
