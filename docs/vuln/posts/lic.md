@@ -35,7 +35,7 @@ Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
 After repeated PGportal complaints against LIC, [RTIs with LIC](../../rti/posts/lic.md), [RTIs with IRDAI](../../rti/posts/irdai.md) and mails to IRDAI executive directors:
 
-- IRDAI reconstituted Reconstitution of Inter-Disciplinary Standing Committee on Cyber Security dated 05th Feb, 2025. IRDAI/GA&HR/GDL/MISC/33/02/2024
+- IRDAI issued the "Reconstitution of Inter-Disciplinary Standing Committee on Cyber Security" dated 05th Feb, 2025. IRDAI/GA&HR/GDL/MISC/33/02/2024
 
     <https://irdai.gov.in/document-detail?documentId=6678726>
 

@@ -75,7 +75,7 @@ meetings, the information would be outdated anyway.
     type: question
 
 1. Please provide any documents, proposals, consultations, expression of intent, ideas, or
-studies :material-calendar: after 01.01.2022 regarding BMTC bus priority lane, its implementation or
+studies dated after 01.01.2022 regarding BMTC bus priority lane, its implementation or
 feasibility.
 
 2. Please provide any documents, proposals, consultations, expression of intent,
