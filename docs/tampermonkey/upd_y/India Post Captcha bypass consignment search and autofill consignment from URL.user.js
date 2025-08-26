@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         India Post Captcha bypass consignment search
+// @name         India Post Captcha bypass consignment search and autofill consignment from URL
 // @version      0.1
 // @description  Tracks the consignment or money order or complaint without any captcha solution. Also autofills the consignment number using the con parameter in the URL.
 // @author       https://github.com/z-aki
