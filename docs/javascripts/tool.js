@@ -34,14 +34,24 @@ function digipinToMap(digipin) {
     "code"
   ).textContent = `${coords.latitude}, ${coords.longitude}`;
 
-  const googleMapsUrl = `https://google.com/maps/place/${coords.latitude},${coords.longitude}/data=!3m1!1e3`;
-  dm_google_maps_url_output.querySelector("a").href =
-    dm_google_maps_url_output.querySelector("a").textContent = googleMapsUrl;
+  {
+    const googleMapsUrl = `https://google.com/maps/place/${coords.latitude},${coords.longitude}/data=!3m1!1e3`;
+    const googleMapsUrlElement = dm_google_maps_url_output.querySelector("a");
+    googleMapsUrlElement.href = googleMapsUrlElement.textContent =
+      googleMapsUrl;
+    googleMapsUrlElement.setAttribute("target", "_blank");
+    googleMapsUrlElement.setAttribute("rel", "noopener noreferrer");
+  }
 
-  const appleMapsUrl = `maps://?q=pin&ll=${coords.latitude},${coords.longitude}`;
-  dm_maps_url_output.querySelector("a").href = dm_maps_url_output.querySelector(
-    "a"
-  ).textContent = appleMapsUrl;
+  {
+    const appleMapsUrl = `maps://?q=pin&ll=${coords.latitude},${coords.longitude}`;
+
+    const appleMapsUrlElement = dm_maps_url_output.querySelector("a");
+    appleMapsUrlElement.href = appleMapsUrlElement.textContent = appleMapsUrl;
+
+    appleMapsUrlElement.setAttribute("target", "_blank");
+    appleMapsUrlElement.setAttribute("rel", "noopener noreferrer");
+  }
 }
 
 document$.subscribe(() => {
