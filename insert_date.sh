@@ -7,7 +7,7 @@ function get_markdown_files() {
 get_markdown_files | while IFS= read -r -d $'\0' file ; do
   # Check if the file is empty or contains the front matter
   if [[ ! -s "$file" || $(grep -q "^---" "$file") ]]; then
-    sed -i '' "1s/^/---\ntitle: NEW TITLE\ndate:\n  created: __date.created__\n  updated: __date.updated__\n---\n/" "$file"
+    echo '---\ntitle: NEW TITLE\ndate:\n  created: __date.created__\n  updated: __date.updated__\n---\n' >> "$file"
     echo "new file $file"
   fi
 done

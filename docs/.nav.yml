@@ -1,10 +1,10 @@
 nav:
   - index.md
-  - rti
-  - tampermonkey/
   - "*"
   - Digipin converter: digipin/
+  - tampermonkey/
   - tools/
+  - rti
   - dev_index.md
   - about.md
 

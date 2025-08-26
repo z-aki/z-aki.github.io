@@ -2,17 +2,15 @@
 title: About Me/Contact
 date:
   created: 2025-07-14
-  updated: 2025-07-14
+  updated: 2025-08-27
 ---
 
 # About me
 
-## Github
-
-<https://github.com/z-aki>
-
 ## Contact
 
-Publicly: <https://github.com/z-aki/z-aki.github.io/issues>
+<https://github.com/z-aki/z-aki.github.io/issues>
 
-Privately: Submit this google form:
+## Stay updated
+
+---8<--- "docs/rss_feed.txt"

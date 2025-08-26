@@ -2,7 +2,7 @@
 title: Home
 date:
   created: 2025-07-14
-  updated: 2025-07-16
+  updated: 2025-08-27
 ---
 
 <div class="grid cards" markdown>
@@ -86,16 +86,7 @@ date:
 
     -----
 
-      <!-- - [:simple-rss: RSS feed for created items](feed_rss_created.xml) -->
-      - [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
-
-      Susbsribe anonymously (except IP address). Use RSS feed reader apps to anonymously get new post notifications without sharing your email. At your own discretion, explore the following options:
-
-      - :simple-macos: :fontawesome-brands-windows: :simple-linux: Desktop: [:simple-thunderbird: Thunderbird](https://www.thunderbird.net)
-      - :simple-firefox: Firefox Addon [Feedbro by Nodetics](https://addons.mozilla.org/firefox/addon/feedbroreader/)
-      - :simple-googlechrome: Chrome extension [RSS Subscription Extension (by Google)](https://chromewebstore.google.com/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
-      - :material-apple-ios: [NetNewsWire](https://netnewswire.com/) or [other apps](https://apps.apple.com/story/id1679840410)
-      - :simple-android: Android: [Feeder](https://github.com/spacecowboy/Feeder)
+      ---8<--- "docs/rss_feed.txt"
 
 - :fontawesome-solid-envelope:{ .lg .middle } __About Me__
 
