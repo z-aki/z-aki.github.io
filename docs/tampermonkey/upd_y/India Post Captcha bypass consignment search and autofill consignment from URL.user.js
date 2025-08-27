@@ -44,11 +44,11 @@ function fix(topDiv) {
     const inner = activeTab.innerText.toLowerCase();
     const input = document.getElementById("moNumber").value.trim();
     if (inner.includes("consignment")) {
-      redirect("/track-result/article-number/", input);
+      red("/track-result/article-number/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("money")) {
-      redirect("/track-result/moneyorder/", input);
+      red("/track-result/moneyorder/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("complaint")) {
-      redirect("/track-result/complaints/", input);
+      red("/track-result/complaints/" + encrypted(input) + "?con=" + input);
     }
     console.log("unknown tab");
   });
