@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         India Post Captcha bypass consignment search
+// @name         India Post Captcha bypass consignment search and autofill consignment from URL
 // @version      0.1
-// @description  Tracks the consignment or money order or complaint without any captcha solution
+// @description  Tracks the consignment or money order or complaint without any captcha solution. Also autofills the consignment number using the con parameter in the URL.
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://www.indiapost.gov.in/*
@@ -9,7 +9,6 @@
 // @grant        none
 // @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
 // @require      https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js
-// @downloadURL  none
 // ==/UserScript==
 
 function encrypted(input) {
@@ -45,18 +44,20 @@ function fix(topDiv) {
     const inner = activeTab.innerText.toLowerCase();
     const input = document.getElementById("moNumber").value.trim();
     if (inner.includes("consignment")) {
-      redirect("/track-result/article-number/", input);
+      red("/track-result/article-number/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("money")) {
-      redirect("/track-result/moneyorder/", input);
+      red("/track-result/moneyorder/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("complaint")) {
-      redirect("/track-result/complaints/", input);
+      red("/track-result/complaints/" + encrypted(input) + "?con=" + input);
     }
     console.log("unknown tab");
   });
+
+  autofill(topDiv);
 }
 
 function fixOffice(topDiv) {
-  console.log("blahfoo");
+  console.log("blahfoo office");
   const searchButton = topDiv.querySelector("button.searchButton");
   searchButton.addEventListener("click", function () {
     const input = topDiv.querySelector("div.p-4.px-2 input");
@@ -81,58 +82,16 @@ function fixOffice(topDiv) {
   });
 }
 
+function autofill(elem) {
+  console.log("blahfoo filling");
+  const urlParams = new URLSearchParams(window.location.search);
+  const con = urlParams.get("con");
+  if (con) {
+    setTimeout(() => {
+      moNumber.value = con;
+    }, 1000);
+  }
+}
+
 waitForKeyElements("div#trackandtraceview", fix, false);
 waitForKeyElements("div#LocatePostOfficeHome", fixOffice, false);
-
-// function fixCaptcha_impl(captchaBlock, canvasElement) {
-//   // Select the canvas element
-
-//   // Navigate to the input element
-//   const inputElement = captchaBlock.querySelector("input");
-
-//   console.log(inputElement);
-//   console.log(canvasElement.getAttribute("aria-label"));
-//   // const match = canvasElement
-//   //   .getAttribute("aria-label")
-
-//   //   .join("");
-//   console.log(
-//     canvasElement
-//       .getAttribute("aria-label")
-//       .trim()
-//       .replace("CAPTCHA security verification image. Text content:", "")
-//   );
-//   const cap = canvasElement
-//     .getAttribute("aria-label")
-//     .replaceAll("CAPTCHA security verification image. Text content:", "")
-//     .trim()
-//     .replaceAll("lowercase", "")
-//     .replaceAll("capital", "")
-//     .replaceAll("number", "")
-//     .replaceAll(" ", "")
-//     .replaceAll(",", "");
-//   console.log(cap);
-//   if (cap) {
-//     inputElement.value = cap;
-//   }
-// }
-// function fixCaptcha(captchaBlock) {
-//   const canvasElement = captchaBlock.querySelector("canvas.captchaCanvas");
-//   // Create a MutationObserver instance
-//   const observer = new MutationObserver((mutations) => {
-//     for (const mutation of mutations) {
-//       if (
-//         mutation.type === "attributes" &&
-//         mutation.attributeName === "aria-label"
-//       ) {
-//         setTimeout(() => {
-//           fixCaptcha_impl(captchaBlock, canvasElement);
-//         }, 1000);
-//       }
-//     }
-//   });
-
-//   // Start observing the canvas element for attribute changes
-//   observer.observe(canvasElement, { attributes: true });
-// }
-// waitForKeyElements("div.captch_block", fix, false);
