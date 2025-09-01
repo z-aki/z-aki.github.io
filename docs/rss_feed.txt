@@ -1,4 +1,4 @@
-- [:simple-rss: RSS feed for updated items](feed_rss_updated.xml)
+- [:simple-rss: RSS feed for updated items](/feed_rss_updated.xml)
 
 Subscribe anonymously (except IP address). Use RSS feed reader apps to anonymously get new post notifications without sharing your email. At your own discretion, explore the following options:
 
