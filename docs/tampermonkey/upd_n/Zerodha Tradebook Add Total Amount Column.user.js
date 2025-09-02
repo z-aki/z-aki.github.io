@@ -7,7 +7,7 @@
 // @match        https://console.zerodha.com/reports/tradebook*
 // @icon         https://external-content.duckduckgo.com/ip3/www.zerodha.com.ico
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none
 // ==/UserScript==
 
@@ -67,13 +67,11 @@ function addPaginationListeners() {
   });
 }
 
-waitForKeyElements(
-  "#tradebook_table",
-  (table) => {
-    fix(table);
-    addPaginationListeners();
-    // remove wfke_found="true"
-    table.removeAttribute("wfke_found");
-  },
-  false
-);
+function fixup(table) {
+  fix(table);
+  addPaginationListeners();
+  // remove wfke_found="true"
+  table.removeAttribute("wfke_found");
+}
+
+nf.wait$("#tradebook_table", fixup);

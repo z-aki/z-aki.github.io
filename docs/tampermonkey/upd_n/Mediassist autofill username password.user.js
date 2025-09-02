@@ -8,7 +8,7 @@
 // @match        https://*.medibuddy.in/*
 // @grant        none
 // @icon         https://external-content.duckduckgo.com/ip3/www.mediassist.in.ico
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none
 // ==/UserScript==
 
@@ -24,4 +24,4 @@ function fix() {
   form.setAttribute("autocomplete", "on");
 }
 
-waitForKeyElements('[id="username"]', fix, false);
+nf.wait$('[id="username"]', fix);

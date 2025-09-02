@@ -2,7 +2,7 @@
 title: Zerodha Coin Holdings Add PNL percentage
 date:
   created: 2025-07-30
-  updated: 2025-07-30
+  updated: 2025-09-02
 ---
 
 <!-- GENERATED FILE -->

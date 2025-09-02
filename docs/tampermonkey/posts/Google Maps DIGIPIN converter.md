@@ -2,7 +2,7 @@
 title: Google Maps DIGIPIN converter
 date:
   created: 2025-07-31
-  updated: 2025-07-31
+  updated: 2025-09-02
 ---
 
 <!-- GENERATED FILE -->

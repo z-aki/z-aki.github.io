@@ -2,7 +2,7 @@
 title: PGportal allow password paste and reveal OTP
 date:
   created: 2025-07-21
-  updated: 2025-07-21
+  updated: 2025-09-02
 ---
 
 <!-- GENERATED FILE -->

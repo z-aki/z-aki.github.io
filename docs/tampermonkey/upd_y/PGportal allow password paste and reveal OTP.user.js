@@ -7,15 +7,13 @@
 // @match        https://pgportal.gov.in/Signin
 // @icon         https://pgportal.gov.in/Images/favicon.ico
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // ==/UserScript==
 
 function fix(elem) {
   elem.onkeydown = null;
   $("input:password").off("paste");
 }
-
-waitForKeyElements("input#TempPassword", fix, false);
 
 function revealPassword(elem) {
   console.log("blahfoo");
@@ -42,8 +40,5 @@ function revealPassword(elem) {
   });
 }
 
-waitForKeyElements(
-  "div.loginInput:has(input#TempPassword)",
-  revealPassword,
-  false
-);
+nf.wait$("input#TempPassword", fix);
+nf.wait$("div.loginInput:has(input#TempPassword)", revealPassword);

@@ -7,7 +7,7 @@
 // @match        https://www.google.com/maps/*
 // @icon         https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none
 // ==/UserScript==
 
@@ -32,4 +32,4 @@ function fix(innerdiv) {
   innerdiv.appendChild(newrow);
 }
 
-waitForKeyElements("div#action-menu > div", fix, false);
+nf.wait$("div#action-menu > div", fix);
