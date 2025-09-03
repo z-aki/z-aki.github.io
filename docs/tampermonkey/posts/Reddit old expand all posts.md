@@ -2,7 +2,7 @@
 title: Reddit old expand all posts
 date:
   created: 2025-07-15
-  updated: 2025-09-02
+  updated: 2025-09-04
 ---
 
 <!-- GENERATED FILE -->
