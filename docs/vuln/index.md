@@ -9,7 +9,7 @@ date:
 
 CERT-in has been very responsive and helpful in reacting to incident reports and getting vulnerabilities fixed.
 
-- Report incidents to [CERT-in](https://www.cert-in.org.in/RVDCP.jsp) using this [guide](https://www.cert-in.org.in/PDF/certinirform.pdf). The PDF is just a guide. An email is sufficient as long as it contains all the fields of this form.
+- Report incidents to [CERT-in](https://www.cert-in.org.in/RVDCP.jsp) using this [guide](https://www.cert-in.org.in/PDF/certinvulnform.pdf). The PDF is just a guide. An email is sufficient as long as it contains all the fields of this form.
 - For finance related vulnerabilities: [CSIRT-fin](https://www.cert-in.org.in/PDF/CSIRT-Fin.pdf)
 
 All of the vulnerabilities presented here are for educational purpose (especially for the CISO and developers of these organizations). All vulnerabilties have been fixed by the service providers before these disclosures.
