@@ -7,7 +7,7 @@
 // @match        https://www.indiapost.gov.in/*
 // @icon         https://external-content.duckduckgo.com/ip3/www.indiapost.gov.in.ico
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @require      https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js
 // @downloadURL  none
 // ==/UserScript==
@@ -94,5 +94,5 @@ function autofill(elem) {
   }
 }
 
-waitForKeyElements("div#trackandtraceview", fix, false);
-waitForKeyElements("div#LocatePostOfficeHome", fixOffice, false);
+nf.wait$("div#trackandtraceview", fix);
+nf.wait$("div#LocatePostOfficeHome", fixOffice);

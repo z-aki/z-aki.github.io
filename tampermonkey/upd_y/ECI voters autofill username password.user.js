@@ -7,7 +7,7 @@
 // @match        https://voters.eci.gov.in/*
 // @grant        none
 // @icon         https://voters.eci.gov.in/favicon.ico
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // ==/UserScript==
 
 function fix() {
@@ -24,4 +24,4 @@ function fix() {
   };
 }
 
-waitForKeyElements('[class="form-login-wrapper"]', fix, false);
+nf.wait$('[class="form-login-wrapper"]', fix);

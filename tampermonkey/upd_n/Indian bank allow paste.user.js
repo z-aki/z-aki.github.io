@@ -7,7 +7,7 @@
 // @match        https://apps.indianbank.in/cgrc*
 // @icon         https://apps.indianbank.in/cgrc/assets/images/logo.png
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none
 // ==/UserScript==
 
@@ -20,4 +20,4 @@ function fix(elem) {
   elem.setAttribute("autocomplete", "on");
 }
 
-waitForKeyElements("body", fix);
+nf.wait$("body", fix);

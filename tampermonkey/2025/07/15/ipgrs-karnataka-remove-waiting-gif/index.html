@@ -1009,7 +1009,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 13h1.5v2.82l2.44 1.41-.75 1.3L15 16.69zm4-5H5v11h4.67c-.43-.91-.67-1.93-.67-3a7 7 0 0 1 7-7c1.07 0 2.09.24 3 .67zM5 21a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2h1V1h2v2h8V1h2v2h1a2 2 0 0 1 2 2v6.1c1.24 1.26 2 2.99 2 4.9a7 7 0 0 1-7 7c-1.91 0-3.64-.76-4.9-2zm11-9.85A4.85 4.85 0 0 0 11.15 16c0 2.68 2.17 4.85 4.85 4.85A4.85 4.85 0 0 0 20.85 16c0-2.68-2.17-4.85-4.85-4.85"></path></svg>
-                          <time datetime="2025-07-16 00:00:00+00:00" class="md-ellipsis">July 16, 2025</time>
+                          <time datetime="2025-09-02 00:00:00+00:00" class="md-ellipsis">September 2, 2025</time>
                         </div>
                       </li>
                     
@@ -1084,7 +1084,7 @@ OR
 <span class="c1">// @match        https://ipgrs.karnataka.gov.in/*</span>
 <span class="c1">// @icon         https://ipgrs.karnataka.gov.in/Content/img/new_logo%20(2).png</span>
 <span class="c1">// @grant        none</span>
-<span class="c1">// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js</span>
+<span class="c1">// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js</span>
 </code></pre></div>
 <!-- more -->
 <div class="admonition warning">
@@ -1105,7 +1105,7 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="c1">// @match        https://ipgrs.karnataka.gov.in/*</span>
 <span class="c1">// @icon         https://ipgrs.karnataka.gov.in/Content/img/new_logo%20(2).png</span>
 <span class="c1">// @grant        none</span>
-<span class="c1">// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js</span>
+<span class="c1">// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js</span>
 <span class="c1">// @downloadURL  none</span>
 <span class="c1">// ==/UserScript==</span>
 
@@ -1115,7 +1115,7 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="w">  </span><span class="nx">elem</span><span class="p">.</span><span class="nx">remove</span><span class="p">();</span>
 <span class="p">}</span>
 
-<span class="nx">waitForKeyElements</span><span class="p">(</span><span class="s2">"div#preloder"</span><span class="p">,</span><span class="w"> </span><span class="nx">fix</span><span class="p">);</span>
+<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div#preloder"</span><span class="p">,</span><span class="w"> </span><span class="nx">fix</span><span class="p">);</span>
 </code></pre></div>
 <hr></div>
 

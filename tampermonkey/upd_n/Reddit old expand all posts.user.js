@@ -5,13 +5,14 @@
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://old.reddit.com*
+// @match        https://old.reddit.com/*
 // @icon         https://external-content.duckduckgo.com/ip3/www.reddit.com.ico
 // @grant        none
-// @require      https://gist.githubusercontent.com/adamhotep/7c9068f2196326ab79145ae308b68f9e/raw/373f5e8405b98781001aea9a9e74585367344960/waitForKeyElements.js
+// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none
 // ==/UserScript==
 
-waitForKeyElements("div.sitetable.linklisting", function () {
+function fix() {
   "use strict";
   console.log("Entered Expand all posts");
 
@@ -28,4 +29,6 @@ waitForKeyElements("div.sitetable.linklisting", function () {
       expandoButton.click();
     }
   });
-});
+}
+
+nf.wait$("div.sitetable.linklisting", fix);
