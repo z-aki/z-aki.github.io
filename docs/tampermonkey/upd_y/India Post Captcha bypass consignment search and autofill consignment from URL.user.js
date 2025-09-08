@@ -36,6 +36,7 @@ function redirect(URL, input) {
 function fix(topDiv) {
   console.log("blahfoo");
   const searchButton = topDiv.querySelector("button.searchButton");
+  searchButton.removeAttribute("disabled");
   searchButton.addEventListener("click", function () {
     const activeTab = topDiv.querySelector(
       "div.trackandtraceview_tabs button.active"
@@ -59,6 +60,7 @@ function fix(topDiv) {
 function fixOffice(topDiv) {
   console.log("blahfoo office");
   const searchButton = topDiv.querySelector("button.searchButton");
+  searchButton.removeAttribute("disabled");
   searchButton.addEventListener("click", function () {
     const input = topDiv.querySelector("div.p-4.px-2 input");
     const activeTab = topDiv.querySelector(
@@ -89,7 +91,7 @@ function autofill(elem) {
   if (con) {
     setTimeout(() => {
       moNumber.value = con;
-    }, 1000);
+    }, 3000);
   }
 }
 
