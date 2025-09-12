@@ -1080,9 +1080,9 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-proper-fix" class="md-nav__link">
+  <a href="#proper-fix" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Proper fix
+      $$ Proper fix
     </span>
   </a>
   
@@ -1340,7 +1340,7 @@ encrypt<span class="o">()</span><span class="w"> </span><span class="o">{</span>
 <span class="w">    </span>decrypt<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>cat<span class="w"> </span><span class="s2">"bimabharosa_vuln_2_</span><span class="nv">$complaint_id</span><span class="s2">.json"</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">"bimabharosa_vuln_2_decr_</span><span class="nv">$complaint_id</span><span class="s2">.json"</span>
 <span class="k">done</span>
 </code></pre></div></td></tr></table></div>
-<h3 id="3-proper-fix">3. Proper fix<a class="headerlink" href="#3-proper-fix" title="Permanent link">¶</a></h3>
+<h3 id="proper-fix">$$ Proper fix<a class="headerlink" href="#proper-fix" title="Permanent link">¶</a></h3>
 <p>After I provided pseudo-code to CERT-in (and bimabharosa), a proper fix was implemented. In the JWT,
 a field was added to list all the complaint IDs. Upon subsequent calls to the APi, only if
 the token contained the current ID, the API would return the response.</p>
