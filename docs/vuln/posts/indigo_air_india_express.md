@@ -2,7 +2,7 @@
 title: Indigo Vulnerability 2022-2024 and Air india vulnerability 2025
 date:
   created: 2025-08-13
-  updated: 2025-08-13
+  updated: 2025-09-12
 ---
 
 Interglobe Indigo's manage booking portal(<https://www.goindigo.in/edit-booking.html>) and Air India Express (<https://www.airindiaexpress.com/manage>)
@@ -31,8 +31,8 @@ Summary of the vulnerabilities:
 
 | Sr | API  | Date reported | Date fixed | Days taken | CERT-in reference number |
 |----|------|---------------|------------|------------|--------------------------|
-| 1  | [Indigo itinerary](#1-itinerary)  | 28 March 2022, 22 July 2024, 23 November 2024 | December 2024 | 1009, 162, 39 | 64401624 |
-| 2  | [Air India RetrieveData](#2-retrievedata)  | 2 August 2025 | September 2024 | 30 | 25019125 |
+| 1  | [Indigo itinerary](#1-indigo-itinerary)  | 28 March 2022, 22 July 2024, 23 November 2024 | December 2024 | 1009, 162, 39 | 64401624 |
+| 2  | [Air India RetrieveData](#2-air-india-retrievedata)  | 2 August 2025 | September 2024 | 30 | 25019125 |
 
 Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
@@ -41,7 +41,7 @@ Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
 <!-- more -->
 
-### 1. itinerary
+### 1. Indigo itinerary
 
 ```text
 https://api-prod-itinerary-skyplus6e.goindigo.in/v1/itinerary
@@ -54,7 +54,7 @@ https://api-prod-itinerary-skyplus6e.goindigo.in/v1/itinerary
 ```
 </details>
 
-### 2. RetrieveData
+### 2. Air India RetrieveData
 
 ```bash title="sample_script.sh" linenums="1"
 time=$(date '+%F_%T')

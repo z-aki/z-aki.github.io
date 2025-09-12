@@ -2,15 +2,14 @@
 title: Manipal Hospitals pvt ltd vulnerability 2024
 date:
   created: 2025-08-14
-  updated: 2025-08-14
+  updated: 2025-09-12
 ---
 
 The Manipal hospital pvt ltd has a mandatory registration process on its kiosk <https://kiosk.manipalhospitals.com>
 for OPD consultations.
 The portal collects a lot of information within minutes but the same personal data deletion takes 3-4 months.
 
-The portal had numerous vulnerabilities that allowed to get the user's personal data in a serial access
-and "protected" just by a static `Authorization` header exposed in the front-end code.
+The portal had numerous vulnerabilities that allowed to get the user's personal data in a serial access. One API provided the login OTP back to the person logging-in. In others, data was "protected" just by a static `Authorization` header exposed in the front-end code.
 
 Summary of the vulnerabilities:
 

@@ -2,13 +2,14 @@
 title: Council of Insurance Ombudsman CIOINS API Vulnerabilities 2024
 date:
   created: 2025-08-13
-  updated: 2025-08-13
+  updated: 2025-09-12
 ---
 
-Council of Insurance Ombudsman CIOINS website (<https://cioins.co.in>) had numerouos
-vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting it
-to CERT-in (they don't have a direct email for this (they denied this information in
-the [RTI](../../rti/posts/cioins.md))), they simply masked the issue with bogus
+Council of Insurance Ombudsman CIOINS website (<https://cioins.co.in>) had numerous
+vulnerabilities covering several OWASP TOP 10 categories in 2024. The vulnerabilities allowed
+access to a complainant's phone, email, address, dob, policy number, complaint details
+and any award passed. After reporting it
+to CERT-in (CIOINS doesn't have a direct email for this), they simply masked the issue with bogus
 encryption with key exposed in the front-end source code.
 
 After a followup, a proper fix was implemented but with significant delay.

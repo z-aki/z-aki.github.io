@@ -1,5 +1,5 @@
 ---
-title: E-Jagriti portal Vulnerabilities 2025
+title: E-Jagriti portal vulnerabilities 2025
 date:
     created: 2025-08-14
     updated: 2025-09-12
@@ -10,7 +10,7 @@ e-daakhil portal, is mandatory for consumer complaint filing and tracking.
 Any complaint has to be uploaded on this portal before submitting it to the
 consumer commission registry. It is developed and maintained by NIC(<https://nic.gov.in>)
 and content owned by the Department Of Consumer Affairs, Ministry Of Consumer Affairs,
-Food & Public Distribution, Government Of India
+Food & Public Distribution, Government Of India.
 
 These vulnerabilities allowed access to all case
 documents (including sensitive information such as ID proofs, affidavits with
@@ -23,8 +23,8 @@ Summary of the vulnerabilities
 
 | Sr | API  | Date reported | Date fixed | Days taken | CERT-in reference number |
 |----|------|---------------|------------|------------|--------------------------|
-| 1  | [CaseFilingDocumentDetails](#1-casefilingdocumentdetails) | 30 May 2025 | Partial fix before 17 June. Full fix never confirmed to me. Guessing July | 18-47 | 38480225 |
-| 2  | [getAllComplainantRespondantDetails](#2-getallcomplainantrespondantdetails) | 30 May 2025 | Partial fix before 17 June. Full fix never confirmed to me. Guessing July | 18-47 | 38480225 |
+| 1  | [CaseFilingDocumentDetails](#1-casefilingdocumentdetails) | 31 May 2025 | Partial fix before 17 June. Full fix never confirmed to me. Guessing July | 18-47 | 38480225 |
+| 2  | [getAllComplainantRespondantDetails](#2-getallcomplainantrespondantdetails) | 31 May 2025 | Partial fix before 17 June. Full fix never confirmed to me. Guessing July | 18-47 | 38480225 |
 
 Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 

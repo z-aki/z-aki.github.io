@@ -2,7 +2,7 @@
 title: The New India Assurance Co Ltd Alleged Vulnerability 2024
 date:
   created: 2025-08-13
-  updated: 2025-08-13
+  updated: 2025-09-12
 ---
 
 An "alleged" vulnerability in the [New India Assurance](https://www.newindia.co.in/portal/login/customer) website allowed downloading sensitive personal information of policyholder simply by the policy number.
@@ -19,9 +19,9 @@ Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 - A04 2021 Insecure Design: Insecure Direct Object Reference
 - A07 2021 Identification and Authentication Failures: CWE-287 Improper Authentication, CWE-613 Insufficient Session Expiration
 
-<!-- more -->
-
 It is important to note that the company denied existence of any vulnerability.
+
+<!-- more -->
 
 > Thank you for your valuable feedback. We would like to inform you that your
 > concerns have been reviewed by the relevant team, and it has been confirmed that
