@@ -1100,7 +1100,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
 <li>Report incidents to <a href="https://www.cert-in.org.in/RVDCP.jsp" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">CERT-in</a> using this <a href="https://www.cert-in.org.in/PDF/certinvulnform.pdf" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">guide</a>. The PDF is just a guide. An email is sufficient as long as it contains all the fields of this form.</li>
 <li>For finance related vulnerabilities: <a href="https://www.cert-in.org.in/PDF/CSIRT-Fin.pdf" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">CSIRT-fin</a></li>
 </ul>
-<p>All of the vulnerabilities presented here are for educational purpose (especially for the CISO and developers of these organizations). All vulnerabilties have been fixed by the service providers before these disclosures.</p>
+<p>All of the vulnerabilities presented here are for educational purpose (especially for the CISO and developers of these organizations). All vulnerabilities have been fixed by the service providers before these disclosures.</p>
 <p>The curl commands are not in full; only relevant headers are kept for brevity</p>
 <hr></div>
       </header>
@@ -1262,7 +1262,7 @@ e-daakhil portal, is mandatory for consumer complaint filing and tracking.
 Any complaint has to be uploaded on this portal before submitting it to the
 consumer commission registry. It is developed and maintained by NIC(<a href="https://nic.gov.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://nic.gov.in</a>)
 and content owned by the Department Of Consumer Affairs, Ministry Of Consumer Affairs,
-Food &amp; Public Distribution, Government Of India</p>
+Food &amp; Public Distribution, Government Of India.</p>
 <p>These vulnerabilities allowed access to all case
 documents (including sensitive information such as ID proofs, affidavits with
 sign, complaint details, and depending on the case: medical records, bank
@@ -1344,8 +1344,7 @@ access to all other users' case documents.</p>
 <p>The Manipal hospital pvt ltd has a mandatory registration process on its kiosk <a href="https://kiosk.manipalhospitals.com" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://kiosk.manipalhospitals.com</a>
 for OPD consultations.
 The portal collects a lot of information within minutes but the same personal data deletion takes 3-4 months.</p>
-<p>The portal had numerous vulnerabilities that allowed to get the user's personal data in a serial access
-and "protected" just by a static <code>Authorization</code> header exposed in the front-end code.</p>
+<p>The portal had numerous vulnerabilities that allowed to get the user's personal data in a serial access. One API provided the login OTP back to the person logging-in. In others, data was "protected" just by a static <code>Authorization</code> header exposed in the front-end code.</p>
 <p>Summary of the vulnerabilities:</p>
 <table>
 <thead>
@@ -1425,10 +1424,11 @@ and "protected" just by a static <code>Authorization</code> header exposed in th
   </header>
   <div class="md-post__content md-typeset">
     <h2 id="council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024"><a class="toclink" href="2025/08/13/council-of-insurance-ombudsman-cioins-api-vulnerabilities-2024/">Council of Insurance Ombudsman CIOINS API Vulnerabilities 2024</a></h2>
-<p>Council of Insurance Ombudsman CIOINS website (<a href="https://cioins.co.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://cioins.co.in</a>) had numerouos
-vulnerabilities covering several OWASP TOP 10 categories in 2024. After reporting it
-to CERT-in (they don't have a direct email for this (they denied this information in
-the <a href="../rti/2025/08/14/cioins/">RTI</a>)), they simply masked the issue with bogus
+<p>Council of Insurance Ombudsman CIOINS website (<a href="https://cioins.co.in" target="_blank" rel="noopener noreferrer" plugin_open_external_links_in_new_tab="">https://cioins.co.in</a>) had numerous
+vulnerabilities covering several OWASP TOP 10 categories in 2024. The vulnerabilities allowed
+access to a complainant's phone, email, address, dob, policy number, complaint details
+and any award passed. After reporting it
+to CERT-in (CIOINS doesn't have a direct email for this), they simply masked the issue with bogus
 encryption with key exposed in the front-end source code.</p>
 <p>After a followup, a proper fix was implemented but with significant delay.</p>
 <p>Summary of the vulnerabilities:</p>
@@ -1570,7 +1570,7 @@ the network activity shows the full data.</p>
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="2025/08/13/indigo-vulnerability-2022-2024-and-air-india-vulnerability-2025/#1-itinerary">Indigo itinerary</a></td>
+<td><a href="2025/08/13/indigo-vulnerability-2022-2024-and-air-india-vulnerability-2025/#1-indigo-itinerary">Indigo itinerary</a></td>
 <td>28 March 2022, 22 July 2024, 23 November 2024</td>
 <td>December 2024</td>
 <td>1009, 162, 39</td>
@@ -1578,7 +1578,7 @@ the network activity shows the full data.</p>
 </tr>
 <tr>
 <td>2</td>
-<td><a href="2025/08/13/indigo-vulnerability-2022-2024-and-air-india-vulnerability-2025/#2-retrievedata">Air India RetrieveData</a></td>
+<td><a href="2025/08/13/indigo-vulnerability-2022-2024-and-air-india-vulnerability-2025/#2-air-india-retrievedata">Air India RetrieveData</a></td>
 <td>2 August 2025</td>
 <td>September 2024</td>
 <td>30</td>
@@ -1654,6 +1654,7 @@ the network activity shows the full data.</p>
 <li>A04 2021 Insecure Design: Insecure Direct Object Reference</li>
 <li>A07 2021 Identification and Authentication Failures: CWE-287 Improper Authentication, CWE-613 Insufficient Session Expiration</li>
 </ul>
+<p>It is important to note that the company denied existence of any vulnerability.</p>
 
     
       <nav class="md-post__action">
