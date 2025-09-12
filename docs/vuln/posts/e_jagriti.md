@@ -69,7 +69,7 @@ However, for decoding the base64-encoded files, this is a sample script.
 The output contained an array of objects (accessible via `jq` (<https://jqlang.org/>))
 which had base64 encoded file, which can be decoded to get the actual PDF or image file.
 
-```bash title="sample_script.sh" linenums="1" hl_lines="1 4 12"
+```bash title="sample_script.sh" linenums="1" hl_lines="1 4 11"
 for reference in {$$$$$$$$..$$$$$$$$}; do
     timestamp=$(date '+%F_%T')
     outname="output_doc_${reference}_${timestamp}"
