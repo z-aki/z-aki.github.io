@@ -5,21 +5,21 @@ date:
   updated: 2025-09-12
 ---
 
-An "alleged" vulnerability in the [New India Assurance](https://www.newindia.co.in/portal/login/customer) website allowed downloading sensitive personal information of policyholder simply by the policy number.
+An alleged vulnerability in the [New India Assurance](https://www.newindia.co.in/portal/login/customer) website allowed downloading sensitive personal information of policyholder simply by the policy number.
 
-Summary of the "alleged" vulnerabilities:
+Summary of the alleged vulnerabilities:
 
 | Sr | API  | Date reported | Date fixed | Days taken | CERT-in reference number |
 |----|------|---------------|------------|------------|--------------------------|
 | 1  | [getPolicyDetails](#1-getpolicydetails)  | 31 October 2024 | before 18 November 2024 | Less than 18 | not assigned due to non-reproducibility (due to delay in reporting it to CERT after reporting it to NIA) |
 
-Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
+Alleged root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
 - A01 2021 Broken Access Control: CWE-35 Path Traversal, CWE-284 Improper Access Control, CWE-285 Improper Authorization
 - A04 2021 Insecure Design: Insecure Direct Object Reference
 - A07 2021 Identification and Authentication Failures: CWE-287 Improper Authentication, CWE-613 Insufficient Session Expiration
 
-It is important to note that the company denied existence of any vulnerability.
+It is important to note that the **company denied existence** of any vulnerability.
 
 <!-- more -->
 
@@ -53,7 +53,7 @@ The  fact of matter is that we are having a managed SOC and as soon as we receiv
 
 The API relied on headers `api_key` and `checksum` but these were available in the front-end code itself, and were not tied to any user session. `userid` and customer ID were also not authenticated or signed.
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="2 6 7 10"
 #!/bin/bash
 for POLICY_NUMBER in $$$$$$$$ $$$$$$$$; do
     curl 'https://www.newindia.co.in/BaNCSIntegrationWebComp/rest/commoncomponent/getPolicyDetails' -X POST \
@@ -77,7 +77,7 @@ done
 
 ### $$ Alleged fix
 
-After the "alleged" fix, the new curl request was as follows. Observe the new header `X-Auth-Token` and the additional `Cookie` header.
+After the alleged fix, the new curl request was as follows. Observe the new header `X-Auth-Token` and the additional `Cookie` header.
 
 ```bash title="sample_script_fixed.sh" linenums="1" hl_lines="2 8"
 curl 'https://www.newindia.co.in/BaNCSIntegrationWebComp/rest/commoncomponent/getPolicyDetails' -X POST \

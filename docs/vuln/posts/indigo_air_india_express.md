@@ -43,6 +43,8 @@ Root cause in [OWASP](https://cheatsheetseries.owasp.org/index.html) terms:
 
 ### 1. Indigo itinerary
 
+The body was a simple json with PNR and last name.
+
 ```text
 https://api-prod-itinerary-skyplus6e.goindigo.in/v1/itinerary
 ```
@@ -56,7 +58,7 @@ https://api-prod-itinerary-skyplus6e.goindigo.in/v1/itinerary
 
 ### 2. Air India RetrieveData
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="5"
 time=$(date '+%F_%T')
 curl 'https://api.airindiaexpress.com/b2c-CheckIn/v2/mmb/retrieve/byRecordLocator' \
   -X POST \

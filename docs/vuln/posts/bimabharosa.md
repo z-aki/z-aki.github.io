@@ -99,7 +99,7 @@ for complaint_id in {4390200..4390249}; do
 done
 ```
 
-### 3. Proper fix
+### $$ Proper fix
 
 After I provided pseudo-code to CERT-in (and bimabharosa), a proper fix was implemented. In the JWT,
 a field was added to list all the complaint IDs. Upon subsequent calls to the APi, only if

