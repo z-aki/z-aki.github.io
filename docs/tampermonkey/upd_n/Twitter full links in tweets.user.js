@@ -14,19 +14,17 @@
 // @downloadURL  none
 // ==/UserScript==
 
-function fix(links) {
-  for (var i = links.length - 1; i >= 0; i--) {
-    var link = links[i];
-    var new_link = link.innerText;
-    new_link = encodeURI(new_link);
+function fix(link) {
+  var new_link = link.innerText;
+  new_link = new_link.replaceAll("\n", "");
+  new_link = encodeURI(new_link);
 
-    // remove "..." from the end
-    if (new_link.endsWith("%E2%80%A6")) {
-      new_link = new_link.substring(0, new_link.length - 9);
-    }
-    link.setAttribute("href", new_link);
-    link.innerText = new_link;
+  // remove "..." from the end
+  if (new_link.endsWith("%E2%80%A6")) {
+    new_link = new_link.substring(0, new_link.length - 9);
   }
+  link.setAttribute("href", new_link);
+  link.innerText = new_link;
 }
 
-nf.wait$('a[href^="https://t.co"]', fix);
+nf.wait$('a[href^="https://t.co"].css-1jxf684', fix);

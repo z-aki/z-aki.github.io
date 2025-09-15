@@ -2,7 +2,7 @@
 title: Twitter full links in tweets
 date:
   created: 2025-07-15
-  updated: 2025-09-02
+  updated: 2025-09-16
 ---
 
 <!-- GENERATED FILE -->
