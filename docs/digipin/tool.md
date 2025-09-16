@@ -5,6 +5,7 @@ date:
   updated: 2025-07-27
 ---
 
+<br>
 Maps to DIGIPIN
 
 [Reset](tool.md)

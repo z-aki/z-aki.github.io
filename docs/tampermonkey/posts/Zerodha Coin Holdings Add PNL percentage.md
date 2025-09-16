@@ -5,6 +5,7 @@ date:
   updated: 2025-09-02
 ---
 
+<br>
 <!-- GENERATED FILE -->
 [Install latest with possible future updates](../upd_y/Zerodha Coin Holdings Add PNL percentage.user.js)
 OR

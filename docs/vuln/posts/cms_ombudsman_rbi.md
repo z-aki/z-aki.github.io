@@ -5,6 +5,7 @@ date:
   updated: 2025-08-14
 ---
 
+<br>
 The CMS portal (<https://cms.rbi.org.in>) for the Ombudsman scheme of the RBI had a
 vulnerability in an API which allowed serial access to the complaint acknowledgement files.
 

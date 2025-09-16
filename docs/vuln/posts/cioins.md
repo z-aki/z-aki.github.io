@@ -5,6 +5,7 @@ date:
   updated: 2025-09-12
 ---
 
+<br>
 Council of Insurance Ombudsman CIOINS website (<https://cioins.co.in>) had numerous
 vulnerabilities covering several OWASP TOP 10 categories in 2024. The vulnerabilities allowed
 access to a complainant's phone, email, address, dob, policy number, complaint details

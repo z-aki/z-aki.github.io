@@ -6,3 +6,4 @@ mkdocs-awesome-nav>3
 pymdownx-superfence-filter-lines==0.1.0
 mkdocs-pdf==0.1.2
 mkdocs-plugin-open-external-links-in-new-tab @ git+https://github.com/z-aki/mkdocs-plugin-open-external-links-in-new-tab/@v1
+mkdocs-breadcrumbs-plugin==0.1.14

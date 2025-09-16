@@ -5,7 +5,7 @@ date:
   updated: 2025-09-12
 ---
 
-# BimaBharosa IRDAI Vulnerability 2024
+<br>
 
 The Bima Bharosa portal (<https://bimabharosa.irdai.gov.in>) had a vulnerability in its complaint history API that allowed access to sensitive complaint details by simply incrementing the complaint ID. This exposed personal and claim information of policyholders without authentication.
 

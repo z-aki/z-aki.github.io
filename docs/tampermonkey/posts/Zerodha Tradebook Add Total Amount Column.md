@@ -5,6 +5,7 @@ date:
   updated: 2025-09-02
 ---
 
+<br>
 <!-- GENERATED FILE -->
 [Install latest with possible future updates](../upd_y/Zerodha Tradebook Add Total Amount Column.user.js)
 OR

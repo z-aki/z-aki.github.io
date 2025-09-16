@@ -3,7 +3,12 @@ title: Helpful Tampermonkey Scripts
 date:
   created: 2025-07-14
   updated: 2025-07-14
+hide:
+  - toc
+  - navigation
 ---
+
+<br>
 
 # Helpful Tampermonkey Scripts
 

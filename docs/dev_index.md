@@ -5,6 +5,7 @@ date:
   updated: 2025-07-14
 ---
 
+<br>
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

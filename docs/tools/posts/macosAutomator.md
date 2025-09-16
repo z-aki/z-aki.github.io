@@ -5,6 +5,7 @@ date:
   updated: 2025-08-11
 ---
 
+<br>
 [Download workflows](https://github.com/z-aki/pdf_high_contrast_bnw_macos_automator/releases/latest)
 
 Provided workflows:

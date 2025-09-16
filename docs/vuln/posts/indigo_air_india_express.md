@@ -5,6 +5,7 @@ date:
   updated: 2025-09-12
 ---
 
+<br>
 Interglobe Indigo's manage booking portal(<https://www.goindigo.in/edit-booking.html>) and Air India Express (<https://www.airindiaexpress.com/manage>)
 leaked a passenger's number, email, date of birth
 address and emergency contact information by a PNR and name of a passenger. Even though the content is masked in the UI,

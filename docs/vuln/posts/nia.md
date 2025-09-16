@@ -5,6 +5,7 @@ date:
   updated: 2025-09-12
 ---
 
+<br>
 An alleged vulnerability in the [New India Assurance](https://www.newindia.co.in/portal/login/customer) website allowed downloading sensitive personal information of policyholder simply by the policy number.
 
 Summary of the alleged vulnerabilities:

@@ -5,6 +5,7 @@ date:
     updated: 2025-09-12
 ---
 
+<br>
 The EJagriti portal (<https://e-jagriti.gov.in>), which is an upgrade of
 e-daakhil portal, is mandatory for consumer complaint filing and tracking.
 Any complaint has to be uploaded on this portal before submitting it to the

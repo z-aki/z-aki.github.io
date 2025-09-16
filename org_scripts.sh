@@ -32,7 +32,7 @@ echo "Processing mddd $file"
         echo "overwriting created date of $md_file"
         original_created_date=$(date '+%F')
     fi
-    echo '---\ntitle: '"${title}"'\ndate:\n  created: '"${original_created_date}"'\n  updated: __date.updated__\n---\n' > "${md_file}"
+    echo '---\ntitle: '"${title}"'\ndate:\n  created: '"${original_created_date}"'\n  updated: __date.updated__\n---\n\n<br>\n' > "${md_file}"
     echo '<!-- GENERATED FILE -->' >> "${md_file}"
     # encoded_title="$(jq -rn --arg x "$title" '$x|@uri')"
     echo '[Install latest with possible future updates](../upd_y/'"${title}"'.user.js)' >> "${md_file}"

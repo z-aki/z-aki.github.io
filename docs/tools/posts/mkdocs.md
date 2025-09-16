@@ -5,6 +5,7 @@ date:
   updated: 2025-08-27
 ---
 
+<br>
 [Open external links and internal files (pdf etc.,) in new tabs. Customizable with icon using CSS](https://github.com/z-aki/mkdocs-plugin-open-external-links-in-new-tab)
 
 This plugin allows you to open external links in a new tab. Adds `target="_blank"` and `"rel"="noopener noreferrer"` to any link that is not from 127.0.0.1 or `site_url` config.

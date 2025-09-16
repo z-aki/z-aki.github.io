@@ -5,11 +5,12 @@ date:
   updated: 2025-09-12
 ---
 
+<br>
 The Manipal hospital pvt ltd has a mandatory registration process on its kiosk <https://kiosk.manipalhospitals.com>
 for OPD consultations.
 The portal collects a lot of information within minutes but the same personal data deletion takes 3-4 months.
 
-The portal had numerous vulnerabilities that allowed to get the user's personal data in a serial access. One API provided the login OTP back to the person logging-in. In others, data was "protected" just by a static `Authorization` header exposed in the front-end code.
+The portal had numerous vulnerabilities that allowed access to the user's personal data in a serial manner. One API provided the login OTP back to the person logging-in, defeating its whole point. In others, data was flimsyly "protected" just by a static `Authorization` header exposed in the front-end code.
 
 Summary of the vulnerabilities:
 

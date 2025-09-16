@@ -5,6 +5,7 @@ date:
   updated: 2025-09-12
 ---
 
+<br>
 The Life Insurance Corporation of India (LIC) had 6 vulnerabilities in October 2024, December 2024 and April 2025 in their <https://esales.licindia.in> website (developed by [iNube software solutions](https://inubesolutions.com/)). Two of them allowed serial access to policy forms of prospect customers containing  Name, DOB, email, phone, PAN card, income tax forms, aadhaar (or other IDs), signature, photo, medical history, address, income, nominees, other policy purchase details, etc.
 
 The story was covered only in Medianama.

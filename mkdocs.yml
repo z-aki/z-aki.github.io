@@ -125,8 +125,26 @@ plugins:
   - search
   - meta
   - mkdocs-pdf
+  # https://github.com/z-aki/mkdocs-plugin-open-external-links-in-new-tab
   - mkdocs-plugin-open-external-links-in-new-tab:
       external_extensions:
         - ".pdf"
+  # https://github.com/mihaigalos/mkdocs-breadcrumbs-plugin
+  - mkdocs-breadcrumbs-plugin:
+      delimiter: " ▶ " # separator between sections
+      log_level: "WARNING" # "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"
+      exclude_paths:
+        - "docs/rti/**"
+        - "docs/vuln" # avoid generating index.md
+        - "docs/tampermonkey"
+        - "docs/digipin"
+        - "docs/tools"
+        - "docs/javascripts"
+        - "docs/stylesheets"
+      additional_index_folders:
+        - temp_dir
+      generate_home_index: true
+      use_page_titles: true # use page title instead of path in breadcrumbs
+      home_text: "Home"
 watch:
   - overrides/
