@@ -17,4 +17,4 @@ function fix(elem) {
   elem.remove();
 }
 
-nf.wait$("div#preloder", fix);
+nf.wait$("div#preloader", fix);

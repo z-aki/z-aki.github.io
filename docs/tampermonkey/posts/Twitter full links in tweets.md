@@ -2,10 +2,11 @@
 title: Twitter full links in tweets
 date:
   created: 2025-07-15
-  updated: 2025-09-16
+  updated: 2025-10-12
 ---
 
 <br>
+
 <!-- GENERATED FILE -->
 [Install latest with possible future updates](../upd_y/Twitter full links in tweets.user.js)
 OR

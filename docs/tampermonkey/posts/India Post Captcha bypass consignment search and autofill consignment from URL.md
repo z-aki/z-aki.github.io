@@ -2,10 +2,11 @@
 title: India Post Captcha bypass consignment search and autofill consignment from URL
 date:
   created: 2025-08-27
-  updated: 2025-09-09
+  updated: 2025-10-12
 ---
 
 <br>
+
 <!-- GENERATED FILE -->
 [Install latest with possible future updates](../upd_y/India Post Captcha bypass consignment search and autofill consignment from URL.user.js)
 OR

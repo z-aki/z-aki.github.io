@@ -2,7 +2,7 @@
 title: SSO Rajasthan allow paste and right click
 date:
   created: 2025-09-24
-  updated: 2025-09-24
+  updated: 2025-10-12
 ---
 
 <br>

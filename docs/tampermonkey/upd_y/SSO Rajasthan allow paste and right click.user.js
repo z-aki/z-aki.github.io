@@ -12,6 +12,7 @@
 // ==/UserScript==
 
 function fix(elem) {
+  elem.onkeydown = null;
   $(elem).off("contextmenu selectstart dragstart drop cut copy paste");
 }
 

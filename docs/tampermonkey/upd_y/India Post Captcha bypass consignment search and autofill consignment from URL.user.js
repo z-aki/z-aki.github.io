@@ -4,7 +4,7 @@
 // @description  Tracks the consignment or money order or complaint without any captcha solution. Also autofills the consignment number using the con parameter in the URL.
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
-// @match        https://www.indiapost.gov.in/*
+// @match        https://*.indiapost.gov.in/*
 // @icon         https://external-content.duckduckgo.com/ip3/www.indiapost.gov.in.ico
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js

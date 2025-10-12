@@ -5,6 +5,7 @@
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://pgportal.gov.in/Signin
+// @match        https://pgportal.gov.in/Signin*
 // @icon         https://pgportal.gov.in/Images/favicon.ico
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js

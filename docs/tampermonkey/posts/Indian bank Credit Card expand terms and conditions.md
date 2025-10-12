@@ -2,10 +2,11 @@
 title: Indian bank Credit Card expand terms and conditions
 date:
   created: 2025-07-15
-  updated: 2025-09-02
+  updated: 2025-10-12
 ---
 
 <br>
+
 <!-- GENERATED FILE -->
 [Install latest with possible future updates](../upd_y/Indian bank Credit Card expand terms and conditions.user.js)
 OR

@@ -5,7 +5,7 @@
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://www.indianbankcreditcard.in/indbcreditcustomer/*
-// @icon         https://www.indianbankcreditcard.in/indbcreditcustomer/html/favicons/android-icon-192x192.png
+// @icon         https://apps.indianbank.in/cgrc/assets/images/logo.png
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @downloadURL  none

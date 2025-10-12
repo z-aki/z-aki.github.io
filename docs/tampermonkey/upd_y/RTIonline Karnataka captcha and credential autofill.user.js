@@ -4,7 +4,7 @@
 // @description  Autofill using password manager for email, phonenumber. Auto solve captcha for RTI karnataka portal
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
-// @match        https://rtionline.karnataka.gov.in/request/status_history.php*
+// @match        https://rtionline.karnataka.gov.in/*
 // @icon         https://rtionline.karnataka.gov.in/images/logo/rti-logo.png
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
