@@ -4,8 +4,8 @@
 // @description  Tracks the consignment or money order or complaint without any captcha solution. Also autofills the consignment number using the con parameter in the URL.
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
-// @match        https://www.indiapost.gov.in/*
-// @icon         https://external-content.duckduckgo.com/ip3/www.indiapost.gov.in.ico
+// @match        https://*.indiapost.gov.in/*
+// @icon         https://www.indiapost.gov.in/images/home/schemes/IPPB.svg
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // @require      https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js
@@ -90,9 +90,13 @@ function autofill(elem) {
   const urlParams = new URLSearchParams(window.location.search);
   const con = urlParams.get("con");
   if (con) {
-    setTimeout(() => {
+    const timer = setInterval(() => {
+      console.log("aa");
       moNumber.value = con;
-    }, 3000);
+    }, 500);
+    setTimeout(() => {
+      clearInterval(timer);
+    }, 10000);
   }
 }
 

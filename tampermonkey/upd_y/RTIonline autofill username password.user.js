@@ -4,7 +4,7 @@
 // @description  Set username and password autocomplete attributes
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
-// @match        https://rtionline.gov.in/request/status.php
+// @match        https://rtionline.gov.in/request/*
 // @icon         https://rtionline.gov.in/images/rti-header.png
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js

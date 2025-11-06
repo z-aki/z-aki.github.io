@@ -15,4 +15,15 @@ function fix(elem) {
   elem.type = "number";
 }
 
+function fixHeader(elem) {
+    console.log("blahfoo 1");
+    const className = elem.id;
+    const styl = `#${className} { height: unset !important; }`;
+    nf.style$(styl, elem);
+}
+
+// Wait for both class names and call the fix function
+nf.wait$("div#menu", fixHeader);
+
+
 nf.wait$("input#otp", fix);

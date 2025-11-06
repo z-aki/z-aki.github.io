@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Indian bank CGRS autofill complaint from URL
 // @version      0.1
-// @description  Autofills the complaint number using the OPT parameter in the URL.
+// @description  Autofills the complaint number using the otp parameter in the URL.
 // @author       https://github.com/z-aki
 // @namespace    https://github.com/z-aki
 // @match        https://apps.indianbank.in/cgrc*
