@@ -13,5 +13,6 @@ Provided workflows:
 1. Downsize images
 2. Reduce gamma of PDFs
 3. Increase contrast of PDF
+4. Split PDF into PNG JPEG images automator workflow as quick action
 
 Read more at <https://github.com/z-aki/pdf_high_contrast_bnw_macos_automator/blob/main/README.md>
