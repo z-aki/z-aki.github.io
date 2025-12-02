@@ -6,7 +6,7 @@
 // @namespace    https://github.com/z-aki
 // @match        https://unifiedportal-mem.epfindia.gov.in/*
 // @match        https://unifiedportal-emp.epfindia.gov.in/*
-// @icon         https://pgportal.gov.in/Images/favicon.ico
+// @icon         https://www.epfindia.gov.in/images/EPFOlogo.ico
 // @grant        none
 // @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js
 // ==/UserScript==

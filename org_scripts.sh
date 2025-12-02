@@ -4,7 +4,7 @@
 
 
 # Iterate over the filtered staged files and copy them
-files=$(git diff HEAD --name-only | grep 'docs/tampermonkey/upd_n/.*\.user\.js$' || true)
+files=$(git diff HEAD --name-only | grep 'docs/tampermonkey/upd_y/.*\.user\.js$' || true)
 if [[ -z "$files" ]]; then
     echo "No files to process."
     exit 0
@@ -12,15 +12,12 @@ fi
 
 echo "$files" | while IFS= read -r file; do
     echo "Processing $file"
-    cp "$file" "docs/tampermonkey/upd_y/$(basename "$file")"
+    upd_n_file="docs/tampermonkey/upd_n/$(basename "$file")"
+    cp "$file" "$upd_n_file"
+    echo "$upd_n_file"
+    sed -i '' 's|// ==/UserScript==|// @downloadURL  none\n// ==/UserScript==|' "$upd_n_file"
 done
 
-
-# for every js file in docs/tampermonkey/upd_y, remove the lines with @downloadURL
-echo "$files" | while IFS= read -r file; do
-    echo "Processing yess $file"
-    sed -i '' '/@downloadURL/d' "docs/tampermonkey/upd_y/$(basename "$file")"
-done
 
 # for every js file in docs/tampermonkey/upd_n, create a md file in docs/tampermonkey/posts
 echo "$files" | while IFS= read -r file; do
