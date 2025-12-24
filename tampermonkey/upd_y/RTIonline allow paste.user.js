@@ -22,7 +22,6 @@ function fixHeader(elem) {
     nf.style$(styl, elem);
 }
 
-// Wait for both class names and call the fix function
 nf.wait$("div#menu", fixHeader);
 
 
