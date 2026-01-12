@@ -16,7 +16,10 @@ function fix(elem) {
   const opt = urlParams.get("opt");
   if (opt) {
     setTimeout(() => {
-      elem.value = opt.replace("track", "");
+      const clean = opt.replace("track", "");
+      if (clean && clean.match(/^[0-9]+$/) != null) {
+        elem.value = opt.replace("track", "");
+      }
     }, 1000);
   }
 }

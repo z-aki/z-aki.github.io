@@ -17,13 +17,12 @@ function fix(elem) {
 }
 
 function fixHeader(elem) {
-    console.log("blahfoo 1");
-    const className = elem.id;
-    const styl = `#${className} { height: unset !important; }`;
-    nf.style$(styl, elem);
+  console.log("blahfoo 1");
+  const className = elem.id;
+  const styl = `#${className} { height: unset !important; }`;
+  nf.style$(styl, elem);
 }
 
 nf.wait$("div#menu", fixHeader);
-
 
 nf.wait$("input#otp", fix);

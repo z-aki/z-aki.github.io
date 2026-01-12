@@ -11,12 +11,18 @@
 // ==/UserScript==
 
 function fix(elem) {
-    console.log("blahfoo");
-    const className = elem.classList[0];
-    const styl = `.${className} { width: unset !important; }`;
-    nf.style$(styl, elem);
+  console.log("blahfoo");
+  const className = elem.classList[0];
+  const styl = `.${className} { width: 300px !important; }`;
+  nf.style$(styl, elem);
 }
 
+function fixChild(elem) {
+  console.log("blahfoo");
+  const className = elem.classList[0];
+  const styl = `.${className} { width: 200px !important; }`;
+  nf.style$(styl, elem);
+}
 // Wait for both class names and call the fix function
 nf.wait$("div.parent-slide", fix);
-nf.wait$("div.child-slide", fix);
+nf.wait$("div.child-slide", fixChild);

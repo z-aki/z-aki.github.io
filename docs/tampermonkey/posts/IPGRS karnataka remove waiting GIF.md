@@ -2,7 +2,7 @@
 title: IPGRS karnataka remove waiting GIF
 date:
   created: 2025-07-15
-  updated: 2025-12-24
+  updated: 2026-01-12
 ---
 
 <br>

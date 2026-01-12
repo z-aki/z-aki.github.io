@@ -38,20 +38,19 @@ function fix(topDiv) {
   const searchButton = topDiv.querySelector("button.searchButton");
   searchButton.removeAttribute("disabled");
   searchButton.addEventListener("click", function () {
-    const activeTab = topDiv.querySelector(
-      "div.trackandtraceview_tabs button.active"
-    );
-    console.log(activeTab.innerText);
+    const activeTab = topDiv.querySelector("button:not(.border-transparent)");
     const inner = activeTab.innerText.toLowerCase();
-    const input = document.getElementById("moNumber").value.trim();
+    console.log(inner);
+    const input = topDiv.querySelector("input").value.trim();
     if (inner.includes("consignment")) {
       red("/track-result/article-number/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("money")) {
       red("/track-result/moneyorder/" + encrypted(input) + "?con=" + input);
     } else if (inner.includes("complaint")) {
       red("/track-result/complaints/" + encrypted(input) + "?con=" + input);
+    } else {
+      console.log("unknown tab");
     }
-    console.log("unknown tab");
   });
 
   autofill(topDiv);
@@ -62,11 +61,9 @@ function fixOffice(topDiv) {
   const searchButton = topDiv.querySelector("button.searchButton");
   searchButton.removeAttribute("disabled");
   searchButton.addEventListener("click", function () {
-    const input = topDiv.querySelector("div.p-4.px-2 input");
-    const activeTab = topDiv.querySelector(
-      "div.locatepostOffice_tabs button:not(.border-transparent)"
-    );
-    console.log(activeTab.innerText);
+    const input = topDiv.querySelector("input");
+    const activeTab = topDiv.querySelector("button:not(.border-transparent)");
+    console.log(activeTab?.innerText);
     const inner = activeTab.innerText.toLowerCase();
     if (inner.includes("pincode")) {
       redirect("locate-postoffice?pincode=", input.value);
@@ -79,8 +76,9 @@ function fixOffice(topDiv) {
       );
     } else if (inner.includes("office")) {
       redirect("locate-postoffice?officeName=", input.value);
+    } else {
+      console.log("unknown tab");
     }
-    console.log("unknown tab");
   });
 }
 
@@ -91,13 +89,22 @@ function autofill(elem) {
   if (con) {
     const timer = setInterval(() => {
       console.log("aa");
-      moNumber.value = con;
+      const input = elem.querySelector("input");
+      const nativeSetter = Object.getOwnPropertyDescriptor(
+        HTMLInputElement.prototype,
+        "value"
+      ).set;
+      nativeSetter.call(input, con);
+      console.log(input, con, nativeSetter);
+      input.dispatchEvent(
+        new InputEvent("input", { bubbles: true, cancelable: true })
+      );
     }, 500);
     setTimeout(() => {
       clearInterval(timer);
-    }, 10000);
+    }, 5000);
   }
 }
 
-nf.wait$("div#trackandtraceview", fix);
-nf.wait$("div#LocatePostOfficeHome", fixOffice);
+nf.wait$("div#trackandtraceview", autofill);
+//nf.wait$("div#LocatePostOfficeHome", fixOffice);

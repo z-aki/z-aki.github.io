@@ -23,10 +23,6 @@ function fix() {
   y = document.querySelectorAll('input[id="cell"]');
   y[0].setAttribute("autocomplete", "password");
   y[0].setAttribute("type", "password");
-
-  y = document.querySelectorAll('input[id="6_letters_code"]');
-  const captcha = document.querySelectorAll('input[id="capVal"]');
-  y[0].value = captcha[0].getAttribute("value");
 }
 
 nf.wait$('form[name="FrmFirstAppeal"]', fix);
