@@ -16,6 +16,8 @@
         <link rel="prev" href="../../../10/12/aadhaar-tathya-input-type-number/">
       
       
+        <link rel="next" href="../../../../2026/01/12/indian-bank-domain-redirect/">
+      
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../../feed_rss_updated.xml">
@@ -1010,7 +1012,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 13h1.5v2.82l2.44 1.41-.75 1.3L15 16.69zm4-5H5v11h4.67c-.43-.91-.67-1.93-.67-3a7 7 0 0 1 7-7c1.07 0 2.09.24 3 .67zM5 21a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2h1V1h2v2h8V1h2v2h1a2 2 0 0 1 2 2v6.1c1.24 1.26 2 2.99 2 4.9a7 7 0 0 1-7 7c-1.91 0-3.64-.76-4.9-2zm11-9.85A4.85 4.85 0 0 0 11.15 16c0 2.68 2.17 4.85 4.85 4.85A4.85 4.85 0 0 0 20.85 16c0-2.68-2.17-4.85-4.85-4.85"></path></svg>
-                          <time datetime="2025-12-02 00:00:00+00:00" class="md-ellipsis">December 2, 2025</time>
+                          <time datetime="2026-01-12 00:00:00+00:00" class="md-ellipsis">January 12, 2026</time>
                         </div>
                       </li>
                     
@@ -1113,15 +1115,21 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="c1">// ==/UserScript==</span>
 
 <span class="kd">function</span><span class="w"> </span><span class="nx">fix</span><span class="p">(</span><span class="nx">elem</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"blahfoo"</span><span class="p">);</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">className</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">styl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`.</span><span class="si">${</span><span class="nx">className</span><span class="si">}</span><span class="sb"> { width: unset !important; }`</span><span class="p">;</span>
-<span class="w">    </span><span class="nx">nf</span><span class="p">.</span><span class="nx">style$</span><span class="p">(</span><span class="nx">styl</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"blahfoo"</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">className</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">styl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`.</span><span class="si">${</span><span class="nx">className</span><span class="si">}</span><span class="sb"> { width: 300px !important; }`</span><span class="p">;</span>
+<span class="w">  </span><span class="nx">nf</span><span class="p">.</span><span class="nx">style$</span><span class="p">(</span><span class="nx">styl</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="p">);</span>
 <span class="p">}</span>
 
+<span class="kd">function</span><span class="w"> </span><span class="nx">fixChild</span><span class="p">(</span><span class="nx">elem</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"blahfoo"</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">className</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">elem</span><span class="p">.</span><span class="nx">classList</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
+<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">styl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`.</span><span class="si">${</span><span class="nx">className</span><span class="si">}</span><span class="sb"> { width: 200px !important; }`</span><span class="p">;</span>
+<span class="w">  </span><span class="nx">nf</span><span class="p">.</span><span class="nx">style$</span><span class="p">(</span><span class="nx">styl</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="p">);</span>
+<span class="p">}</span>
 <span class="c1">// Wait for both class names and call the fix function</span>
 <span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div.parent-slide"</span><span class="p">,</span><span class="w"> </span><span class="nx">fix</span><span class="p">);</span>
-<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div.child-slide"</span><span class="p">,</span><span class="w"> </span><span class="nx">fix</span><span class="p">);</span>
+<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div.child-slide"</span><span class="p">,</span><span class="w"> </span><span class="nx">fixChild</span><span class="p">);</span>
 </code></pre></div>
 <hr></div>
 
@@ -1181,6 +1189,22 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
             </div>
           </a>
         
+        
+          
+          <a href="../../../../2026/01/12/indian-bank-domain-redirect/" class="md-footer__link md-footer__link--next" aria-label="Next: Indian Bank domain redirect">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Indian Bank domain redirect
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
         
       </nav>
     

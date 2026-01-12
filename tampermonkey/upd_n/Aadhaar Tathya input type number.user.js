@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 function fix(elem) {
-    elem.setAttribute("type", "number");
+  elem.setAttribute("type", "number");
 }
 
-nf.wait$('input[name=uid]', fix);
+nf.wait$("input[name=uid]", fix);

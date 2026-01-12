@@ -1012,7 +1012,7 @@ Use RSS feed apps/extensions to get updates about new posts (without sharing you
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 13h1.5v2.82l2.44 1.41-.75 1.3L15 16.69zm4-5H5v11h4.67c-.43-.91-.67-1.93-.67-3a7 7 0 0 1 7-7c1.07 0 2.09.24 3 .67zM5 21a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2h1V1h2v2h8V1h2v2h1a2 2 0 0 1 2 2v6.1c1.24 1.26 2 2.99 2 4.9a7 7 0 0 1-7 7c-1.91 0-3.64-.76-4.9-2zm11-9.85A4.85 4.85 0 0 0 11.15 16c0 2.68 2.17 4.85 4.85 4.85A4.85 4.85 0 0 0 20.85 16c0-2.68-2.17-4.85-4.85-4.85"></path></svg>
-                          <time datetime="2025-10-25 00:00:00+00:00" class="md-ellipsis">October 25, 2025</time>
+                          <time datetime="2026-01-12 00:00:00+00:00" class="md-ellipsis">January 12, 2026</time>
                         </div>
                       </li>
                     
@@ -1113,7 +1113,6 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="c1">// @grant        none</span>
 <span class="c1">// @require      https://github.com/adamhotep/nofus.js/raw/refs/heads/main/nofus.js</span>
 <span class="c1">// @require      https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js</span>
-<span class="c1">// @downloadURL  none</span>
 <span class="c1">// ==/UserScript==</span>
 
 <span class="kd">function</span><span class="w"> </span><span class="nx">encrypted</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
@@ -1143,20 +1142,19 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">searchButton</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"button.searchButton"</span><span class="p">);</span>
 <span class="w">  </span><span class="nx">searchButton</span><span class="p">.</span><span class="nx">removeAttribute</span><span class="p">(</span><span class="s2">"disabled"</span><span class="p">);</span>
 <span class="w">  </span><span class="nx">searchButton</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">"click"</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">activeTab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span>
-<span class="w">      </span><span class="s2">"div.trackandtraceview_tabs button.active"</span>
-<span class="w">    </span><span class="p">);</span>
-<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">activeTab</span><span class="p">.</span><span class="nx">innerText</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">activeTab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"button:not(.border-transparent)"</span><span class="p">);</span>
 <span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">inner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">activeTab</span><span class="p">.</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"moNumber"</span><span class="p">).</span><span class="nx">value</span><span class="p">.</span><span class="nx">trim</span><span class="p">();</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">inner</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"input"</span><span class="p">).</span><span class="nx">value</span><span class="p">.</span><span class="nx">trim</span><span class="p">();</span>
 <span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">inner</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"consignment"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">red</span><span class="p">(</span><span class="s2">"/track-result/article-number/"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">encrypted</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">"?con="</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">input</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">inner</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"money"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">red</span><span class="p">(</span><span class="s2">"/track-result/moneyorder/"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">encrypted</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">"?con="</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">input</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">inner</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"complaint"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">red</span><span class="p">(</span><span class="s2">"/track-result/complaints/"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">encrypted</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">"?con="</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">input</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"unknown tab"</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"unknown tab"</span><span class="p">);</span>
 <span class="w">  </span><span class="p">});</span>
 
 <span class="w">  </span><span class="nx">autofill</span><span class="p">(</span><span class="nx">topDiv</span><span class="p">);</span>
@@ -1167,11 +1165,9 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">searchButton</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"button.searchButton"</span><span class="p">);</span>
 <span class="w">  </span><span class="nx">searchButton</span><span class="p">.</span><span class="nx">removeAttribute</span><span class="p">(</span><span class="s2">"disabled"</span><span class="p">);</span>
 <span class="w">  </span><span class="nx">searchButton</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">"click"</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"div.p-4.px-2 input"</span><span class="p">);</span>
-<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">activeTab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span>
-<span class="w">      </span><span class="s2">"div.locatepostOffice_tabs button:not(.border-transparent)"</span>
-<span class="w">    </span><span class="p">);</span>
-<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">activeTab</span><span class="p">.</span><span class="nx">innerText</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"input"</span><span class="p">);</span>
+<span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">activeTab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">topDiv</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"button:not(.border-transparent)"</span><span class="p">);</span>
+<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">activeTab</span><span class="o">?</span><span class="p">.</span><span class="nx">innerText</span><span class="p">);</span>
 <span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">inner</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">activeTab</span><span class="p">.</span><span class="nx">innerText</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
 <span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">inner</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"pincode"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">redirect</span><span class="p">(</span><span class="s2">"locate-postoffice?pincode="</span><span class="p">,</span><span class="w"> </span><span class="nx">input</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
@@ -1184,8 +1180,9 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="w">      </span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">inner</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="s2">"office"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">redirect</span><span class="p">(</span><span class="s2">"locate-postoffice?officeName="</span><span class="p">,</span><span class="w"> </span><span class="nx">input</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"unknown tab"</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"unknown tab"</span><span class="p">);</span>
 <span class="w">  </span><span class="p">});</span>
 <span class="p">}</span>
 
@@ -1196,16 +1193,25 @@ controlled by the <code>@downloadURL</code> tag in the script header.</p>
 <span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">con</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">timer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">setInterval</span><span class="p">(()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"aa"</span><span class="p">);</span>
-<span class="w">      </span><span class="nx">moNumber</span><span class="p">.</span><span class="nx">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">con</span><span class="p">;</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">elem</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"input"</span><span class="p">);</span>
+<span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">nativeSetter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Object</span><span class="p">.</span><span class="nx">getOwnPropertyDescriptor</span><span class="p">(</span>
+<span class="w">        </span><span class="nx">HTMLInputElement</span><span class="p">.</span><span class="nx">prototype</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">"value"</span>
+<span class="w">      </span><span class="p">).</span><span class="nx">set</span><span class="p">;</span>
+<span class="w">      </span><span class="nx">nativeSetter</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">input</span><span class="p">,</span><span class="w"> </span><span class="nx">con</span><span class="p">);</span>
+<span class="w">      </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">input</span><span class="p">,</span><span class="w"> </span><span class="nx">con</span><span class="p">,</span><span class="w"> </span><span class="nx">nativeSetter</span><span class="p">);</span>
+<span class="w">      </span><span class="nx">input</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span>
+<span class="w">        </span><span class="ow">new</span><span class="w"> </span><span class="nx">InputEvent</span><span class="p">(</span><span class="s2">"input"</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">bubbles</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nx">cancelable</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">})</span>
+<span class="w">      </span><span class="p">);</span>
 <span class="w">    </span><span class="p">},</span><span class="w"> </span><span class="mf">500</span><span class="p">);</span>
 <span class="w">    </span><span class="nx">setTimeout</span><span class="p">(()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timer</span><span class="p">);</span>
-<span class="w">    </span><span class="p">},</span><span class="w"> </span><span class="mf">10000</span><span class="p">);</span>
+<span class="w">    </span><span class="p">},</span><span class="w"> </span><span class="mf">5000</span><span class="p">);</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 
-<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div#trackandtraceview"</span><span class="p">,</span><span class="w"> </span><span class="nx">fix</span><span class="p">);</span>
-<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div#LocatePostOfficeHome"</span><span class="p">,</span><span class="w"> </span><span class="nx">fixOffice</span><span class="p">);</span>
+<span class="nx">nf</span><span class="p">.</span><span class="nx">wait$</span><span class="p">(</span><span class="s2">"div#trackandtraceview"</span><span class="p">,</span><span class="w"> </span><span class="nx">autofill</span><span class="p">);</span>
+<span class="c1">//nf.wait$("div#LocatePostOfficeHome", fixOffice);</span>
 </code></pre></div>
 <hr></div>
 
