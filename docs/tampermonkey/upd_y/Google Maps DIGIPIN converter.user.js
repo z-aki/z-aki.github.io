@@ -12,15 +12,12 @@
 
 // elem is the table's one and only div div. It has all the divs with all items. First item is the coordinates.
 // This fn adds a last row which has a link to z-aki.github.io/digipin/tool with urlcoords as the coordinates.
-function fix(innerdiv) {
+function fix(firstRow) {
+  const innerdiv = firstRow.closest(".vij30 > div");
   console.log("Fixing element", innerdiv);
-  const coordinates = innerdiv
-    .querySelector("div:first-child:first-child")
-    .textContent.trim();
+  const coordinates = firstRow.textContent.trim();
   const newinnerdiv = document.createElement("div");
-  newinnerdiv.innerHTML = `<a href="https://z-aki.github.io/digipin/tool/?urlcoords=${encodeURIComponent(
-    coordinates
-  )}" target="_blank">DIGIPIN</a>`;
+  newinnerdiv.innerHTML = `<a href="https://z-aki.github.io/digipin/tool/?urlcoords=${encodeURIComponent(coordinates)}" target="_blank">DIGIPIN</a>`;
 
   const newrow = document.createElement("div");
 
@@ -31,4 +28,4 @@ function fix(innerdiv) {
   innerdiv.appendChild(newrow);
 }
 
-nf.wait$("div#action-menu > div", fix);
+nf.wait$(".vij30 div.fxNQSd:first-child .mLuXec", fix);
