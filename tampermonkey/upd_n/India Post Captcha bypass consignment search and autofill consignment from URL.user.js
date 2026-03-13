@@ -100,6 +100,8 @@ function autofill(elem) {
       input.dispatchEvent(
         new InputEvent("input", { bubbles: true, cancelable: true })
       );
+      const captcha_input = elem.querySelector("#captcha-input");
+      captcha_input.focus();
     }, 500);
     setTimeout(() => {
       clearInterval(timer);
@@ -109,3 +111,4 @@ function autofill(elem) {
 
 nf.wait$("div#trackandtraceview", autofill);
 //nf.wait$("div#LocatePostOfficeHome", fixOffice);
+
