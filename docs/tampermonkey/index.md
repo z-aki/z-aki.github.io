@@ -2,7 +2,7 @@
 title: Helpful Tampermonkey Scripts
 date:
   created: 2025-07-14
-  updated: 2025-07-14
+  updated: 2026-03-14
 hide:
   - toc
   - navigation
@@ -36,7 +36,7 @@ Just placing the script in the Userscripts app's folder and permitting it in Saf
 - [HDFC pension remove waiting GIF](posts/HDFC pension remove waiting GIF.md)
 - [IPGRS karnataka remove waiting GIF](posts/IPGRS karnataka remove waiting GIF.md)
 - [Income tax portal allow paste](posts/Income tax portal allow paste.md)
-- [India Post Captcha bypass consignment search and autofill consignment from URL](posts/India Post Captcha bypass consignment search and autofill consignment from URL.md)
+- [India Post autofill consignment from URL](posts/India Post autofill consignment from URL.md)
 - [Indian bank CGRS autofill complaint from URL](posts/Indian bank CGRS autofill complaint from URL.md)
 - [Indian bank Credit Card expand terms and conditions](posts/Indian bank Credit Card expand terms and conditions.md)
 - [Indian bank allow paste](posts/Indian bank allow paste.md)
