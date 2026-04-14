@@ -17,19 +17,28 @@ function autofill(elem) {
   if (con) {
     const retryF = setInterval(() => {
       console.log("aa");
-      const input = elem.querySelector("input");
+      Array.from(elem.querySelectorAll("*"))
+        .filter((one) => one.id === "captcha-input")
+        .map(
+          (child) =>
+            "child " + child.tagName + "id '" + JSON.stringify(child.id) + "'",
+        );
+      const input = elem.querySelector("input[type=text]");
+      console.log(input);
       const nativeSetter = Object.getOwnPropertyDescriptor(
         HTMLInputElement.prototype,
-        "value"
+        "value",
       ).set;
       nativeSetter.call(input, con);
       // Fire input event so that the search button activates without having to modify the input field.
       input.dispatchEvent(
-        new InputEvent("input", { bubbles: true, cancelable: true })
+        new InputEvent("input", { bubbles: true, cancelable: true }),
       );
       // Focus on the captcha field for smoother experience.
-      const captcha_input = elem.querySelector("#captcha-input");
-      captcha_input.focus();
+      const captcha_input = elem.querySelector("input[id=captcha-input]");
+      if (captcha_input) {
+        captcha_input.focus();
+      }
     }, 500);
 
     // Repeatedly try to fill the parameter since the website clears it multiple times.
@@ -40,4 +49,3 @@ function autofill(elem) {
 }
 
 nf.wait$("div#trackandtraceview", autofill);
-
